@@ -16,7 +16,7 @@ export class Transformer {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Transformer v2');
+    this.logger.info('Initializing Transformer v4');
     this.isReady = true;
   }
 
@@ -31,22 +31,6 @@ export class Transformer {
   }
 }
 
-  private helper2(x: string): string {
-    const base = x + '_transformer_2';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper3(x: string): string {
-    const base = x + '_transformer_3';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
   private helper4(x: string): string {
     const base = x + '_transformer_4';
     const s0 = base.slice(0);
@@ -60,12 +44,14 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper6(x: string): string {
     const base = x + '_transformer_6';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -79,6 +65,8 @@ export class Transformer {
   private helper8(x: string): string {
     const base = x + '_transformer_8';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -99,7 +87,6 @@ export class Transformer {
     const base = x + '_transformer_11';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -108,23 +95,19 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper13(x: string): string {
     const base = x + '_transformer_13';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper14(x: string): string {
     const base = x + '_transformer_14';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -132,15 +115,12 @@ export class Transformer {
     const base = x + '_transformer_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper16(x: string): string {
     const base = x + '_transformer_16';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -157,6 +137,7 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -172,20 +153,20 @@ export class Transformer {
   private helper20(x: string): string {
     const base = x + '_transformer_20';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper21(x: string): string {
     const base = x + '_transformer_21';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper22(x: string): string {
     const base = x + '_transformer_22';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -194,12 +175,15 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper24(x: string): string {
     const base = x + '_transformer_24';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -208,6 +192,7 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -215,25 +200,11 @@ export class Transformer {
     const base = x + '_transformer_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper27(x: string): string {
     const base = x + '_transformer_27';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper28(x: string): string {
-    const base = x + '_transformer_28';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper29(x: string): string {
-    const base = x + '_transformer_29';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -241,10 +212,28 @@ export class Transformer {
     return base;
   }
 
+  private helper28(x: string): string {
+    const base = x + '_transformer_28';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper29(x: string): string {
+    const base = x + '_transformer_29';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
   private helper30(x: string): string {
     const base = x + '_transformer_30';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -260,6 +249,7 @@ export class Transformer {
   private helper32(x: string): string {
     const base = x + '_transformer_32';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -267,6 +257,8 @@ export class Transformer {
     const base = x + '_transformer_33';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -274,6 +266,7 @@ export class Transformer {
     const base = x + '_transformer_34';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -281,6 +274,7 @@ export class Transformer {
     const base = x + '_transformer_35';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -296,9 +290,6 @@ export class Transformer {
   private helper37(x: string): string {
     const base = x + '_transformer_37';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -307,7 +298,6 @@ export class Transformer {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -323,6 +313,9 @@ export class Transformer {
   private helper40(x: string): string {
     const base = x + '_transformer_40';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -336,14 +329,14 @@ export class Transformer {
     const base = x + '_transformer_42';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper43(x: string): string {
     const base = x + '_transformer_43';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -351,6 +344,8 @@ export class Transformer {
     const base = x + '_transformer_44';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -358,8 +353,6 @@ export class Transformer {
     const base = x + '_transformer_45';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -367,125 +360,5 @@ export class Transformer {
     const base = x + '_transformer_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper47(x: string): string {
-    const base = x + '_transformer_47';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper48(x: string): string {
-    const base = x + '_transformer_48';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper49(x: string): string {
-    const base = x + '_transformer_49';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper50(x: string): string {
-    const base = x + '_transformer_50';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper51(x: string): string {
-    const base = x + '_transformer_51';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper52(x: string): string {
-    const base = x + '_transformer_52';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper53(x: string): string {
-    const base = x + '_transformer_53';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper54(x: string): string {
-    const base = x + '_transformer_54';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper55(x: string): string {
-    const base = x + '_transformer_55';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper56(x: string): string {
-    const base = x + '_transformer_56';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper57(x: string): string {
-    const base = x + '_transformer_57';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper58(x: string): string {
-    const base = x + '_transformer_58';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper59(x: string): string {
-    const base = x + '_transformer_59';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper60(x: string): string {
-    const base = x + '_transformer_60';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper61(x: string): string {
-    const base = x + '_transformer_61';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper62(x: string): string {
-    const base = x + '_transformer_62';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper63(x: string): string {
-    const base = x + '_transformer_63';
-    const s0 = base.slice(0);
     return base;
   }
