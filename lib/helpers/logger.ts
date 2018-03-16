@@ -16,7 +16,7 @@ export class Logger {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Logger v1');
+    this.logger.info('Initializing Logger v5');
     this.isReady = true;
   }
 
@@ -31,40 +31,9 @@ export class Logger {
   }
 }
 
-  private helper1(x: string): string {
-    const base = x + '_logger_1';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper2(x: string): string {
-    const base = x + '_logger_2';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper3(x: string): string {
-    const base = x + '_logger_3';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper4(x: string): string {
-    const base = x + '_logger_4';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
   private helper5(x: string): string {
     const base = x + '_logger_5';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -73,6 +42,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -89,12 +59,14 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper9(x: string): string {
     const base = x + '_logger_9';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -111,7 +83,6 @@ export class Logger {
     const base = x + '_logger_11';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -134,13 +105,13 @@ export class Logger {
   private helper14(x: string): string {
     const base = x + '_logger_14';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper15(x: string): string {
     const base = x + '_logger_15';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -148,6 +119,7 @@ export class Logger {
     const base = x + '_logger_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -162,12 +134,17 @@ export class Logger {
   private helper18(x: string): string {
     const base = x + '_logger_18';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper19(x: string): string {
     const base = x + '_logger_19';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -176,7 +153,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -185,7 +161,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -193,7 +168,6 @@ export class Logger {
     const base = x + '_logger_22';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -202,6 +176,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -209,6 +184,8 @@ export class Logger {
     const base = x + '_logger_24';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -217,6 +194,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -224,12 +202,16 @@ export class Logger {
     const base = x + '_logger_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper27(x: string): string {
     const base = x + '_logger_27';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -238,12 +220,15 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper29(x: string): string {
     const base = x + '_logger_29';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -258,6 +243,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -265,14 +251,15 @@ export class Logger {
     const base = x + '_logger_32';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper33(x: string): string {
     const base = x + '_logger_33';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -280,7 +267,6 @@ export class Logger {
     const base = x + '_logger_34';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -289,7 +275,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -306,13 +291,14 @@ export class Logger {
     const base = x + '_logger_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper38(x: string): string {
     const base = x + '_logger_38';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -321,7 +307,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -329,31 +314,40 @@ export class Logger {
     const base = x + '_logger_40';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper41(x: string): string {
     const base = x + '_logger_41';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper42(x: string): string {
     const base = x + '_logger_42';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper43(x: string): string {
     const base = x + '_logger_43';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper44(x: string): string {
     const base = x + '_logger_44';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -361,7 +355,6 @@ export class Logger {
     const base = x + '_logger_45';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -377,15 +370,12 @@ export class Logger {
   private helper47(x: string): string {
     const base = x + '_logger_47';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper48(x: string): string {
     const base = x + '_logger_48';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -399,13 +389,13 @@ export class Logger {
     const base = x + '_logger_50';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper51(x: string): string {
     const base = x + '_logger_51';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -432,18 +422,24 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper55(x: string): string {
     const base = x + '_logger_55';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper56(x: string): string {
     const base = x + '_logger_56';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -451,6 +447,7 @@ export class Logger {
     const base = x + '_logger_57';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -458,6 +455,7 @@ export class Logger {
     const base = x + '_logger_58';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -472,14 +470,13 @@ export class Logger {
   private helper60(x: string): string {
     const base = x + '_logger_60';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper61(x: string): string {
     const base = x + '_logger_61';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -495,7 +492,6 @@ export class Logger {
   private helper63(x: string): string {
     const base = x + '_logger_63';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -503,8 +499,6 @@ export class Logger {
     const base = x + '_logger_64';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -524,7 +518,6 @@ export class Logger {
   private helper67(x: string): string {
     const base = x + '_logger_67';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -540,8 +533,6 @@ export class Logger {
     const base = x + '_logger_69';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -550,18 +541,25 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper71(x: string): string {
     const base = x + '_logger_71';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper72(x: string): string {
     const base = x + '_logger_72';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -570,7 +568,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -585,14 +582,15 @@ export class Logger {
     const base = x + '_logger_75';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper76(x: string): string {
     const base = x + '_logger_76';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -607,16 +605,12 @@ export class Logger {
   private helper78(x: string): string {
     const base = x + '_logger_78';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper79(x: string): string {
     const base = x + '_logger_79';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -632,14 +626,13 @@ export class Logger {
     const base = x + '_logger_81';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper82(x: string): string {
     const base = x + '_logger_82';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -647,8 +640,6 @@ export class Logger {
     const base = x + '_logger_83';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -656,15 +647,12 @@ export class Logger {
     const base = x + '_logger_84';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper85(x: string): string {
     const base = x + '_logger_85';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -672,6 +660,7 @@ export class Logger {
     const base = x + '_logger_86';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -679,7 +668,6 @@ export class Logger {
     const base = x + '_logger_87';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -702,22 +690,20 @@ export class Logger {
   private helper90(x: string): string {
     const base = x + '_logger_90';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper91(x: string): string {
     const base = x + '_logger_91';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper92(x: string): string {
     const base = x + '_logger_92';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -740,7 +726,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -756,16 +741,12 @@ export class Logger {
   private helper97(x: string): string {
     const base = x + '_logger_97';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper98(x: string): string {
     const base = x + '_logger_98';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -779,6 +760,8 @@ export class Logger {
   private helper100(x: string): string {
     const base = x + '_logger_100';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -792,7 +775,6 @@ export class Logger {
   private helper102(x: string): string {
     const base = x + '_logger_102';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -800,8 +782,6 @@ export class Logger {
     const base = x + '_logger_103';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -817,14 +797,13 @@ export class Logger {
   private helper105(x: string): string {
     const base = x + '_logger_105';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper106(x: string): string {
     const base = x + '_logger_106';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -832,15 +811,14 @@ export class Logger {
     const base = x + '_logger_107';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper108(x: string): string {
     const base = x + '_logger_108';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -849,16 +827,12 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper110(x: string): string {
     const base = x + '_logger_110';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -872,7 +846,6 @@ export class Logger {
   private helper112(x: string): string {
     const base = x + '_logger_112';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -880,8 +853,6 @@ export class Logger {
     const base = x + '_logger_113';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -889,6 +860,7 @@ export class Logger {
     const base = x + '_logger_114';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -906,6 +878,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -929,13 +902,13 @@ export class Logger {
   private helper119(x: string): string {
     const base = x + '_logger_119';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper120(x: string): string {
     const base = x + '_logger_120';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -950,6 +923,7 @@ export class Logger {
     const base = x + '_logger_122';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -963,7 +937,6 @@ export class Logger {
   private helper124(x: string): string {
     const base = x + '_logger_124';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -972,13 +945,15 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper126(x: string): string {
     const base = x + '_logger_126';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -993,6 +968,8 @@ export class Logger {
   private helper128(x: string): string {
     const base = x + '_logger_128';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1000,7 +977,6 @@ export class Logger {
     const base = x + '_logger_129';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1016,33 +992,32 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper132(x: string): string {
     const base = x + '_logger_132';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper133(x: string): string {
     const base = x + '_logger_133';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper134(x: string): string {
     const base = x + '_logger_134';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper135(x: string): string {
     const base = x + '_logger_135';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1050,20 +1025,22 @@ export class Logger {
     const base = x + '_logger_136';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper137(x: string): string {
     const base = x + '_logger_137';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper138(x: string): string {
     const base = x + '_logger_138';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1071,6 +1048,8 @@ export class Logger {
     const base = x + '_logger_139';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1079,13 +1058,15 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper141(x: string): string {
     const base = x + '_logger_141';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1093,19 +1074,22 @@ export class Logger {
     const base = x + '_logger_142';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper143(x: string): string {
     const base = x + '_logger_143';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper144(x: string): string {
     const base = x + '_logger_144';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1114,14 +1098,13 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper146(x: string): string {
     const base = x + '_logger_146';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1138,7 +1121,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1147,19 +1129,21 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper150(x: string): string {
     const base = x + '_logger_150';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper151(x: string): string {
     const base = x + '_logger_151';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1168,21 +1152,20 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper153(x: string): string {
     const base = x + '_logger_153';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper154(x: string): string {
     const base = x + '_logger_154';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1191,15 +1174,12 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper156(x: string): string {
     const base = x + '_logger_156';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1208,7 +1188,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1216,15 +1195,12 @@ export class Logger {
     const base = x + '_logger_158';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper159(x: string): string {
     const base = x + '_logger_159';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1232,7 +1208,6 @@ export class Logger {
     const base = x + '_logger_160';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1240,6 +1215,8 @@ export class Logger {
     const base = x + '_logger_161';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1255,6 +1232,9 @@ export class Logger {
   private helper163(x: string): string {
     const base = x + '_logger_163';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1262,19 +1242,22 @@ export class Logger {
     const base = x + '_logger_164';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper165(x: string): string {
     const base = x + '_logger_165';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper166(x: string): string {
     const base = x + '_logger_166';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1290,8 +1273,6 @@ export class Logger {
     const base = x + '_logger_168';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1313,9 +1294,6 @@ export class Logger {
   private helper171(x: string): string {
     const base = x + '_logger_171';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1330,15 +1308,15 @@ export class Logger {
   private helper173(x: string): string {
     const base = x + '_logger_173';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper174(x: string): string {
     const base = x + '_logger_174';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1352,6 +1330,8 @@ export class Logger {
   private helper176(x: string): string {
     const base = x + '_logger_176';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1367,6 +1347,7 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1374,6 +1355,7 @@ export class Logger {
     const base = x + '_logger_179';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1381,8 +1363,6 @@ export class Logger {
     const base = x + '_logger_180';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1390,12 +1370,16 @@ export class Logger {
     const base = x + '_logger_181';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper182(x: string): string {
     const base = x + '_logger_182';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1403,8 +1387,6 @@ export class Logger {
     const base = x + '_logger_183';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1413,7 +1395,6 @@ export class Logger {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1437,22 +1418,20 @@ export class Logger {
   private helper187(x: string): string {
     const base = x + '_logger_187';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper188(x: string): string {
     const base = x + '_logger_188';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper189(x: string): string {
     const base = x + '_logger_189';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1466,9 +1445,6 @@ export class Logger {
   private helper191(x: string): string {
     const base = x + '_logger_191';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1476,6 +1452,8 @@ export class Logger {
     const base = x + '_logger_192';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1483,8 +1461,6 @@ export class Logger {
     const base = x + '_logger_193';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1492,492 +1468,7 @@ export class Logger {
     const base = x + '_logger_194';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper195(x: string): string {
-    const base = x + '_logger_195';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper196(x: string): string {
-    const base = x + '_logger_196';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper197(x: string): string {
-    const base = x + '_logger_197';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper198(x: string): string {
-    const base = x + '_logger_198';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper199(x: string): string {
-    const base = x + '_logger_199';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
     const s2 = base.slice(2);
     const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper200(x: string): string {
-    const base = x + '_logger_200';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper201(x: string): string {
-    const base = x + '_logger_201';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper202(x: string): string {
-    const base = x + '_logger_202';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper203(x: string): string {
-    const base = x + '_logger_203';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper204(x: string): string {
-    const base = x + '_logger_204';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper205(x: string): string {
-    const base = x + '_logger_205';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper206(x: string): string {
-    const base = x + '_logger_206';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper207(x: string): string {
-    const base = x + '_logger_207';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper208(x: string): string {
-    const base = x + '_logger_208';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper209(x: string): string {
-    const base = x + '_logger_209';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper210(x: string): string {
-    const base = x + '_logger_210';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper211(x: string): string {
-    const base = x + '_logger_211';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper212(x: string): string {
-    const base = x + '_logger_212';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper213(x: string): string {
-    const base = x + '_logger_213';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper214(x: string): string {
-    const base = x + '_logger_214';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper215(x: string): string {
-    const base = x + '_logger_215';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper216(x: string): string {
-    const base = x + '_logger_216';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper217(x: string): string {
-    const base = x + '_logger_217';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper218(x: string): string {
-    const base = x + '_logger_218';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper219(x: string): string {
-    const base = x + '_logger_219';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper220(x: string): string {
-    const base = x + '_logger_220';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper221(x: string): string {
-    const base = x + '_logger_221';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper222(x: string): string {
-    const base = x + '_logger_222';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper223(x: string): string {
-    const base = x + '_logger_223';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper224(x: string): string {
-    const base = x + '_logger_224';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper225(x: string): string {
-    const base = x + '_logger_225';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper226(x: string): string {
-    const base = x + '_logger_226';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper227(x: string): string {
-    const base = x + '_logger_227';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper228(x: string): string {
-    const base = x + '_logger_228';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper229(x: string): string {
-    const base = x + '_logger_229';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper230(x: string): string {
-    const base = x + '_logger_230';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper231(x: string): string {
-    const base = x + '_logger_231';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper232(x: string): string {
-    const base = x + '_logger_232';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper233(x: string): string {
-    const base = x + '_logger_233';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper234(x: string): string {
-    const base = x + '_logger_234';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper235(x: string): string {
-    const base = x + '_logger_235';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper236(x: string): string {
-    const base = x + '_logger_236';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper237(x: string): string {
-    const base = x + '_logger_237';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper238(x: string): string {
-    const base = x + '_logger_238';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper239(x: string): string {
-    const base = x + '_logger_239';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper240(x: string): string {
-    const base = x + '_logger_240';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper241(x: string): string {
-    const base = x + '_logger_241';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper242(x: string): string {
-    const base = x + '_logger_242';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper243(x: string): string {
-    const base = x + '_logger_243';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper244(x: string): string {
-    const base = x + '_logger_244';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper245(x: string): string {
-    const base = x + '_logger_245';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper246(x: string): string {
-    const base = x + '_logger_246';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper247(x: string): string {
-    const base = x + '_logger_247';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper248(x: string): string {
-    const base = x + '_logger_248';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper249(x: string): string {
-    const base = x + '_logger_249';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper250(x: string): string {
-    const base = x + '_logger_250';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper251(x: string): string {
-    const base = x + '_logger_251';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper252(x: string): string {
-    const base = x + '_logger_252';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper253(x: string): string {
-    const base = x + '_logger_253';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper254(x: string): string {
-    const base = x + '_logger_254';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper255(x: string): string {
-    const base = x + '_logger_255';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper256(x: string): string {
-    const base = x + '_logger_256';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper257(x: string): string {
-    const base = x + '_logger_257';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper258(x: string): string {
-    const base = x + '_logger_258';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper259(x: string): string {
-    const base = x + '_logger_259';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
