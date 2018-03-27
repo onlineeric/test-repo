@@ -1,6 +1,6 @@
 # Adapter
 
-> Version 1
+> Version 3
 
 ## Overview
 
@@ -8,7 +8,7 @@ The `adapter` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of adapter (v1).
+Description for section 1 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -18,10 +18,13 @@ import { Adapter } from './adapter';
 
 - `method1_0()` — operation 1
 - `method1_1()` — operation 2
+- `method1_2()` — operation 3
+- `method1_3()` — operation 4
+- `method1_4()` — operation 5
 
 ## Section 2
 
-Description for section 2 of adapter (v1).
+Description for section 2 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -35,7 +38,7 @@ import { Adapter } from './adapter';
 
 ## Section 3
 
-Description for section 3 of adapter (v1).
+Description for section 3 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -45,10 +48,12 @@ import { Adapter } from './adapter';
 
 - `method3_0()` — operation 1
 - `method3_1()` — operation 2
+- `method3_2()` — operation 3
+- `method3_3()` — operation 4
 
 ## Section 4
 
-Description for section 4 of adapter (v1).
+Description for section 4 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -59,10 +64,12 @@ import { Adapter } from './adapter';
 - `method4_0()` — operation 1
 - `method4_1()` — operation 2
 - `method4_2()` — operation 3
+- `method4_3()` — operation 4
+- `method4_4()` — operation 5
 
 ## Section 5
 
-Description for section 5 of adapter (v1).
+Description for section 5 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -74,11 +81,10 @@ import { Adapter } from './adapter';
 - `method5_1()` — operation 2
 - `method5_2()` — operation 3
 - `method5_3()` — operation 4
-- `method5_4()` — operation 5
 
 ## Section 6
 
-Description for section 6 of adapter (v1).
+Description for section 6 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -89,12 +95,10 @@ import { Adapter } from './adapter';
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
 - `method6_2()` — operation 3
-- `method6_3()` — operation 4
-- `method6_4()` — operation 5
 
 ## Section 7
 
-Description for section 7 of adapter (v1).
+Description for section 7 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -105,12 +109,10 @@ import { Adapter } from './adapter';
 - `method7_0()` — operation 1
 - `method7_1()` — operation 2
 - `method7_2()` — operation 3
-- `method7_3()` — operation 4
-- `method7_4()` — operation 5
 
 ## Section 8
 
-Description for section 8 of adapter (v1).
+Description for section 8 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -123,7 +125,7 @@ import { Adapter } from './adapter';
 
 ## Section 9
 
-Description for section 9 of adapter (v1).
+Description for section 9 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -134,12 +136,10 @@ import { Adapter } from './adapter';
 - `method9_0()` — operation 1
 - `method9_1()` — operation 2
 - `method9_2()` — operation 3
-- `method9_3()` — operation 4
-- `method9_4()` — operation 5
 
 ## Section 10
 
-Description for section 10 of adapter (v1).
+Description for section 10 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -153,7 +153,7 @@ import { Adapter } from './adapter';
 
 ## Section 11
 
-Description for section 11 of adapter (v1).
+Description for section 11 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -163,12 +163,10 @@ import { Adapter } from './adapter';
 
 - `method11_0()` — operation 1
 - `method11_1()` — operation 2
-- `method11_2()` — operation 3
-- `method11_3()` — operation 4
 
 ## Section 12
 
-Description for section 12 of adapter (v1).
+Description for section 12 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -178,12 +176,10 @@ import { Adapter } from './adapter';
 
 - `method12_0()` — operation 1
 - `method12_1()` — operation 2
-- `method12_2()` — operation 3
-- `method12_3()` — operation 4
 
 ## Section 13
 
-Description for section 13 of adapter (v1).
+Description for section 13 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -194,10 +190,11 @@ import { Adapter } from './adapter';
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
 - `method13_2()` — operation 3
+- `method13_3()` — operation 4
 
 ## Section 14
 
-Description for section 14 of adapter (v1).
+Description for section 14 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -210,7 +207,7 @@ import { Adapter } from './adapter';
 
 ## Section 15
 
-Description for section 15 of adapter (v1).
+Description for section 15 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -220,11 +217,10 @@ import { Adapter } from './adapter';
 
 - `method15_0()` — operation 1
 - `method15_1()` — operation 2
-- `method15_2()` — operation 3
 
 ## Section 16
 
-Description for section 16 of adapter (v1).
+Description for section 16 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -235,10 +231,12 @@ import { Adapter } from './adapter';
 - `method16_0()` — operation 1
 - `method16_1()` — operation 2
 - `method16_2()` — operation 3
+- `method16_3()` — operation 4
+- `method16_4()` — operation 5
 
 ## Section 17
 
-Description for section 17 of adapter (v1).
+Description for section 17 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -249,11 +247,10 @@ import { Adapter } from './adapter';
 - `method17_0()` — operation 1
 - `method17_1()` — operation 2
 - `method17_2()` — operation 3
-- `method17_3()` — operation 4
 
 ## Section 18
 
-Description for section 18 of adapter (v1).
+Description for section 18 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -263,13 +260,10 @@ import { Adapter } from './adapter';
 
 - `method18_0()` — operation 1
 - `method18_1()` — operation 2
-- `method18_2()` — operation 3
-- `method18_3()` — operation 4
-- `method18_4()` — operation 5
 
 ## Section 19
 
-Description for section 19 of adapter (v1).
+Description for section 19 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -279,10 +273,12 @@ import { Adapter } from './adapter';
 
 - `method19_0()` — operation 1
 - `method19_1()` — operation 2
+- `method19_2()` — operation 3
+- `method19_3()` — operation 4
 
 ## Section 20
 
-Description for section 20 of adapter (v1).
+Description for section 20 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -298,7 +294,7 @@ import { Adapter } from './adapter';
 
 ## Section 21
 
-Description for section 21 of adapter (v1).
+Description for section 21 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -311,7 +307,7 @@ import { Adapter } from './adapter';
 
 ## Section 22
 
-Description for section 22 of adapter (v1).
+Description for section 22 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -321,12 +317,10 @@ import { Adapter } from './adapter';
 
 - `method22_0()` — operation 1
 - `method22_1()` — operation 2
-- `method22_2()` — operation 3
-- `method22_3()` — operation 4
 
 ## Section 23
 
-Description for section 23 of adapter (v1).
+Description for section 23 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -336,10 +330,12 @@ import { Adapter } from './adapter';
 
 - `method23_0()` — operation 1
 - `method23_1()` — operation 2
+- `method23_2()` — operation 3
+- `method23_3()` — operation 4
 
 ## Section 24
 
-Description for section 24 of adapter (v1).
+Description for section 24 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -352,7 +348,7 @@ import { Adapter } from './adapter';
 
 ## Section 25
 
-Description for section 25 of adapter (v1).
+Description for section 25 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -368,7 +364,7 @@ import { Adapter } from './adapter';
 
 ## Section 26
 
-Description for section 26 of adapter (v1).
+Description for section 26 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -383,7 +379,7 @@ import { Adapter } from './adapter';
 
 ## Section 27
 
-Description for section 27 of adapter (v1).
+Description for section 27 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -395,10 +391,11 @@ import { Adapter } from './adapter';
 - `method27_1()` — operation 2
 - `method27_2()` — operation 3
 - `method27_3()` — operation 4
+- `method27_4()` — operation 5
 
 ## Section 28
 
-Description for section 28 of adapter (v1).
+Description for section 28 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -408,11 +405,10 @@ import { Adapter } from './adapter';
 
 - `method28_0()` — operation 1
 - `method28_1()` — operation 2
-- `method28_2()` — operation 3
 
 ## Section 29
 
-Description for section 29 of adapter (v1).
+Description for section 29 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -422,10 +418,13 @@ import { Adapter } from './adapter';
 
 - `method29_0()` — operation 1
 - `method29_1()` — operation 2
+- `method29_2()` — operation 3
+- `method29_3()` — operation 4
+- `method29_4()` — operation 5
 
 ## Section 30
 
-Description for section 30 of adapter (v1).
+Description for section 30 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -440,7 +439,7 @@ import { Adapter } from './adapter';
 
 ## Section 31
 
-Description for section 31 of adapter (v1).
+Description for section 31 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -451,11 +450,10 @@ import { Adapter } from './adapter';
 - `method31_0()` — operation 1
 - `method31_1()` — operation 2
 - `method31_2()` — operation 3
-- `method31_3()` — operation 4
 
 ## Section 32
 
-Description for section 32 of adapter (v1).
+Description for section 32 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -470,7 +468,7 @@ import { Adapter } from './adapter';
 
 ## Section 33
 
-Description for section 33 of adapter (v1).
+Description for section 33 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -480,10 +478,11 @@ import { Adapter } from './adapter';
 
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
+- `method33_2()` — operation 3
 
 ## Section 34
 
-Description for section 34 of adapter (v1).
+Description for section 34 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -494,10 +493,12 @@ import { Adapter } from './adapter';
 - `method34_0()` — operation 1
 - `method34_1()` — operation 2
 - `method34_2()` — operation 3
+- `method34_3()` — operation 4
+- `method34_4()` — operation 5
 
 ## Section 35
 
-Description for section 35 of adapter (v1).
+Description for section 35 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -513,7 +514,7 @@ import { Adapter } from './adapter';
 
 ## Section 36
 
-Description for section 36 of adapter (v1).
+Description for section 36 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -524,12 +525,10 @@ import { Adapter } from './adapter';
 - `method36_0()` — operation 1
 - `method36_1()` — operation 2
 - `method36_2()` — operation 3
-- `method36_3()` — operation 4
-- `method36_4()` — operation 5
 
 ## Section 37
 
-Description for section 37 of adapter (v1).
+Description for section 37 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -540,12 +539,10 @@ import { Adapter } from './adapter';
 - `method37_0()` — operation 1
 - `method37_1()` — operation 2
 - `method37_2()` — operation 3
-- `method37_3()` — operation 4
-- `method37_4()` — operation 5
 
 ## Section 38
 
-Description for section 38 of adapter (v1).
+Description for section 38 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -555,12 +552,10 @@ import { Adapter } from './adapter';
 
 - `method38_0()` — operation 1
 - `method38_1()` — operation 2
-- `method38_2()` — operation 3
-- `method38_3()` — operation 4
 
 ## Section 39
 
-Description for section 39 of adapter (v1).
+Description for section 39 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -571,10 +566,12 @@ import { Adapter } from './adapter';
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
 - `method39_2()` — operation 3
+- `method39_3()` — operation 4
+- `method39_4()` — operation 5
 
 ## Section 40
 
-Description for section 40 of adapter (v1).
+Description for section 40 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -586,11 +583,10 @@ import { Adapter } from './adapter';
 - `method40_1()` — operation 2
 - `method40_2()` — operation 3
 - `method40_3()` — operation 4
-- `method40_4()` — operation 5
 
 ## Section 41
 
-Description for section 41 of adapter (v1).
+Description for section 41 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -600,10 +596,13 @@ import { Adapter } from './adapter';
 
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
+- `method41_2()` — operation 3
+- `method41_3()` — operation 4
+- `method41_4()` — operation 5
 
 ## Section 42
 
-Description for section 42 of adapter (v1).
+Description for section 42 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -619,7 +618,7 @@ import { Adapter } from './adapter';
 
 ## Section 43
 
-Description for section 43 of adapter (v1).
+Description for section 43 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -630,11 +629,10 @@ import { Adapter } from './adapter';
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
 - `method43_2()` — operation 3
-- `method43_3()` — operation 4
 
 ## Section 44
 
-Description for section 44 of adapter (v1).
+Description for section 44 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -644,12 +642,10 @@ import { Adapter } from './adapter';
 
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
-- `method44_2()` — operation 3
-- `method44_3()` — operation 4
 
 ## Section 45
 
-Description for section 45 of adapter (v1).
+Description for section 45 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -664,7 +660,7 @@ import { Adapter } from './adapter';
 
 ## Section 46
 
-Description for section 46 of adapter (v1).
+Description for section 46 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -674,12 +670,10 @@ import { Adapter } from './adapter';
 
 - `method46_0()` — operation 1
 - `method46_1()` — operation 2
-- `method46_2()` — operation 3
-- `method46_3()` — operation 4
 
 ## Section 47
 
-Description for section 47 of adapter (v1).
+Description for section 47 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -691,11 +685,10 @@ import { Adapter } from './adapter';
 - `method47_1()` — operation 2
 - `method47_2()` — operation 3
 - `method47_3()` — operation 4
-- `method47_4()` — operation 5
 
 ## Section 48
 
-Description for section 48 of adapter (v1).
+Description for section 48 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -710,7 +703,7 @@ import { Adapter } from './adapter';
 
 ## Section 49
 
-Description for section 49 of adapter (v1).
+Description for section 49 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -721,11 +714,10 @@ import { Adapter } from './adapter';
 - `method49_0()` — operation 1
 - `method49_1()` — operation 2
 - `method49_2()` — operation 3
-- `method49_3()` — operation 4
 
 ## Section 50
 
-Description for section 50 of adapter (v1).
+Description for section 50 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -738,7 +730,7 @@ import { Adapter } from './adapter';
 
 ## Section 51
 
-Description for section 51 of adapter (v1).
+Description for section 51 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -749,11 +741,10 @@ import { Adapter } from './adapter';
 - `method51_0()` — operation 1
 - `method51_1()` — operation 2
 - `method51_2()` — operation 3
-- `method51_3()` — operation 4
 
 ## Section 52
 
-Description for section 52 of adapter (v1).
+Description for section 52 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -763,10 +754,13 @@ import { Adapter } from './adapter';
 
 - `method52_0()` — operation 1
 - `method52_1()` — operation 2
+- `method52_2()` — operation 3
+- `method52_3()` — operation 4
+- `method52_4()` — operation 5
 
 ## Section 53
 
-Description for section 53 of adapter (v1).
+Description for section 53 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -777,11 +771,10 @@ import { Adapter } from './adapter';
 - `method53_0()` — operation 1
 - `method53_1()` — operation 2
 - `method53_2()` — operation 3
-- `method53_3()` — operation 4
 
 ## Section 54
 
-Description for section 54 of adapter (v1).
+Description for section 54 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -794,7 +787,7 @@ import { Adapter } from './adapter';
 
 ## Section 55
 
-Description for section 55 of adapter (v1).
+Description for section 55 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -804,10 +797,13 @@ import { Adapter } from './adapter';
 
 - `method55_0()` — operation 1
 - `method55_1()` — operation 2
+- `method55_2()` — operation 3
+- `method55_3()` — operation 4
+- `method55_4()` — operation 5
 
 ## Section 56
 
-Description for section 56 of adapter (v1).
+Description for section 56 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -817,10 +813,12 @@ import { Adapter } from './adapter';
 
 - `method56_0()` — operation 1
 - `method56_1()` — operation 2
+- `method56_2()` — operation 3
+- `method56_3()` — operation 4
 
 ## Section 57
 
-Description for section 57 of adapter (v1).
+Description for section 57 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -835,7 +833,7 @@ import { Adapter } from './adapter';
 
 ## Section 58
 
-Description for section 58 of adapter (v1).
+Description for section 58 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -845,10 +843,12 @@ import { Adapter } from './adapter';
 
 - `method58_0()` — operation 1
 - `method58_1()` — operation 2
+- `method58_2()` — operation 3
+- `method58_3()` — operation 4
 
 ## Section 59
 
-Description for section 59 of adapter (v1).
+Description for section 59 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -858,13 +858,10 @@ import { Adapter } from './adapter';
 
 - `method59_0()` — operation 1
 - `method59_1()` — operation 2
-- `method59_2()` — operation 3
-- `method59_3()` — operation 4
-- `method59_4()` — operation 5
 
 ## Section 60
 
-Description for section 60 of adapter (v1).
+Description for section 60 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -874,11 +871,10 @@ import { Adapter } from './adapter';
 
 - `method60_0()` — operation 1
 - `method60_1()` — operation 2
-- `method60_2()` — operation 3
 
 ## Section 61
 
-Description for section 61 of adapter (v1).
+Description for section 61 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -893,7 +889,7 @@ import { Adapter } from './adapter';
 
 ## Section 62
 
-Description for section 62 of adapter (v1).
+Description for section 62 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -904,12 +900,10 @@ import { Adapter } from './adapter';
 - `method62_0()` — operation 1
 - `method62_1()` — operation 2
 - `method62_2()` — operation 3
-- `method62_3()` — operation 4
-- `method62_4()` — operation 5
 
 ## Section 63
 
-Description for section 63 of adapter (v1).
+Description for section 63 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -921,10 +915,11 @@ import { Adapter } from './adapter';
 - `method63_1()` — operation 2
 - `method63_2()` — operation 3
 - `method63_3()` — operation 4
+- `method63_4()` — operation 5
 
 ## Section 64
 
-Description for section 64 of adapter (v1).
+Description for section 64 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -936,11 +931,10 @@ import { Adapter } from './adapter';
 - `method64_1()` — operation 2
 - `method64_2()` — operation 3
 - `method64_3()` — operation 4
-- `method64_4()` — operation 5
 
 ## Section 65
 
-Description for section 65 of adapter (v1).
+Description for section 65 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -950,10 +944,12 @@ import { Adapter } from './adapter';
 
 - `method65_0()` — operation 1
 - `method65_1()` — operation 2
+- `method65_2()` — operation 3
+- `method65_3()` — operation 4
 
 ## Section 66
 
-Description for section 66 of adapter (v1).
+Description for section 66 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -963,10 +959,11 @@ import { Adapter } from './adapter';
 
 - `method66_0()` — operation 1
 - `method66_1()` — operation 2
+- `method66_2()` — operation 3
 
 ## Section 67
 
-Description for section 67 of adapter (v1).
+Description for section 67 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -977,11 +974,10 @@ import { Adapter } from './adapter';
 - `method67_0()` — operation 1
 - `method67_1()` — operation 2
 - `method67_2()` — operation 3
-- `method67_3()` — operation 4
 
 ## Section 68
 
-Description for section 68 of adapter (v1).
+Description for section 68 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -991,10 +987,13 @@ import { Adapter } from './adapter';
 
 - `method68_0()` — operation 1
 - `method68_1()` — operation 2
+- `method68_2()` — operation 3
+- `method68_3()` — operation 4
+- `method68_4()` — operation 5
 
 ## Section 69
 
-Description for section 69 of adapter (v1).
+Description for section 69 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1007,7 +1006,7 @@ import { Adapter } from './adapter';
 
 ## Section 70
 
-Description for section 70 of adapter (v1).
+Description for section 70 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1020,7 +1019,7 @@ import { Adapter } from './adapter';
 
 ## Section 71
 
-Description for section 71 of adapter (v1).
+Description for section 71 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1030,10 +1029,11 @@ import { Adapter } from './adapter';
 
 - `method71_0()` — operation 1
 - `method71_1()` — operation 2
+- `method71_2()` — operation 3
 
 ## Section 72
 
-Description for section 72 of adapter (v1).
+Description for section 72 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1045,10 +1045,11 @@ import { Adapter } from './adapter';
 - `method72_1()` — operation 2
 - `method72_2()` — operation 3
 - `method72_3()` — operation 4
+- `method72_4()` — operation 5
 
 ## Section 73
 
-Description for section 73 of adapter (v1).
+Description for section 73 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1061,7 +1062,7 @@ import { Adapter } from './adapter';
 
 ## Section 74
 
-Description for section 74 of adapter (v1).
+Description for section 74 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1076,7 +1077,7 @@ import { Adapter } from './adapter';
 
 ## Section 75
 
-Description for section 75 of adapter (v1).
+Description for section 75 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1088,11 +1089,10 @@ import { Adapter } from './adapter';
 - `method75_1()` — operation 2
 - `method75_2()` — operation 3
 - `method75_3()` — operation 4
-- `method75_4()` — operation 5
 
 ## Section 76
 
-Description for section 76 of adapter (v1).
+Description for section 76 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1104,11 +1104,10 @@ import { Adapter } from './adapter';
 - `method76_1()` — operation 2
 - `method76_2()` — operation 3
 - `method76_3()` — operation 4
-- `method76_4()` — operation 5
 
 ## Section 77
 
-Description for section 77 of adapter (v1).
+Description for section 77 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1118,13 +1117,10 @@ import { Adapter } from './adapter';
 
 - `method77_0()` — operation 1
 - `method77_1()` — operation 2
-- `method77_2()` — operation 3
-- `method77_3()` — operation 4
-- `method77_4()` — operation 5
 
 ## Section 78
 
-Description for section 78 of adapter (v1).
+Description for section 78 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1134,10 +1130,11 @@ import { Adapter } from './adapter';
 
 - `method78_0()` — operation 1
 - `method78_1()` — operation 2
+- `method78_2()` — operation 3
 
 ## Section 79
 
-Description for section 79 of adapter (v1).
+Description for section 79 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1147,10 +1144,13 @@ import { Adapter } from './adapter';
 
 - `method79_0()` — operation 1
 - `method79_1()` — operation 2
+- `method79_2()` — operation 3
+- `method79_3()` — operation 4
+- `method79_4()` — operation 5
 
 ## Section 80
 
-Description for section 80 of adapter (v1).
+Description for section 80 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1163,7 +1163,7 @@ import { Adapter } from './adapter';
 
 ## Section 81
 
-Description for section 81 of adapter (v1).
+Description for section 81 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1173,10 +1173,13 @@ import { Adapter } from './adapter';
 
 - `method81_0()` — operation 1
 - `method81_1()` — operation 2
+- `method81_2()` — operation 3
+- `method81_3()` — operation 4
+- `method81_4()` — operation 5
 
 ## Section 82
 
-Description for section 82 of adapter (v1).
+Description for section 82 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1188,10 +1191,11 @@ import { Adapter } from './adapter';
 - `method82_1()` — operation 2
 - `method82_2()` — operation 3
 - `method82_3()` — operation 4
+- `method82_4()` — operation 5
 
 ## Section 83
 
-Description for section 83 of adapter (v1).
+Description for section 83 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1207,7 +1211,7 @@ import { Adapter } from './adapter';
 
 ## Section 84
 
-Description for section 84 of adapter (v1).
+Description for section 84 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1220,7 +1224,7 @@ import { Adapter } from './adapter';
 
 ## Section 85
 
-Description for section 85 of adapter (v1).
+Description for section 85 of adapter (v3).
 
 ```typescript
 import { Adapter } from './adapter';
@@ -1231,327 +1235,3 @@ import { Adapter } from './adapter';
 - `method85_0()` — operation 1
 - `method85_1()` — operation 2
 - `method85_2()` — operation 3
-
-## Section 86
-
-Description for section 86 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method86_0()` — operation 1
-- `method86_1()` — operation 2
-- `method86_2()` — operation 3
-- `method86_3()` — operation 4
-
-## Section 87
-
-Description for section 87 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method87_0()` — operation 1
-- `method87_1()` — operation 2
-- `method87_2()` — operation 3
-- `method87_3()` — operation 4
-
-## Section 88
-
-Description for section 88 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method88_0()` — operation 1
-- `method88_1()` — operation 2
-
-## Section 89
-
-Description for section 89 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method89_0()` — operation 1
-- `method89_1()` — operation 2
-
-## Section 90
-
-Description for section 90 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method90_0()` — operation 1
-- `method90_1()` — operation 2
-- `method90_2()` — operation 3
-
-## Section 91
-
-Description for section 91 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method91_0()` — operation 1
-- `method91_1()` — operation 2
-
-## Section 92
-
-Description for section 92 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method92_0()` — operation 1
-- `method92_1()` — operation 2
-- `method92_2()` — operation 3
-
-## Section 93
-
-Description for section 93 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method93_0()` — operation 1
-- `method93_1()` — operation 2
-
-## Section 94
-
-Description for section 94 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method94_0()` — operation 1
-- `method94_1()` — operation 2
-- `method94_2()` — operation 3
-- `method94_3()` — operation 4
-- `method94_4()` — operation 5
-
-## Section 95
-
-Description for section 95 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method95_0()` — operation 1
-- `method95_1()` — operation 2
-- `method95_2()` — operation 3
-
-## Section 96
-
-Description for section 96 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method96_0()` — operation 1
-- `method96_1()` — operation 2
-
-## Section 97
-
-Description for section 97 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method97_0()` — operation 1
-- `method97_1()` — operation 2
-
-## Section 98
-
-Description for section 98 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method98_0()` — operation 1
-- `method98_1()` — operation 2
-- `method98_2()` — operation 3
-- `method98_3()` — operation 4
-
-## Section 99
-
-Description for section 99 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method99_0()` — operation 1
-- `method99_1()` — operation 2
-- `method99_2()` — operation 3
-- `method99_3()` — operation 4
-
-## Section 100
-
-Description for section 100 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method100_0()` — operation 1
-- `method100_1()` — operation 2
-- `method100_2()` — operation 3
-- `method100_3()` — operation 4
-
-## Section 101
-
-Description for section 101 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method101_0()` — operation 1
-- `method101_1()` — operation 2
-
-## Section 102
-
-Description for section 102 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method102_0()` — operation 1
-- `method102_1()` — operation 2
-- `method102_2()` — operation 3
-- `method102_3()` — operation 4
-
-## Section 103
-
-Description for section 103 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method103_0()` — operation 1
-- `method103_1()` — operation 2
-- `method103_2()` — operation 3
-
-## Section 104
-
-Description for section 104 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method104_0()` — operation 1
-- `method104_1()` — operation 2
-- `method104_2()` — operation 3
-- `method104_3()` — operation 4
-
-## Section 105
-
-Description for section 105 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method105_0()` — operation 1
-- `method105_1()` — operation 2
-- `method105_2()` — operation 3
-
-## Section 106
-
-Description for section 106 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method106_0()` — operation 1
-- `method106_1()` — operation 2
-- `method106_2()` — operation 3
-- `method106_3()` — operation 4
-
-## Section 107
-
-Description for section 107 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method107_0()` — operation 1
-- `method107_1()` — operation 2
-- `method107_2()` — operation 3
-
-## Section 108
-
-Description for section 108 of adapter (v1).
-
-```typescript
-import { Adapter } from './adapter';
-```
-
-### API
-
-- `method108_0()` — operation 1
-- `method108_1()` — operation 2
