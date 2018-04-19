@@ -16,7 +16,7 @@ export class Controller {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Controller v1');
+    this.logger.info('Initializing Controller v2');
     this.isReady = true;
   }
 
@@ -31,19 +31,10 @@ export class Controller {
   }
 }
 
-  private helper1(x: string): string {
-    const base = x + '_controller_1';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
   private helper2(x: string): string {
     const base = x + '_controller_2';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -52,7 +43,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -68,9 +58,6 @@ export class Controller {
   private helper5(x: string): string {
     const base = x + '_controller_5';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -79,6 +66,7 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -95,7 +83,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -104,7 +91,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -112,6 +98,8 @@ export class Controller {
     const base = x + '_controller_10';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -119,6 +107,8 @@ export class Controller {
     const base = x + '_controller_11';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -131,6 +121,8 @@ export class Controller {
   private helper13(x: string): string {
     const base = x + '_controller_13';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -144,6 +136,8 @@ export class Controller {
     const base = x + '_controller_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -151,8 +145,6 @@ export class Controller {
     const base = x + '_controller_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -168,7 +160,6 @@ export class Controller {
     const base = x + '_controller_18';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -184,7 +175,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -192,6 +182,8 @@ export class Controller {
     const base = x + '_controller_21';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -206,14 +198,12 @@ export class Controller {
   private helper23(x: string): string {
     const base = x + '_controller_23';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper24(x: string): string {
     const base = x + '_controller_24';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -226,13 +216,13 @@ export class Controller {
   private helper26(x: string): string {
     const base = x + '_controller_26';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper27(x: string): string {
     const base = x + '_controller_27';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -241,7 +231,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -249,6 +238,8 @@ export class Controller {
     const base = x + '_controller_29';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -262,6 +253,7 @@ export class Controller {
     const base = x + '_controller_31';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -269,6 +261,7 @@ export class Controller {
     const base = x + '_controller_32';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -277,7 +270,6 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -295,12 +287,15 @@ export class Controller {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper36(x: string): string {
     const base = x + '_controller_36';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -308,51 +303,23 @@ export class Controller {
     const base = x + '_controller_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper38(x: string): string {
     const base = x + '_controller_38';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper39(x: string): string {
     const base = x + '_controller_39';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper40(x: string): string {
     const base = x + '_controller_40';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper41(x: string): string {
-    const base = x + '_controller_41';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper42(x: string): string {
-    const base = x + '_controller_42';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper43(x: string): string {
-    const base = x + '_controller_43';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
