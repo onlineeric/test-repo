@@ -1,30 +1,32 @@
-# Factory
+# Controller
 
-> Version 3
+> Version 1
 
 ## Overview
 
-The `factory` module provides core functionality.
+The `controller` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of factory (v3).
+Description for section 1 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method1_0()` — operation 1
 - `method1_1()` — operation 2
+- `method1_2()` — operation 3
+- `method1_3()` — operation 4
 
 ## Section 2
 
-Description for section 2 of factory (v3).
+Description for section 2 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -32,26 +34,30 @@ import { Factory } from './factory';
 - `method2_0()` — operation 1
 - `method2_1()` — operation 2
 - `method2_2()` — operation 3
+- `method2_3()` — operation 4
 
 ## Section 3
 
-Description for section 3 of factory (v3).
+Description for section 3 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method3_0()` — operation 1
 - `method3_1()` — operation 2
+- `method3_2()` — operation 3
+- `method3_3()` — operation 4
+- `method3_4()` — operation 5
 
 ## Section 4
 
-Description for section 4 of factory (v3).
+Description for section 4 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -61,10 +67,10 @@ import { Factory } from './factory';
 
 ## Section 5
 
-Description for section 5 of factory (v3).
+Description for section 5 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -76,10 +82,10 @@ import { Factory } from './factory';
 
 ## Section 6
 
-Description for section 6 of factory (v3).
+Description for section 6 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -92,10 +98,10 @@ import { Factory } from './factory';
 
 ## Section 7
 
-Description for section 7 of factory (v3).
+Description for section 7 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -107,10 +113,10 @@ import { Factory } from './factory';
 
 ## Section 8
 
-Description for section 8 of factory (v3).
+Description for section 8 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -118,13 +124,14 @@ import { Factory } from './factory';
 - `method8_0()` — operation 1
 - `method8_1()` — operation 2
 - `method8_2()` — operation 3
+- `method8_3()` — operation 4
 
 ## Section 9
 
-Description for section 9 of factory (v3).
+Description for section 9 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -133,14 +140,13 @@ import { Factory } from './factory';
 - `method9_1()` — operation 2
 - `method9_2()` — operation 3
 - `method9_3()` — operation 4
-- `method9_4()` — operation 5
 
 ## Section 10
 
-Description for section 10 of factory (v3).
+Description for section 10 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -150,10 +156,10 @@ import { Factory } from './factory';
 
 ## Section 11
 
-Description for section 11 of factory (v3).
+Description for section 11 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -166,10 +172,10 @@ import { Factory } from './factory';
 
 ## Section 12
 
-Description for section 12 of factory (v3).
+Description for section 12 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -178,100 +184,96 @@ import { Factory } from './factory';
 - `method12_1()` — operation 2
 - `method12_2()` — operation 3
 - `method12_3()` — operation 4
+- `method12_4()` — operation 5
 
 ## Section 13
 
-Description for section 13 of factory (v3).
+Description for section 13 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
-- `method13_2()` — operation 3
 
 ## Section 14
 
-Description for section 14 of factory (v3).
+Description for section 14 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method14_0()` — operation 1
 - `method14_1()` — operation 2
+- `method14_2()` — operation 3
+- `method14_3()` — operation 4
+- `method14_4()` — operation 5
 
 ## Section 15
 
-Description for section 15 of factory (v3).
+Description for section 15 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method15_0()` — operation 1
 - `method15_1()` — operation 2
+- `method15_2()` — operation 3
 
 ## Section 16
 
-Description for section 16 of factory (v3).
+Description for section 16 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method16_0()` — operation 1
 - `method16_1()` — operation 2
-- `method16_2()` — operation 3
-- `method16_3()` — operation 4
-- `method16_4()` — operation 5
 
 ## Section 17
 
-Description for section 17 of factory (v3).
+Description for section 17 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method17_0()` — operation 1
 - `method17_1()` — operation 2
-- `method17_2()` — operation 3
-- `method17_3()` — operation 4
-- `method17_4()` — operation 5
 
 ## Section 18
 
-Description for section 18 of factory (v3).
+Description for section 18 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method18_0()` — operation 1
 - `method18_1()` — operation 2
-- `method18_2()` — operation 3
-- `method18_3()` — operation 4
 
 ## Section 19
 
-Description for section 19 of factory (v3).
+Description for section 19 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -279,13 +281,14 @@ import { Factory } from './factory';
 - `method19_0()` — operation 1
 - `method19_1()` — operation 2
 - `method19_2()` — operation 3
+- `method19_3()` — operation 4
 
 ## Section 20
 
-Description for section 20 of factory (v3).
+Description for section 20 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -293,15 +296,13 @@ import { Factory } from './factory';
 - `method20_0()` — operation 1
 - `method20_1()` — operation 2
 - `method20_2()` — operation 3
-- `method20_3()` — operation 4
-- `method20_4()` — operation 5
 
 ## Section 21
 
-Description for section 21 of factory (v3).
+Description for section 21 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -310,13 +311,14 @@ import { Factory } from './factory';
 - `method21_1()` — operation 2
 - `method21_2()` — operation 3
 - `method21_3()` — operation 4
+- `method21_4()` — operation 5
 
 ## Section 22
 
-Description for section 22 of factory (v3).
+Description for section 22 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -329,10 +331,10 @@ import { Factory } from './factory';
 
 ## Section 23
 
-Description for section 23 of factory (v3).
+Description for section 23 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -345,49 +347,54 @@ import { Factory } from './factory';
 
 ## Section 24
 
-Description for section 24 of factory (v3).
+Description for section 24 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method24_0()` — operation 1
 - `method24_1()` — operation 2
+- `method24_2()` — operation 3
+- `method24_3()` — operation 4
 
 ## Section 25
 
-Description for section 25 of factory (v3).
+Description for section 25 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method25_0()` — operation 1
 - `method25_1()` — operation 2
+- `method25_2()` — operation 3
 
 ## Section 26
 
-Description for section 26 of factory (v3).
+Description for section 26 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method26_0()` — operation 1
 - `method26_1()` — operation 2
+- `method26_2()` — operation 3
+- `method26_3()` — operation 4
 
 ## Section 27
 
-Description for section 27 of factory (v3).
+Description for section 27 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -397,24 +404,23 @@ import { Factory } from './factory';
 
 ## Section 28
 
-Description for section 28 of factory (v3).
+Description for section 28 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method28_0()` — operation 1
 - `method28_1()` — operation 2
-- `method28_2()` — operation 3
 
 ## Section 29
 
-Description for section 29 of factory (v3).
+Description for section 29 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -425,10 +431,10 @@ import { Factory } from './factory';
 
 ## Section 30
 
-Description for section 30 of factory (v3).
+Description for section 30 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -441,10 +447,10 @@ import { Factory } from './factory';
 
 ## Section 31
 
-Description for section 31 of factory (v3).
+Description for section 31 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -457,10 +463,10 @@ import { Factory } from './factory';
 
 ## Section 32
 
-Description for section 32 of factory (v3).
+Description for section 32 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -468,44 +474,41 @@ import { Factory } from './factory';
 - `method32_0()` — operation 1
 - `method32_1()` — operation 2
 - `method32_2()` — operation 3
+- `method32_3()` — operation 4
+- `method32_4()` — operation 5
 
 ## Section 33
 
-Description for section 33 of factory (v3).
+Description for section 33 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
-- `method33_2()` — operation 3
-- `method33_3()` — operation 4
 
 ## Section 34
 
-Description for section 34 of factory (v3).
+Description for section 34 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method34_0()` — operation 1
 - `method34_1()` — operation 2
-- `method34_2()` — operation 3
-- `method34_3()` — operation 4
-- `method34_4()` — operation 5
 
 ## Section 35
 
-Description for section 35 of factory (v3).
+Description for section 35 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -518,10 +521,10 @@ import { Factory } from './factory';
 
 ## Section 36
 
-Description for section 36 of factory (v3).
+Description for section 36 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -529,14 +532,13 @@ import { Factory } from './factory';
 - `method36_0()` — operation 1
 - `method36_1()` — operation 2
 - `method36_2()` — operation 3
-- `method36_3()` — operation 4
 
 ## Section 37
 
-Description for section 37 of factory (v3).
+Description for section 37 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -547,10 +549,10 @@ import { Factory } from './factory';
 
 ## Section 38
 
-Description for section 38 of factory (v3).
+Description for section 38 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -558,29 +560,27 @@ import { Factory } from './factory';
 - `method38_0()` — operation 1
 - `method38_1()` — operation 2
 - `method38_2()` — operation 3
+- `method38_3()` — operation 4
 
 ## Section 39
 
-Description for section 39 of factory (v3).
+Description for section 39 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
-- `method39_2()` — operation 3
-- `method39_3()` — operation 4
-- `method39_4()` — operation 5
 
 ## Section 40
 
-Description for section 40 of factory (v3).
+Description for section 40 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -593,23 +593,26 @@ import { Factory } from './factory';
 
 ## Section 41
 
-Description for section 41 of factory (v3).
+Description for section 41 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
+- `method41_2()` — operation 3
+- `method41_3()` — operation 4
+- `method41_4()` — operation 5
 
 ## Section 42
 
-Description for section 42 of factory (v3).
+Description for section 42 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -622,10 +625,10 @@ import { Factory } from './factory';
 
 ## Section 43
 
-Description for section 43 of factory (v3).
+Description for section 43 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -635,10 +638,10 @@ import { Factory } from './factory';
 
 ## Section 44
 
-Description for section 44 of factory (v3).
+Description for section 44 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -646,13 +649,14 @@ import { Factory } from './factory';
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
 - `method44_2()` — operation 3
+- `method44_3()` — operation 4
 
 ## Section 45
 
-Description for section 45 of factory (v3).
+Description for section 45 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -660,13 +664,15 @@ import { Factory } from './factory';
 - `method45_0()` — operation 1
 - `method45_1()` — operation 2
 - `method45_2()` — operation 3
+- `method45_3()` — operation 4
+- `method45_4()` — operation 5
 
 ## Section 46
 
-Description for section 46 of factory (v3).
+Description for section 46 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -676,10 +682,10 @@ import { Factory } from './factory';
 
 ## Section 47
 
-Description for section 47 of factory (v3).
+Description for section 47 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -688,13 +694,14 @@ import { Factory } from './factory';
 - `method47_1()` — operation 2
 - `method47_2()` — operation 3
 - `method47_3()` — operation 4
+- `method47_4()` — operation 5
 
 ## Section 48
 
-Description for section 48 of factory (v3).
+Description for section 48 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -707,41 +714,36 @@ import { Factory } from './factory';
 
 ## Section 49
 
-Description for section 49 of factory (v3).
+Description for section 49 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method49_0()` — operation 1
 - `method49_1()` — operation 2
-- `method49_2()` — operation 3
-- `method49_3()` — operation 4
 
 ## Section 50
 
-Description for section 50 of factory (v3).
+Description for section 50 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
 
 - `method50_0()` — operation 1
 - `method50_1()` — operation 2
-- `method50_2()` — operation 3
-- `method50_3()` — operation 4
-- `method50_4()` — operation 5
 
 ## Section 51
 
-Description for section 51 of factory (v3).
+Description for section 51 of controller (v1).
 
 ```typescript
-import { Factory } from './factory';
+import { Controller } from './controller';
 ```
 
 ### API
@@ -750,103 +752,3 @@ import { Factory } from './factory';
 - `method51_1()` — operation 2
 - `method51_2()` — operation 3
 - `method51_3()` — operation 4
-- `method51_4()` — operation 5
-
-## Section 52
-
-Description for section 52 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method52_0()` — operation 1
-- `method52_1()` — operation 2
-- `method52_2()` — operation 3
-
-## Section 53
-
-Description for section 53 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method53_0()` — operation 1
-- `method53_1()` — operation 2
-
-## Section 54
-
-Description for section 54 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method54_0()` — operation 1
-- `method54_1()` — operation 2
-- `method54_2()` — operation 3
-
-## Section 55
-
-Description for section 55 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method55_0()` — operation 1
-- `method55_1()` — operation 2
-- `method55_2()` — operation 3
-- `method55_3()` — operation 4
-
-## Section 56
-
-Description for section 56 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method56_0()` — operation 1
-- `method56_1()` — operation 2
-- `method56_2()` — operation 3
-- `method56_3()` — operation 4
-
-## Section 57
-
-Description for section 57 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method57_0()` — operation 1
-- `method57_1()` — operation 2
-
-## Section 58
-
-Description for section 58 of factory (v3).
-
-```typescript
-import { Factory } from './factory';
-```
-
-### API
-
-- `method58_0()` — operation 1
-- `method58_1()` — operation 2
-- `method58_2()` — operation 3
-- `method58_3()` — operation 4
