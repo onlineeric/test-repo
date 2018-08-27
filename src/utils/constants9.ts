@@ -16,7 +16,7 @@ export class Constants {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Constants v1');
+    this.logger.info('Initializing Constants v2');
     this.isReady = true;
   }
 
@@ -31,17 +31,9 @@ export class Constants {
   }
 }
 
-  private helper1(x: string): string {
-    const base = x + '_constants_1';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper2(x: string): string {
     const base = x + '_constants_2';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -49,8 +41,6 @@ export class Constants {
     const base = x + '_constants_3';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -58,8 +48,6 @@ export class Constants {
     const base = x + '_constants_4';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -72,9 +60,6 @@ export class Constants {
   private helper6(x: string): string {
     const base = x + '_constants_6';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -82,6 +67,7 @@ export class Constants {
     const base = x + '_constants_7';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -89,7 +75,6 @@ export class Constants {
     const base = x + '_constants_8';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -98,7 +83,6 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -107,13 +91,14 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper11(x: string): string {
     const base = x + '_constants_11';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -121,6 +106,7 @@ export class Constants {
     const base = x + '_constants_12';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -128,16 +114,12 @@ export class Constants {
     const base = x + '_constants_13';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper14(x: string): string {
     const base = x + '_constants_14';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -145,6 +127,8 @@ export class Constants {
     const base = x + '_constants_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -161,16 +145,12 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper18(x: string): string {
     const base = x + '_constants_18';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -186,9 +166,6 @@ export class Constants {
   private helper20(x: string): string {
     const base = x + '_constants_20';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -205,15 +182,13 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper23(x: string): string {
     const base = x + '_constants_23';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -236,8 +211,6 @@ export class Constants {
   private helper26(x: string): string {
     const base = x + '_constants_26';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -245,22 +218,20 @@ export class Constants {
     const base = x + '_constants_27';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper28(x: string): string {
     const base = x + '_constants_28';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper29(x: string): string {
     const base = x + '_constants_29';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -277,6 +248,7 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -304,9 +276,6 @@ export class Constants {
   private helper35(x: string): string {
     const base = x + '_constants_35';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -322,9 +291,6 @@ export class Constants {
   private helper37(x: string): string {
     const base = x + '_constants_37';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -333,22 +299,19 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper39(x: string): string {
     const base = x + '_constants_39';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper40(x: string): string {
     const base = x + '_constants_40';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -356,6 +319,8 @@ export class Constants {
     const base = x + '_constants_41';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -386,7 +351,6 @@ export class Constants {
   private helper45(x: string): string {
     const base = x + '_constants_45';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -394,20 +358,21 @@ export class Constants {
     const base = x + '_constants_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper47(x: string): string {
     const base = x + '_constants_47';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper48(x: string): string {
     const base = x + '_constants_48';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -425,6 +390,7 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -438,7 +404,6 @@ export class Constants {
   private helper52(x: string): string {
     const base = x + '_constants_52';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -446,6 +411,7 @@ export class Constants {
     const base = x + '_constants_53';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -459,7 +425,6 @@ export class Constants {
     const base = x + '_constants_55';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -474,7 +439,6 @@ export class Constants {
     const base = x + '_constants_57';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -489,13 +453,15 @@ export class Constants {
   private helper59(x: string): string {
     const base = x + '_constants_59';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper60(x: string): string {
     const base = x + '_constants_60';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -511,6 +477,7 @@ export class Constants {
   private helper62(x: string): string {
     const base = x + '_constants_62';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -518,6 +485,8 @@ export class Constants {
     const base = x + '_constants_63';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -525,6 +494,7 @@ export class Constants {
     const base = x + '_constants_64';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -554,8 +524,6 @@ export class Constants {
   private helper68(x: string): string {
     const base = x + '_constants_68';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -585,37 +553,32 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper73(x: string): string {
     const base = x + '_constants_73';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper74(x: string): string {
     const base = x + '_constants_74';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper75(x: string): string {
     const base = x + '_constants_75';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper76(x: string): string {
     const base = x + '_constants_76';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -623,47 +586,51 @@ export class Constants {
     const base = x + '_constants_77';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper78(x: string): string {
     const base = x + '_constants_78';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper79(x: string): string {
     const base = x + '_constants_79';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper80(x: string): string {
     const base = x + '_constants_80';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper81(x: string): string {
     const base = x + '_constants_81';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper82(x: string): string {
     const base = x + '_constants_82';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper83(x: string): string {
     const base = x + '_constants_83';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -672,7 +639,6 @@ export class Constants {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -680,8 +646,6 @@ export class Constants {
     const base = x + '_constants_85';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -689,46 +653,13 @@ export class Constants {
     const base = x + '_constants_86';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper87(x: string): string {
     const base = x + '_constants_87';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper88(x: string): string {
-    const base = x + '_constants_88';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper89(x: string): string {
-    const base = x + '_constants_89';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper90(x: string): string {
-    const base = x + '_constants_90';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper91(x: string): string {
-    const base = x + '_constants_91';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
