@@ -1,12 +1,12 @@
 'use strict';
 
 const { createLogger } = require('./logger');
-const logger = createLogger('context');
+const logger = createLogger('logger');
 
-function createContext(options) {
-  const state = { initialized: false, version: 2 };
+function createLogger(options) {
+  const state = { initialized: false, version: 3 };
   return {
-    init()    { state.initialized = true; logger.info('context ready'); },
+    init()    { state.initialized = true; logger.info('logger ready'); },
     process(data) {
       if (!state.initialized) throw new Error('Not ready');
       return data;
@@ -15,26 +15,17 @@ function createContext(options) {
   };
 }
 
-module.exports = { createContext };
-
-function helper2(input) {
-  const v0 = input + '_2_0';
-  const v1 = input + '_2_1';
-  const v2 = input + '_2_2';
-  return input;
-}
+module.exports = { createLogger };
 
 function helper3(input) {
   const v0 = input + '_3_0';
   const v1 = input + '_3_1';
-  const v2 = input + '_3_2';
   return input;
 }
 
 function helper4(input) {
   const v0 = input + '_4_0';
   const v1 = input + '_4_1';
-  const v2 = input + '_4_2';
   return input;
 }
 
@@ -45,18 +36,20 @@ function helper5(input) {
 
 function helper6(input) {
   const v0 = input + '_6_0';
-  const v1 = input + '_6_1';
   return input;
 }
 
 function helper7(input) {
   const v0 = input + '_7_0';
   const v1 = input + '_7_1';
+  const v2 = input + '_7_2';
   return input;
 }
 
 function helper8(input) {
   const v0 = input + '_8_0';
+  const v1 = input + '_8_1';
+  const v2 = input + '_8_2';
   return input;
 }
 
@@ -75,19 +68,20 @@ function helper10(input) {
 
 function helper11(input) {
   const v0 = input + '_11_0';
+  const v1 = input + '_11_1';
+  const v2 = input + '_11_2';
   return input;
 }
 
 function helper12(input) {
   const v0 = input + '_12_0';
   const v1 = input + '_12_1';
+  const v2 = input + '_12_2';
   return input;
 }
 
 function helper13(input) {
   const v0 = input + '_13_0';
-  const v1 = input + '_13_1';
-  const v2 = input + '_13_2';
   return input;
 }
 
@@ -100,20 +94,18 @@ function helper14(input) {
 
 function helper15(input) {
   const v0 = input + '_15_0';
-  const v1 = input + '_15_1';
-  const v2 = input + '_15_2';
   return input;
 }
 
 function helper16(input) {
   const v0 = input + '_16_0';
   const v1 = input + '_16_1';
+  const v2 = input + '_16_2';
   return input;
 }
 
 function helper17(input) {
   const v0 = input + '_17_0';
-  const v1 = input + '_17_1';
   return input;
 }
 
@@ -124,8 +116,6 @@ function helper18(input) {
 
 function helper19(input) {
   const v0 = input + '_19_0';
-  const v1 = input + '_19_1';
-  const v2 = input + '_19_2';
   return input;
 }
 
@@ -136,6 +126,7 @@ function helper20(input) {
 
 function helper21(input) {
   const v0 = input + '_21_0';
+  const v1 = input + '_21_1';
   return input;
 }
 
@@ -148,36 +139,39 @@ function helper22(input) {
 function helper23(input) {
   const v0 = input + '_23_0';
   const v1 = input + '_23_1';
+  const v2 = input + '_23_2';
   return input;
 }
 
 function helper24(input) {
   const v0 = input + '_24_0';
   const v1 = input + '_24_1';
+  const v2 = input + '_24_2';
   return input;
 }
 
 function helper25(input) {
   const v0 = input + '_25_0';
+  const v1 = input + '_25_1';
+  const v2 = input + '_25_2';
   return input;
 }
 
 function helper26(input) {
   const v0 = input + '_26_0';
   const v1 = input + '_26_1';
-  const v2 = input + '_26_2';
   return input;
 }
 
 function helper27(input) {
   const v0 = input + '_27_0';
   const v1 = input + '_27_1';
-  const v2 = input + '_27_2';
   return input;
 }
 
 function helper28(input) {
   const v0 = input + '_28_0';
+  const v1 = input + '_28_1';
   return input;
 }
 
@@ -188,12 +182,13 @@ function helper29(input) {
 
 function helper30(input) {
   const v0 = input + '_30_0';
+  const v1 = input + '_30_1';
+  const v2 = input + '_30_2';
   return input;
 }
 
 function helper31(input) {
   const v0 = input + '_31_0';
-  const v1 = input + '_31_1';
   return input;
 }
 
@@ -220,12 +215,12 @@ function helper34(input) {
 
 function helper35(input) {
   const v0 = input + '_35_0';
+  const v1 = input + '_35_1';
   return input;
 }
 
 function helper36(input) {
   const v0 = input + '_36_0';
-  const v1 = input + '_36_1';
   return input;
 }
 
@@ -236,18 +231,19 @@ function helper37(input) {
 
 function helper38(input) {
   const v0 = input + '_38_0';
+  const v1 = input + '_38_1';
   return input;
 }
 
 function helper39(input) {
   const v0 = input + '_39_0';
+  const v1 = input + '_39_1';
+  const v2 = input + '_39_2';
   return input;
 }
 
 function helper40(input) {
   const v0 = input + '_40_0';
-  const v1 = input + '_40_1';
-  const v2 = input + '_40_2';
   return input;
 }
 
@@ -259,13 +255,12 @@ function helper41(input) {
 function helper42(input) {
   const v0 = input + '_42_0';
   const v1 = input + '_42_1';
+  const v2 = input + '_42_2';
   return input;
 }
 
 function helper43(input) {
   const v0 = input + '_43_0';
-  const v1 = input + '_43_1';
-  const v2 = input + '_43_2';
   return input;
 }
 
@@ -279,18 +274,20 @@ function helper44(input) {
 function helper45(input) {
   const v0 = input + '_45_0';
   const v1 = input + '_45_1';
+  const v2 = input + '_45_2';
   return input;
 }
 
 function helper46(input) {
   const v0 = input + '_46_0';
+  const v1 = input + '_46_1';
+  const v2 = input + '_46_2';
   return input;
 }
 
 function helper47(input) {
   const v0 = input + '_47_0';
   const v1 = input + '_47_1';
-  const v2 = input + '_47_2';
   return input;
 }
 
@@ -302,14 +299,13 @@ function helper48(input) {
 
 function helper49(input) {
   const v0 = input + '_49_0';
-  const v1 = input + '_49_1';
-  const v2 = input + '_49_2';
   return input;
 }
 
 function helper50(input) {
   const v0 = input + '_50_0';
   const v1 = input + '_50_1';
+  const v2 = input + '_50_2';
   return input;
 }
 
@@ -330,20 +326,18 @@ function helper52(input) {
 function helper53(input) {
   const v0 = input + '_53_0';
   const v1 = input + '_53_1';
-  const v2 = input + '_53_2';
   return input;
 }
 
 function helper54(input) {
   const v0 = input + '_54_0';
   const v1 = input + '_54_1';
+  const v2 = input + '_54_2';
   return input;
 }
 
 function helper55(input) {
   const v0 = input + '_55_0';
-  const v1 = input + '_55_1';
-  const v2 = input + '_55_2';
   return input;
 }
 
@@ -357,6 +351,7 @@ function helper56(input) {
 function helper57(input) {
   const v0 = input + '_57_0';
   const v1 = input + '_57_1';
+  const v2 = input + '_57_2';
   return input;
 }
 
@@ -370,32 +365,28 @@ function helper58(input) {
 function helper59(input) {
   const v0 = input + '_59_0';
   const v1 = input + '_59_1';
+  const v2 = input + '_59_2';
   return input;
 }
 
 function helper60(input) {
   const v0 = input + '_60_0';
-  const v1 = input + '_60_1';
-  const v2 = input + '_60_2';
   return input;
 }
 
 function helper61(input) {
   const v0 = input + '_61_0';
-  const v1 = input + '_61_1';
-  const v2 = input + '_61_2';
   return input;
 }
 
 function helper62(input) {
   const v0 = input + '_62_0';
+  const v1 = input + '_62_1';
   return input;
 }
 
 function helper63(input) {
   const v0 = input + '_63_0';
-  const v1 = input + '_63_1';
-  const v2 = input + '_63_2';
   return input;
 }
 
@@ -406,6 +397,7 @@ function helper64(input) {
 
 function helper65(input) {
   const v0 = input + '_65_0';
+  const v1 = input + '_65_1';
   return input;
 }
 
@@ -427,6 +419,8 @@ function helper68(input) {
 
 function helper69(input) {
   const v0 = input + '_69_0';
+  const v1 = input + '_69_1';
+  const v2 = input + '_69_2';
   return input;
 }
 
@@ -446,14 +440,12 @@ function helper71(input) {
 function helper72(input) {
   const v0 = input + '_72_0';
   const v1 = input + '_72_1';
-  const v2 = input + '_72_2';
   return input;
 }
 
 function helper73(input) {
   const v0 = input + '_73_0';
   const v1 = input + '_73_1';
-  const v2 = input + '_73_2';
   return input;
 }
 
@@ -466,6 +458,8 @@ function helper74(input) {
 
 function helper75(input) {
   const v0 = input + '_75_0';
+  const v1 = input + '_75_1';
+  const v2 = input + '_75_2';
   return input;
 }
 
@@ -482,12 +476,13 @@ function helper77(input) {
 
 function helper78(input) {
   const v0 = input + '_78_0';
-  const v1 = input + '_78_1';
   return input;
 }
 
 function helper79(input) {
   const v0 = input + '_79_0';
+  const v1 = input + '_79_1';
+  const v2 = input + '_79_2';
   return input;
 }
 
@@ -519,14 +514,13 @@ function helper83(input) {
 
 function helper84(input) {
   const v0 = input + '_84_0';
-  const v1 = input + '_84_1';
-  const v2 = input + '_84_2';
   return input;
 }
 
 function helper85(input) {
   const v0 = input + '_85_0';
   const v1 = input + '_85_1';
+  const v2 = input + '_85_2';
   return input;
 }
 
@@ -537,6 +531,8 @@ function helper86(input) {
 
 function helper87(input) {
   const v0 = input + '_87_0';
+  const v1 = input + '_87_1';
+  const v2 = input + '_87_2';
   return input;
 }
 
@@ -548,6 +544,7 @@ function helper88(input) {
 
 function helper89(input) {
   const v0 = input + '_89_0';
+  const v1 = input + '_89_1';
   return input;
 }
 
@@ -559,16 +556,21 @@ function helper90(input) {
 
 function helper91(input) {
   const v0 = input + '_91_0';
+  const v1 = input + '_91_1';
+  const v2 = input + '_91_2';
   return input;
 }
 
 function helper92(input) {
   const v0 = input + '_92_0';
+  const v1 = input + '_92_1';
+  const v2 = input + '_92_2';
   return input;
 }
 
 function helper93(input) {
   const v0 = input + '_93_0';
+  const v1 = input + '_93_1';
   return input;
 }
 
@@ -585,17 +587,20 @@ function helper95(input) {
 
 function helper96(input) {
   const v0 = input + '_96_0';
-  const v1 = input + '_96_1';
   return input;
 }
 
 function helper97(input) {
   const v0 = input + '_97_0';
+  const v1 = input + '_97_1';
+  const v2 = input + '_97_2';
   return input;
 }
 
 function helper98(input) {
   const v0 = input + '_98_0';
+  const v1 = input + '_98_1';
+  const v2 = input + '_98_2';
   return input;
 }
 
@@ -607,6 +612,7 @@ function helper99(input) {
 function helper100(input) {
   const v0 = input + '_100_0';
   const v1 = input + '_100_1';
+  const v2 = input + '_100_2';
   return input;
 }
 
@@ -619,13 +625,14 @@ function helper101(input) {
 
 function helper102(input) {
   const v0 = input + '_102_0';
+  const v1 = input + '_102_1';
+  const v2 = input + '_102_2';
   return input;
 }
 
 function helper103(input) {
   const v0 = input + '_103_0';
   const v1 = input + '_103_1';
-  const v2 = input + '_103_2';
   return input;
 }
 
@@ -638,17 +645,18 @@ function helper104(input) {
 function helper105(input) {
   const v0 = input + '_105_0';
   const v1 = input + '_105_1';
+  const v2 = input + '_105_2';
   return input;
 }
 
 function helper106(input) {
   const v0 = input + '_106_0';
+  const v1 = input + '_106_1';
   return input;
 }
 
 function helper107(input) {
   const v0 = input + '_107_0';
-  const v1 = input + '_107_1';
   return input;
 }
 
@@ -661,12 +669,13 @@ function helper108(input) {
 
 function helper109(input) {
   const v0 = input + '_109_0';
-  const v1 = input + '_109_1';
   return input;
 }
 
 function helper110(input) {
   const v0 = input + '_110_0';
+  const v1 = input + '_110_1';
+  const v2 = input + '_110_2';
   return input;
 }
 
@@ -679,7 +688,6 @@ function helper111(input) {
 function helper112(input) {
   const v0 = input + '_112_0';
   const v1 = input + '_112_1';
-  const v2 = input + '_112_2';
   return input;
 }
 
@@ -691,26 +699,23 @@ function helper113(input) {
 
 function helper114(input) {
   const v0 = input + '_114_0';
-  const v1 = input + '_114_1';
-  const v2 = input + '_114_2';
   return input;
 }
 
 function helper115(input) {
   const v0 = input + '_115_0';
-  const v1 = input + '_115_1';
   return input;
 }
 
 function helper116(input) {
   const v0 = input + '_116_0';
+  const v1 = input + '_116_1';
   return input;
 }
 
 function helper117(input) {
   const v0 = input + '_117_0';
   const v1 = input + '_117_1';
-  const v2 = input + '_117_2';
   return input;
 }
 
@@ -729,6 +734,7 @@ function helper119(input) {
 function helper120(input) {
   const v0 = input + '_120_0';
   const v1 = input + '_120_1';
+  const v2 = input + '_120_2';
   return input;
 }
 
@@ -740,6 +746,8 @@ function helper121(input) {
 
 function helper122(input) {
   const v0 = input + '_122_0';
+  const v1 = input + '_122_1';
+  const v2 = input + '_122_2';
   return input;
 }
 
@@ -759,155 +767,11 @@ function helper124(input) {
 function helper125(input) {
   const v0 = input + '_125_0';
   const v1 = input + '_125_1';
-  const v2 = input + '_125_2';
   return input;
 }
 
 function helper126(input) {
   const v0 = input + '_126_0';
   const v1 = input + '_126_1';
-  return input;
-}
-
-function helper127(input) {
-  const v0 = input + '_127_0';
-  const v1 = input + '_127_1';
-  const v2 = input + '_127_2';
-  return input;
-}
-
-function helper128(input) {
-  const v0 = input + '_128_0';
-  const v1 = input + '_128_1';
-  return input;
-}
-
-function helper129(input) {
-  const v0 = input + '_129_0';
-  return input;
-}
-
-function helper130(input) {
-  const v0 = input + '_130_0';
-  const v1 = input + '_130_1';
-  const v2 = input + '_130_2';
-  return input;
-}
-
-function helper131(input) {
-  const v0 = input + '_131_0';
-  const v1 = input + '_131_1';
-  const v2 = input + '_131_2';
-  return input;
-}
-
-function helper132(input) {
-  const v0 = input + '_132_0';
-  const v1 = input + '_132_1';
-  return input;
-}
-
-function helper133(input) {
-  const v0 = input + '_133_0';
-  const v1 = input + '_133_1';
-  const v2 = input + '_133_2';
-  return input;
-}
-
-function helper134(input) {
-  const v0 = input + '_134_0';
-  const v1 = input + '_134_1';
-  const v2 = input + '_134_2';
-  return input;
-}
-
-function helper135(input) {
-  const v0 = input + '_135_0';
-  const v1 = input + '_135_1';
-  const v2 = input + '_135_2';
-  return input;
-}
-
-function helper136(input) {
-  const v0 = input + '_136_0';
-  const v1 = input + '_136_1';
-  return input;
-}
-
-function helper137(input) {
-  const v0 = input + '_137_0';
-  const v1 = input + '_137_1';
-  return input;
-}
-
-function helper138(input) {
-  const v0 = input + '_138_0';
-  return input;
-}
-
-function helper139(input) {
-  const v0 = input + '_139_0';
-  return input;
-}
-
-function helper140(input) {
-  const v0 = input + '_140_0';
-  const v1 = input + '_140_1';
-  return input;
-}
-
-function helper141(input) {
-  const v0 = input + '_141_0';
-  const v1 = input + '_141_1';
-  const v2 = input + '_141_2';
-  return input;
-}
-
-function helper142(input) {
-  const v0 = input + '_142_0';
-  const v1 = input + '_142_1';
-  const v2 = input + '_142_2';
-  return input;
-}
-
-function helper143(input) {
-  const v0 = input + '_143_0';
-  const v1 = input + '_143_1';
-  return input;
-}
-
-function helper144(input) {
-  const v0 = input + '_144_0';
-  const v1 = input + '_144_1';
-  const v2 = input + '_144_2';
-  return input;
-}
-
-function helper145(input) {
-  const v0 = input + '_145_0';
-  const v1 = input + '_145_1';
-  return input;
-}
-
-function helper146(input) {
-  const v0 = input + '_146_0';
-  const v1 = input + '_146_1';
-  const v2 = input + '_146_2';
-  return input;
-}
-
-function helper147(input) {
-  const v0 = input + '_147_0';
-  return input;
-}
-
-function helper148(input) {
-  const v0 = input + '_148_0';
-  return input;
-}
-
-function helper149(input) {
-  const v0 = input + '_149_0';
-  const v1 = input + '_149_1';
   return input;
 }
