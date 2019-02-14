@@ -1,739 +1,1126 @@
-/* config styles v1 */
+/* config styles v3 */
 
 .config-block-1 {
   display: flex;
-  padding: 15px;
-  margin: 15px;
-  color: #254754;
-  background: #608709;
-  border-radius: 6px;
+  padding: 8px;
+  margin: 10px;
+  color: #258407;
+  background: #155356;
+  border-radius: 4px;
 }
 
 .config-block-2 {
   display: flex;
-  padding: 7px;
-  margin: 13px;
-  color: #142939;
-  background: #182797;
-  border-radius: 1px;
+  padding: 5px;
+  margin: 12px;
+  color: #984828;
+  background: #765929;
+  border-radius: 7px;
 }
 
 .config-block-3 {
   display: flex;
-  padding: 19px;
-  margin: 14px;
-  color: #978978;
-  background: #730228;
-  border-radius: 7px;
+  padding: 7px;
+  margin: 6px;
+  color: #550098;
+  background: #842725;
+  border-radius: 3px;
 }
 
 .config-block-4 {
   display: flex;
-  padding: 19px;
-  margin: 7px;
-  color: #292937;
-  background: #386064;
-  border-radius: 8px;
+  padding: 12px;
+  margin: 1px;
+  color: #150842;
+  background: #627798;
+  border-radius: 0px;
 }
 
 .config-block-5 {
   display: flex;
-  padding: 10px;
-  margin: 10px;
-  color: #773313;
-  background: #323492;
-  border-radius: 5px;
+  padding: 6px;
+  margin: 12px;
+  color: #920620;
+  background: #613222;
+  border-radius: 1px;
 }
 
 .config-block-6 {
   display: flex;
-  padding: 19px;
-  margin: 5px;
-  color: #755545;
-  background: #362371;
-  border-radius: 8px;
+  padding: 14px;
+  margin: 3px;
+  color: #484411;
+  background: #153366;
+  border-radius: 7px;
 }
 
 .config-block-7 {
   display: flex;
-  padding: 8px;
-  margin: 4px;
-  color: #773508;
-  background: #547812;
-  border-radius: 2px;
+  padding: 16px;
+  margin: 15px;
+  color: #774092;
+  background: #188188;
+  border-radius: 7px;
 }
 
 .config-block-8 {
   display: flex;
-  padding: 22px;
-  margin: 6px;
-  color: #929113;
-  background: #119855;
-  border-radius: 4px;
+  padding: 18px;
+  margin: 16px;
+  color: #214585;
+  background: #148349;
+  border-radius: 6px;
 }
 
 .config-block-9 {
   display: flex;
-  padding: 22px;
-  margin: 15px;
-  color: #291371;
-  background: #807545;
-  border-radius: 2px;
+  padding: 20px;
+  margin: 9px;
+  color: #159666;
+  background: #951352;
+  border-radius: 7px;
 }
 
 .config-block-10 {
   display: flex;
-  padding: 15px;
-  margin: 2px;
-  color: #162049;
-  background: #427102;
-  border-radius: 1px;
+  padding: 13px;
+  margin: 12px;
+  color: #343990;
+  background: #305458;
+  border-radius: 2px;
 }
 
 .config-block-11 {
   display: flex;
-  padding: 15px;
-  margin: 3px;
-  color: #219268;
-  background: #727297;
-  border-radius: 8px;
+  padding: 6px;
+  margin: 5px;
+  color: #411298;
+  background: #200894;
+  border-radius: 0px;
 }
 
 .config-block-12 {
   display: flex;
   padding: 15px;
-  margin: 11px;
-  color: #106090;
-  background: #758643;
-  border-radius: 7px;
+  margin: 13px;
+  color: #490009;
+  background: #900213;
+  border-radius: 6px;
 }
 
 .config-block-13 {
   display: flex;
-  padding: 10px;
-  margin: 8px;
-  color: #417097;
-  background: #814105;
-  border-radius: 0px;
+  padding: 9px;
+  margin: 10px;
+  color: #837453;
+  background: #237380;
+  border-radius: 7px;
 }
 
 .config-block-14 {
   display: flex;
-  padding: 23px;
-  margin: 4px;
-  color: #292609;
-  background: #820460;
-  border-radius: 0px;
+  padding: 5px;
+  margin: 9px;
+  color: #785490;
+  background: #425404;
+  border-radius: 7px;
 }
 
 .config-block-15 {
   display: flex;
-  padding: 14px;
-  margin: 12px;
-  color: #582815;
-  background: #389473;
-  border-radius: 2px;
+  padding: 15px;
+  margin: 1px;
+  color: #299572;
+  background: #336107;
+  border-radius: 3px;
 }
 
 .config-block-16 {
   display: flex;
-  padding: 15px;
-  margin: 11px;
-  color: #458005;
-  background: #987751;
-  border-radius: 7px;
+  padding: 23px;
+  margin: 1px;
+  color: #475215;
+  background: #804100;
+  border-radius: 8px;
 }
 
 .config-block-17 {
   display: flex;
-  padding: 15px;
-  margin: 1px;
-  color: #953030;
-  background: #814472;
-  border-radius: 0px;
+  padding: 10px;
+  margin: 3px;
+  color: #674880;
+  background: #440014;
+  border-radius: 4px;
 }
 
 .config-block-18 {
   display: flex;
-  padding: 18px;
+  padding: 15px;
   margin: 4px;
-  color: #367350;
-  background: #138073;
-  border-radius: 7px;
+  color: #221038;
+  background: #367688;
+  border-radius: 6px;
 }
 
 .config-block-19 {
   display: flex;
-  padding: 23px;
-  margin: 1px;
-  color: #432576;
-  background: #962850;
-  border-radius: 3px;
+  padding: 15px;
+  margin: 2px;
+  color: #428480;
+  background: #241412;
+  border-radius: 2px;
 }
 
 .config-block-20 {
   display: flex;
-  padding: 15px;
-  margin: 7px;
-  color: #862539;
-  background: #114635;
-  border-radius: 7px;
+  padding: 17px;
+  margin: 8px;
+  color: #462289;
+  background: #373428;
+  border-radius: 3px;
 }
 
 .config-block-21 {
   display: flex;
-  padding: 19px;
-  margin: 2px;
-  color: #517746;
-  background: #701476;
-  border-radius: 6px;
+  padding: 20px;
+  margin: 14px;
+  color: #253018;
+  background: #503738;
+  border-radius: 7px;
 }
 
 .config-block-22 {
   display: flex;
-  padding: 4px;
+  padding: 7px;
   margin: 13px;
-  color: #373367;
-  background: #363210;
-  border-radius: 0px;
+  color: #575007;
+  background: #946633;
+  border-radius: 4px;
 }
 
 .config-block-23 {
   display: flex;
-  padding: 14px;
-  margin: 11px;
-  color: #513099;
-  background: #445778;
-  border-radius: 2px;
+  padding: 18px;
+  margin: 16px;
+  color: #452630;
+  background: #664455;
+  border-radius: 5px;
 }
 
 .config-block-24 {
   display: flex;
   padding: 16px;
-  margin: 6px;
-  color: #308599;
-  background: #958121;
-  border-radius: 6px;
+  margin: 3px;
+  color: #790069;
+  background: #397145;
+  border-radius: 8px;
 }
 
 .config-block-25 {
   display: flex;
-  padding: 7px;
+  padding: 15px;
   margin: 11px;
-  color: #852770;
-  background: #851253;
-  border-radius: 2px;
+  color: #682744;
+  background: #563431;
+  border-radius: 6px;
 }
 
 .config-block-26 {
   display: flex;
-  padding: 14px;
-  margin: 10px;
-  color: #770351;
-  background: #424227;
-  border-radius: 5px;
+  padding: 11px;
+  margin: 9px;
+  color: #372580;
+  background: #459499;
+  border-radius: 1px;
 }
 
 .config-block-27 {
   display: flex;
-  padding: 18px;
-  margin: 13px;
-  color: #780336;
-  background: #512018;
+  padding: 13px;
+  margin: 12px;
+  color: #989874;
+  background: #613919;
   border-radius: 4px;
 }
 
 .config-block-28 {
   display: flex;
   padding: 10px;
-  margin: 1px;
-  color: #840273;
-  background: #279152;
-  border-radius: 6px;
+  margin: 4px;
+  color: #289190;
+  background: #372246;
+  border-radius: 3px;
 }
 
 .config-block-29 {
   display: flex;
-  padding: 12px;
-  margin: 12px;
-  color: #822557;
-  background: #144881;
-  border-radius: 0px;
+  padding: 4px;
+  margin: 5px;
+  color: #856893;
+  background: #281758;
+  border-radius: 7px;
 }
 
 .config-block-30 {
   display: flex;
-  padding: 24px;
-  margin: 9px;
-  color: #351384;
-  background: #419308;
-  border-radius: 8px;
+  padding: 13px;
+  margin: 12px;
+  color: #302614;
+  background: #825705;
+  border-radius: 0px;
 }
 
 .config-block-31 {
   display: flex;
-  padding: 16px;
-  margin: 2px;
-  color: #468278;
-  background: #373832;
-  border-radius: 8px;
+  padding: 5px;
+  margin: 11px;
+  color: #430935;
+  background: #519018;
+  border-radius: 6px;
 }
 
 .config-block-32 {
   display: flex;
-  padding: 13px;
-  margin: 7px;
-  color: #816106;
-  background: #460842;
-  border-radius: 2px;
+  padding: 21px;
+  margin: 14px;
+  color: #289739;
+  background: #400079;
+  border-radius: 7px;
 }
 
 .config-block-33 {
   display: flex;
-  padding: 20px;
-  margin: 4px;
-  color: #540356;
-  background: #976445;
-  border-radius: 1px;
+  padding: 8px;
+  margin: 10px;
+  color: #823998;
+  background: #717117;
+  border-radius: 2px;
 }
 
 .config-block-34 {
   display: flex;
-  padding: 12px;
-  margin: 12px;
-  color: #710474;
-  background: #378800;
-  border-radius: 7px;
+  padding: 18px;
+  margin: 15px;
+  color: #287649;
+  background: #968711;
+  border-radius: 1px;
 }
 
 .config-block-35 {
   display: flex;
-  padding: 15px;
-  margin: 9px;
-  color: #582242;
-  background: #141661;
-  border-radius: 7px;
+  padding: 14px;
+  margin: 8px;
+  color: #212014;
+  background: #657857;
+  border-radius: 6px;
 }
 
 .config-block-36 {
   display: flex;
-  padding: 19px;
-  margin: 15px;
-  color: #547783;
-  background: #770672;
-  border-radius: 3px;
+  padding: 13px;
+  margin: 7px;
+  color: #986804;
+  background: #485464;
+  border-radius: 4px;
 }
 
 .config-block-37 {
   display: flex;
-  padding: 24px;
-  margin: 8px;
-  color: #277757;
-  background: #899085;
-  border-radius: 2px;
+  padding: 5px;
+  margin: 5px;
+  color: #947667;
+  background: #454968;
+  border-radius: 3px;
 }
 
 .config-block-38 {
   display: flex;
-  padding: 15px;
-  margin: 7px;
-  color: #793392;
-  background: #160460;
-  border-radius: 8px;
+  padding: 22px;
+  margin: 5px;
+  color: #618846;
+  background: #292155;
+  border-radius: 5px;
 }
 
 .config-block-39 {
   display: flex;
-  padding: 20px;
-  margin: 10px;
-  color: #339143;
-  background: #644442;
-  border-radius: 7px;
+  padding: 13px;
+  margin: 6px;
+  color: #226963;
+  background: #549935;
+  border-radius: 5px;
 }
 
 .config-block-40 {
   display: flex;
-  padding: 4px;
-  margin: 1px;
-  color: #307266;
-  background: #562613;
+  padding: 7px;
+  margin: 7px;
+  color: #584265;
+  background: #402718;
   border-radius: 8px;
 }
 
 .config-block-41 {
   display: flex;
-  padding: 6px;
-  margin: 3px;
-  color: #640753;
-  background: #285600;
-  border-radius: 5px;
+  padding: 7px;
+  margin: 7px;
+  color: #240678;
+  background: #360359;
+  border-radius: 0px;
 }
 
 .config-block-42 {
   display: flex;
-  padding: 6px;
-  margin: 4px;
-  color: #333371;
-  background: #997920;
-  border-radius: 3px;
+  padding: 7px;
+  margin: 3px;
+  color: #138686;
+  background: #226776;
+  border-radius: 6px;
 }
 
 .config-block-43 {
   display: flex;
-  padding: 5px;
-  margin: 6px;
-  color: #900036;
-  background: #399630;
+  padding: 11px;
+  margin: 5px;
+  color: #480556;
+  background: #733133;
   border-radius: 0px;
 }
 
 .config-block-44 {
   display: flex;
-  padding: 10px;
-  margin: 2px;
-  color: #616442;
-  background: #202015;
-  border-radius: 8px;
+  padding: 5px;
+  margin: 15px;
+  color: #662100;
+  background: #817632;
+  border-radius: 5px;
 }
 
 .config-block-45 {
   display: flex;
-  padding: 4px;
-  margin: 11px;
-  color: #820106;
-  background: #705163;
-  border-radius: 7px;
+  padding: 14px;
+  margin: 12px;
+  color: #187829;
+  background: #934443;
+  border-radius: 5px;
 }
 
 .config-block-46 {
   display: flex;
-  padding: 5px;
-  margin: 4px;
-  color: #598233;
-  background: #447689;
-  border-radius: 2px;
+  padding: 17px;
+  margin: 10px;
+  color: #879228;
+  background: #149716;
+  border-radius: 8px;
 }
 
 .config-block-47 {
   display: flex;
-  padding: 17px;
+  padding: 16px;
   margin: 4px;
-  color: #265271;
-  background: #546999;
-  border-radius: 6px;
+  color: #109443;
+  background: #470483;
+  border-radius: 7px;
 }
 
 .config-block-48 {
   display: flex;
-  padding: 6px;
+  padding: 14px;
   margin: 11px;
-  color: #558365;
-  background: #121055;
-  border-radius: 5px;
+  color: #737554;
+  background: #279473;
+  border-radius: 8px;
 }
 
 .config-block-49 {
   display: flex;
-  padding: 21px;
-  margin: 9px;
-  color: #948855;
-  background: #442710;
-  border-radius: 5px;
+  padding: 11px;
+  margin: 5px;
+  color: #796631;
+  background: #782825;
+  border-radius: 7px;
 }
 
 .config-block-50 {
   display: flex;
-  padding: 24px;
-  margin: 16px;
-  color: #100499;
-  background: #605010;
-  border-radius: 5px;
+  padding: 6px;
+  margin: 2px;
+  color: #888759;
+  background: #402728;
+  border-radius: 0px;
 }
 
 .config-block-51 {
   display: flex;
-  padding: 12px;
-  margin: 6px;
-  color: #327545;
-  background: #885267;
-  border-radius: 3px;
+  padding: 14px;
+  margin: 0px;
+  color: #422347;
+  background: #457033;
+  border-radius: 4px;
 }
 
 .config-block-52 {
   display: flex;
-  padding: 6px;
-  margin: 15px;
-  color: #874136;
-  background: #437569;
-  border-radius: 7px;
+  padding: 4px;
+  margin: 6px;
+  color: #315460;
+  background: #922061;
+  border-radius: 4px;
 }
 
 .config-block-53 {
   display: flex;
-  padding: 17px;
-  margin: 11px;
-  color: #424751;
-  background: #112572;
-  border-radius: 2px;
+  padding: 5px;
+  margin: 2px;
+  color: #139896;
+  background: #428528;
+  border-radius: 3px;
 }
 
 .config-block-54 {
   display: flex;
-  padding: 10px;
-  margin: 15px;
-  color: #247055;
-  background: #183866;
-  border-radius: 2px;
+  padding: 5px;
+  margin: 3px;
+  color: #404620;
+  background: #160893;
+  border-radius: 8px;
 }
 
 .config-block-55 {
   display: flex;
-  padding: 16px;
-  margin: 8px;
-  color: #503187;
-  background: #975615;
-  border-radius: 7px;
+  padding: 21px;
+  margin: 12px;
+  color: #836048;
+  background: #922124;
+  border-radius: 2px;
 }
 
 .config-block-56 {
   display: flex;
-  padding: 12px;
-  margin: 7px;
-  color: #834489;
-  background: #195068;
-  border-radius: 4px;
+  padding: 17px;
+  margin: 16px;
+  color: #848036;
+  background: #837994;
+  border-radius: 1px;
 }
 
 .config-block-57 {
   display: flex;
-  padding: 24px;
-  margin: 4px;
-  color: #480460;
-  background: #942900;
-  border-radius: 0px;
+  padding: 19px;
+  margin: 5px;
+  color: #779270;
+  background: #627409;
+  border-radius: 5px;
 }
 
 .config-block-58 {
   display: flex;
-  padding: 5px;
+  padding: 18px;
   margin: 5px;
-  color: #129933;
-  background: #681464;
-  border-radius: 7px;
+  color: #855048;
+  background: #628373;
+  border-radius: 6px;
 }
 
 .config-block-59 {
   display: flex;
-  padding: 4px;
-  margin: 2px;
-  color: #286971;
-  background: #701170;
-  border-radius: 2px;
+  padding: 8px;
+  margin: 8px;
+  color: #208748;
+  background: #147387;
+  border-radius: 7px;
 }
 
 .config-block-60 {
   display: flex;
-  padding: 14px;
+  padding: 10px;
   margin: 1px;
-  color: #600151;
-  background: #906768;
-  border-radius: 5px;
+  color: #249469;
+  background: #815082;
+  border-radius: 3px;
 }
 
 .config-block-61 {
   display: flex;
-  padding: 15px;
-  margin: 12px;
-  color: #609324;
-  background: #132466;
-  border-radius: 3px;
+  padding: 8px;
+  margin: 13px;
+  color: #583800;
+  background: #768819;
+  border-radius: 4px;
 }
 
 .config-block-62 {
   display: flex;
-  padding: 4px;
-  margin: 4px;
-  color: #384758;
-  background: #372505;
-  border-radius: 2px;
+  padding: 20px;
+  margin: 16px;
+  color: #697824;
+  background: #862782;
+  border-radius: 6px;
 }
 
 .config-block-63 {
   display: flex;
-  padding: 23px;
-  margin: 7px;
-  color: #900781;
-  background: #296500;
+  padding: 10px;
+  margin: 8px;
+  color: #997344;
+  background: #445784;
   border-radius: 7px;
 }
 
 .config-block-64 {
   display: flex;
-  padding: 18px;
-  margin: 14px;
-  color: #310030;
-  background: #411427;
-  border-radius: 2px;
+  padding: 9px;
+  margin: 1px;
+  color: #735587;
+  background: #249045;
+  border-radius: 1px;
 }
 
 .config-block-65 {
   display: flex;
-  padding: 16px;
-  margin: 9px;
-  color: #279499;
-  background: #506374;
-  border-radius: 2px;
+  padding: 18px;
+  margin: 10px;
+  color: #582578;
+  background: #469337;
+  border-radius: 3px;
 }
 
 .config-block-66 {
   display: flex;
-  padding: 10px;
-  margin: 4px;
-  color: #268444;
-  background: #503551;
+  padding: 4px;
+  margin: 14px;
+  color: #428563;
+  background: #754738;
   border-radius: 2px;
 }
 
 .config-block-67 {
   display: flex;
-  padding: 22px;
-  margin: 15px;
-  color: #931432;
-  background: #986197;
-  border-radius: 2px;
+  padding: 5px;
+  margin: 8px;
+  color: #390203;
+  background: #971982;
+  border-radius: 7px;
 }
 
 .config-block-68 {
   display: flex;
-  padding: 4px;
-  margin: 14px;
-  color: #861301;
-  background: #173818;
-  border-radius: 7px;
+  padding: 21px;
+  margin: 13px;
+  color: #583956;
+  background: #471551;
+  border-radius: 4px;
 }
 
 .config-block-69 {
   display: flex;
-  padding: 4px;
-  margin: 12px;
-  color: #494295;
-  background: #622273;
-  border-radius: 7px;
+  padding: 9px;
+  margin: 3px;
+  color: #615521;
+  background: #492383;
+  border-radius: 8px;
 }
 
 .config-block-70 {
   display: flex;
-  padding: 11px;
-  margin: 2px;
-  color: #232687;
-  background: #582800;
-  border-radius: 6px;
+  padding: 23px;
+  margin: 0px;
+  color: #516431;
+  background: #714141;
+  border-radius: 3px;
 }
 
 .config-block-71 {
   display: flex;
-  padding: 4px;
-  margin: 16px;
-  color: #877969;
-  background: #396600;
-  border-radius: 8px;
+  padding: 24px;
+  margin: 9px;
+  color: #491983;
+  background: #159400;
+  border-radius: 3px;
 }
 
 .config-block-72 {
   display: flex;
-  padding: 16px;
-  margin: 13px;
-  color: #770446;
-  background: #787636;
-  border-radius: 5px;
+  padding: 13px;
+  margin: 10px;
+  color: #934686;
+  background: #657640;
+  border-radius: 0px;
 }
 
 .config-block-73 {
   display: flex;
-  padding: 5px;
-  margin: 11px;
-  color: #881508;
-  background: #103611;
-  border-radius: 3px;
+  padding: 17px;
+  margin: 14px;
+  color: #571372;
+  background: #251515;
+  border-radius: 5px;
 }
 
 .config-block-74 {
   display: flex;
-  padding: 10px;
-  margin: 16px;
-  color: #894815;
-  background: #385586;
-  border-radius: 3px;
+  padding: 9px;
+  margin: 9px;
+  color: #550127;
+  background: #439765;
+  border-radius: 8px;
 }
 
 .config-block-75 {
   display: flex;
-  padding: 8px;
-  margin: 6px;
-  color: #253746;
-  background: #529726;
-  border-radius: 8px;
+  padding: 16px;
+  margin: 9px;
+  color: #562061;
+  background: #204224;
+  border-radius: 1px;
 }
 
 .config-block-76 {
   display: flex;
   padding: 19px;
-  margin: 5px;
-  color: #829316;
-  background: #263671;
-  border-radius: 0px;
+  margin: 0px;
+  color: #477281;
+  background: #501610;
+  border-radius: 8px;
 }
 
 .config-block-77 {
   display: flex;
-  padding: 6px;
-  margin: 7px;
-  color: #819575;
-  background: #301510;
-  border-radius: 0px;
+  padding: 13px;
+  margin: 16px;
+  color: #926963;
+  background: #180241;
+  border-radius: 8px;
 }
 
 .config-block-78 {
   display: flex;
-  padding: 6px;
-  margin: 7px;
-  color: #332579;
-  background: #420913;
-  border-radius: 8px;
+  padding: 8px;
+  margin: 15px;
+  color: #901927;
+  background: #273707;
+  border-radius: 1px;
 }
 
 .config-block-79 {
   display: flex;
-  padding: 15px;
-  margin: 5px;
-  color: #813609;
-  background: #413474;
-  border-radius: 3px;
+  padding: 10px;
+  margin: 14px;
+  color: #233150;
+  background: #841705;
+  border-radius: 4px;
 }
 
 .config-block-80 {
   display: flex;
   padding: 5px;
-  margin: 6px;
-  color: #595270;
-  background: #911030;
-  border-radius: 4px;
+  margin: 4px;
+  color: #593832;
+  background: #675423;
+  border-radius: 8px;
 }
 
 .config-block-81 {
   display: flex;
-  padding: 23px;
-  margin: 3px;
-  color: #733358;
-  background: #411811;
-  border-radius: 0px;
+  padding: 9px;
+  margin: 2px;
+  color: #126809;
+  background: #376135;
+  border-radius: 4px;
 }
 
 .config-block-82 {
   display: flex;
-  padding: 19px;
-  margin: 0px;
-  color: #854412;
-  background: #929339;
+  padding: 21px;
+  margin: 9px;
+  color: #342602;
+  background: #767259;
+  border-radius: 0px;
+}
+
+.config-block-83 {
+  display: flex;
+  padding: 9px;
+  margin: 16px;
+  color: #561643;
+  background: #485057;
+  border-radius: 2px;
+}
+
+.config-block-84 {
+  display: flex;
+  padding: 13px;
+  margin: 10px;
+  color: #553873;
+  background: #408691;
+  border-radius: 7px;
+}
+
+.config-block-85 {
+  display: flex;
+  padding: 4px;
+  margin: 9px;
+  color: #967097;
+  background: #652093;
+  border-radius: 2px;
+}
+
+.config-block-86 {
+  display: flex;
+  padding: 6px;
+  margin: 8px;
+  color: #365040;
+  background: #809773;
+  border-radius: 5px;
+}
+
+.config-block-87 {
+  display: flex;
+  padding: 9px;
+  margin: 1px;
+  color: #786260;
+  background: #522268;
+  border-radius: 5px;
+}
+
+.config-block-88 {
+  display: flex;
+  padding: 4px;
+  margin: 10px;
+  color: #381209;
+  background: #754306;
+  border-radius: 1px;
+}
+
+.config-block-89 {
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  color: #573140;
+  background: #152522;
   border-radius: 8px;
+}
+
+.config-block-90 {
+  display: flex;
+  padding: 22px;
+  margin: 10px;
+  color: #199360;
+  background: #297077;
+  border-radius: 6px;
+}
+
+.config-block-91 {
+  display: flex;
+  padding: 17px;
+  margin: 1px;
+  color: #596564;
+  background: #691125;
+  border-radius: 1px;
+}
+
+.config-block-92 {
+  display: flex;
+  padding: 6px;
+  margin: 15px;
+  color: #438024;
+  background: #728779;
+  border-radius: 3px;
+}
+
+.config-block-93 {
+  display: flex;
+  padding: 16px;
+  margin: 7px;
+  color: #884336;
+  background: #317290;
+  border-radius: 5px;
+}
+
+.config-block-94 {
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+  color: #927347;
+  background: #941001;
+  border-radius: 8px;
+}
+
+.config-block-95 {
+  display: flex;
+  padding: 12px;
+  margin: 8px;
+  color: #837897;
+  background: #677785;
+  border-radius: 2px;
+}
+
+.config-block-96 {
+  display: flex;
+  padding: 7px;
+  margin: 1px;
+  color: #496597;
+  background: #741347;
+  border-radius: 0px;
+}
+
+.config-block-97 {
+  display: flex;
+  padding: 21px;
+  margin: 15px;
+  color: #285723;
+  background: #801238;
+  border-radius: 8px;
+}
+
+.config-block-98 {
+  display: flex;
+  padding: 10px;
+  margin: 4px;
+  color: #429017;
+  background: #846580;
+  border-radius: 8px;
+}
+
+.config-block-99 {
+  display: flex;
+  padding: 12px;
+  margin: 5px;
+  color: #304306;
+  background: #809184;
+  border-radius: 8px;
+}
+
+.config-block-100 {
+  display: flex;
+  padding: 16px;
+  margin: 11px;
+  color: #393920;
+  background: #950915;
+  border-radius: 0px;
+}
+
+.config-block-101 {
+  display: flex;
+  padding: 5px;
+  margin: 11px;
+  color: #150169;
+  background: #682068;
+  border-radius: 1px;
+}
+
+.config-block-102 {
+  display: flex;
+  padding: 21px;
+  margin: 10px;
+  color: #719120;
+  background: #308497;
+  border-radius: 2px;
+}
+
+.config-block-103 {
+  display: flex;
+  padding: 13px;
+  margin: 16px;
+  color: #896017;
+  background: #334614;
+  border-radius: 6px;
+}
+
+.config-block-104 {
+  display: flex;
+  padding: 15px;
+  margin: 12px;
+  color: #989541;
+  background: #414885;
+  border-radius: 4px;
+}
+
+.config-block-105 {
+  display: flex;
+  padding: 15px;
+  margin: 0px;
+  color: #880277;
+  background: #414433;
+  border-radius: 2px;
+}
+
+.config-block-106 {
+  display: flex;
+  padding: 16px;
+  margin: 7px;
+  color: #856404;
+  background: #503324;
+  border-radius: 8px;
+}
+
+.config-block-107 {
+  display: flex;
+  padding: 22px;
+  margin: 5px;
+  color: #343032;
+  background: #116767;
+  border-radius: 7px;
+}
+
+.config-block-108 {
+  display: flex;
+  padding: 5px;
+  margin: 16px;
+  color: #771940;
+  background: #418955;
+  border-radius: 3px;
+}
+
+.config-block-109 {
+  display: flex;
+  padding: 19px;
+  margin: 8px;
+  color: #964049;
+  background: #213018;
+  border-radius: 0px;
+}
+
+.config-block-110 {
+  display: flex;
+  padding: 12px;
+  margin: 9px;
+  color: #133432;
+  background: #379130;
+  border-radius: 5px;
+}
+
+.config-block-111 {
+  display: flex;
+  padding: 7px;
+  margin: 14px;
+  color: #521389;
+  background: #577567;
+  border-radius: 2px;
+}
+
+.config-block-112 {
+  display: flex;
+  padding: 7px;
+  margin: 7px;
+  color: #783759;
+  background: #301922;
+  border-radius: 3px;
+}
+
+.config-block-113 {
+  display: flex;
+  padding: 14px;
+  margin: 12px;
+  color: #183393;
+  background: #672448;
+  border-radius: 2px;
+}
+
+.config-block-114 {
+  display: flex;
+  padding: 22px;
+  margin: 10px;
+  color: #479795;
+  background: #869008;
+  border-radius: 4px;
+}
+
+.config-block-115 {
+  display: flex;
+  padding: 13px;
+  margin: 4px;
+  color: #213665;
+  background: #369100;
+  border-radius: 5px;
+}
+
+.config-block-116 {
+  display: flex;
+  padding: 15px;
+  margin: 9px;
+  color: #161185;
+  background: #414580;
+  border-radius: 7px;
+}
+
+.config-block-117 {
+  display: flex;
+  padding: 11px;
+  margin: 13px;
+  color: #239518;
+  background: #856816;
+  border-radius: 7px;
+}
+
+.config-block-118 {
+  display: flex;
+  padding: 6px;
+  margin: 10px;
+  color: #836504;
+  background: #580101;
+  border-radius: 1px;
+}
+
+.config-block-119 {
+  display: flex;
+  padding: 14px;
+  margin: 4px;
+  color: #790288;
+  background: #564950;
+  border-radius: 7px;
+}
+
+.config-block-120 {
+  display: flex;
+  padding: 19px;
+  margin: 5px;
+  color: #807810;
+  background: #976756;
+  border-radius: 3px;
+}
+
+.config-block-121 {
+  display: flex;
+  padding: 8px;
+  margin: 13px;
+  color: #784289;
+  background: #116663;
+  border-radius: 8px;
+}
+
+.config-block-122 {
+  display: flex;
+  padding: 22px;
+  margin: 0px;
+  color: #784387;
+  background: #634668;
+  border-radius: 3px;
+}
+
+.config-block-123 {
+  display: flex;
+  padding: 9px;
+  margin: 6px;
+  color: #413199;
+  background: #492264;
+  border-radius: 4px;
+}
+
+.config-block-124 {
+  display: flex;
+  padding: 24px;
+  margin: 9px;
+  color: #348275;
+  background: #221553;
+  border-radius: 7px;
+}
+
+.config-block-125 {
+  display: flex;
+  padding: 11px;
+  margin: 15px;
+  color: #771597;
+  background: #216199;
+  border-radius: 5px;
 }
