@@ -46,7 +46,6 @@ import { Store } from './store';
 
 - `method3_0()` — operation 1
 - `method3_1()` — operation 2
-- `method3_2()` — operation 3
 
 ## Section 4
 
@@ -61,6 +60,8 @@ import { Store } from './store';
 - `method4_0()` — operation 1
 - `method4_1()` — operation 2
 - `method4_2()` — operation 3
+- `method4_3()` — operation 4
+- `method4_4()` — operation 5
 
 ## Section 5
 
@@ -76,6 +77,7 @@ import { Store } from './store';
 - `method5_1()` — operation 2
 - `method5_2()` — operation 3
 - `method5_3()` — operation 4
+- `method5_4()` — operation 5
 
 ## Section 6
 
@@ -90,6 +92,8 @@ import { Store } from './store';
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
 - `method6_2()` — operation 3
+- `method6_3()` — operation 4
+- `method6_4()` — operation 5
 
 ## Section 7
 
@@ -117,6 +121,7 @@ import { Store } from './store';
 
 - `method8_0()` — operation 1
 - `method8_1()` — operation 2
+- `method8_2()` — operation 3
 
 ## Section 9
 
@@ -145,9 +150,6 @@ import { Store } from './store';
 
 - `method10_0()` — operation 1
 - `method10_1()` — operation 2
-- `method10_2()` — operation 3
-- `method10_3()` — operation 4
-- `method10_4()` — operation 5
 
 ## Section 11
 
@@ -163,7 +165,6 @@ import { Store } from './store';
 - `method11_1()` — operation 2
 - `method11_2()` — operation 3
 - `method11_3()` — operation 4
-- `method11_4()` — operation 5
 
 ## Section 12
 
@@ -177,6 +178,9 @@ import { Store } from './store';
 
 - `method12_0()` — operation 1
 - `method12_1()` — operation 2
+- `method12_2()` — operation 3
+- `method12_3()` — operation 4
+- `method12_4()` — operation 5
 
 ## Section 13
 
@@ -191,7 +195,6 @@ import { Store } from './store';
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
 - `method13_2()` — operation 3
-- `method13_3()` — operation 4
 
 ## Section 14
 
@@ -205,9 +208,6 @@ import { Store } from './store';
 
 - `method14_0()` — operation 1
 - `method14_1()` — operation 2
-- `method14_2()` — operation 3
-- `method14_3()` — operation 4
-- `method14_4()` — operation 5
 
 ## Section 15
 
@@ -222,8 +222,6 @@ import { Store } from './store';
 - `method15_0()` — operation 1
 - `method15_1()` — operation 2
 - `method15_2()` — operation 3
-- `method15_3()` — operation 4
-- `method15_4()` — operation 5
 
 ## Section 16
 
@@ -237,9 +235,6 @@ import { Store } from './store';
 
 - `method16_0()` — operation 1
 - `method16_1()` — operation 2
-- `method16_2()` — operation 3
-- `method16_3()` — operation 4
-- `method16_4()` — operation 5
 
 ## Section 17
 
@@ -253,6 +248,9 @@ import { Store } from './store';
 
 - `method17_0()` — operation 1
 - `method17_1()` — operation 2
+- `method17_2()` — operation 3
+- `method17_3()` — operation 4
+- `method17_4()` — operation 5
 
 ## Section 18
 
@@ -267,8 +265,6 @@ import { Store } from './store';
 - `method18_0()` — operation 1
 - `method18_1()` — operation 2
 - `method18_2()` — operation 3
-- `method18_3()` — operation 4
-- `method18_4()` — operation 5
 
 ## Section 19
 
@@ -283,7 +279,6 @@ import { Store } from './store';
 - `method19_0()` — operation 1
 - `method19_1()` — operation 2
 - `method19_2()` — operation 3
-- `method19_3()` — operation 4
 
 ## Section 20
 
@@ -297,8 +292,6 @@ import { Store } from './store';
 
 - `method20_0()` — operation 1
 - `method20_1()` — operation 2
-- `method20_2()` — operation 3
-- `method20_3()` — operation 4
 
 ## Section 21
 
@@ -313,6 +306,7 @@ import { Store } from './store';
 - `method21_0()` — operation 1
 - `method21_1()` — operation 2
 - `method21_2()` — operation 3
+- `method21_3()` — operation 4
 
 ## Section 22
 
@@ -328,7 +322,6 @@ import { Store } from './store';
 - `method22_1()` — operation 2
 - `method22_2()` — operation 3
 - `method22_3()` — operation 4
-- `method22_4()` — operation 5
 
 ## Section 23
 
@@ -343,6 +336,7 @@ import { Store } from './store';
 - `method23_0()` — operation 1
 - `method23_1()` — operation 2
 - `method23_2()` — operation 3
+- `method23_3()` — operation 4
 
 ## Section 24
 
@@ -401,6 +395,7 @@ import { Store } from './store';
 
 - `method27_0()` — operation 1
 - `method27_1()` — operation 2
+- `method27_2()` — operation 3
 
 ## Section 28
 
@@ -415,8 +410,6 @@ import { Store } from './store';
 - `method28_0()` — operation 1
 - `method28_1()` — operation 2
 - `method28_2()` — operation 3
-- `method28_3()` — operation 4
-- `method28_4()` — operation 5
 
 ## Section 29
 
@@ -445,7 +438,6 @@ import { Store } from './store';
 - `method30_0()` — operation 1
 - `method30_1()` — operation 2
 - `method30_2()` — operation 3
-- `method30_3()` — operation 4
 
 ## Section 31
 
@@ -459,7 +451,6 @@ import { Store } from './store';
 
 - `method31_0()` — operation 1
 - `method31_1()` — operation 2
-- `method31_2()` — operation 3
 
 ## Section 32
 
@@ -474,7 +465,6 @@ import { Store } from './store';
 - `method32_0()` — operation 1
 - `method32_1()` — operation 2
 - `method32_2()` — operation 3
-- `method32_3()` — operation 4
 
 ## Section 33
 
@@ -489,6 +479,7 @@ import { Store } from './store';
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
 - `method33_2()` — operation 3
+- `method33_3()` — operation 4
 
 ## Section 34
 
@@ -503,8 +494,6 @@ import { Store } from './store';
 - `method34_0()` — operation 1
 - `method34_1()` — operation 2
 - `method34_2()` — operation 3
-- `method34_3()` — operation 4
-- `method34_4()` — operation 5
 
 ## Section 35
 
@@ -520,7 +509,6 @@ import { Store } from './store';
 - `method35_1()` — operation 2
 - `method35_2()` — operation 3
 - `method35_3()` — operation 4
-- `method35_4()` — operation 5
 
 ## Section 36
 
@@ -536,6 +524,7 @@ import { Store } from './store';
 - `method36_1()` — operation 2
 - `method36_2()` — operation 3
 - `method36_3()` — operation 4
+- `method36_4()` — operation 5
 
 ## Section 37
 
@@ -551,7 +540,6 @@ import { Store } from './store';
 - `method37_1()` — operation 2
 - `method37_2()` — operation 3
 - `method37_3()` — operation 4
-- `method37_4()` — operation 5
 
 ## Section 38
 
@@ -581,6 +569,8 @@ import { Store } from './store';
 
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
+- `method39_2()` — operation 3
+- `method39_3()` — operation 4
 
 ## Section 40
 
@@ -595,6 +585,7 @@ import { Store } from './store';
 - `method40_0()` — operation 1
 - `method40_1()` — operation 2
 - `method40_2()` — operation 3
+- `method40_3()` — operation 4
 
 ## Section 41
 
@@ -608,8 +599,6 @@ import { Store } from './store';
 
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
-- `method41_2()` — operation 3
-- `method41_3()` — operation 4
 
 ## Section 42
 
@@ -624,8 +613,6 @@ import { Store } from './store';
 - `method42_0()` — operation 1
 - `method42_1()` — operation 2
 - `method42_2()` — operation 3
-- `method42_3()` — operation 4
-- `method42_4()` — operation 5
 
 ## Section 43
 
@@ -639,6 +626,8 @@ import { Store } from './store';
 
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
+- `method43_2()` — operation 3
+- `method43_3()` — operation 4
 
 ## Section 44
 
@@ -694,4 +683,514 @@ import { Store } from './store';
 
 - `method47_0()` — operation 1
 - `method47_1()` — operation 2
-- `method47_2()` — operation 3
+
+## Section 48
+
+Description for section 48 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method48_0()` — operation 1
+- `method48_1()` — operation 2
+- `method48_2()` — operation 3
+
+## Section 49
+
+Description for section 49 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method49_0()` — operation 1
+- `method49_1()` — operation 2
+
+## Section 50
+
+Description for section 50 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method50_0()` — operation 1
+- `method50_1()` — operation 2
+
+## Section 51
+
+Description for section 51 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method51_0()` — operation 1
+- `method51_1()` — operation 2
+- `method51_2()` — operation 3
+- `method51_3()` — operation 4
+- `method51_4()` — operation 5
+
+## Section 52
+
+Description for section 52 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method52_0()` — operation 1
+- `method52_1()` — operation 2
+- `method52_2()` — operation 3
+
+## Section 53
+
+Description for section 53 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method53_0()` — operation 1
+- `method53_1()` — operation 2
+- `method53_2()` — operation 3
+- `method53_3()` — operation 4
+
+## Section 54
+
+Description for section 54 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method54_0()` — operation 1
+- `method54_1()` — operation 2
+- `method54_2()` — operation 3
+- `method54_3()` — operation 4
+- `method54_4()` — operation 5
+
+## Section 55
+
+Description for section 55 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method55_0()` — operation 1
+- `method55_1()` — operation 2
+- `method55_2()` — operation 3
+- `method55_3()` — operation 4
+- `method55_4()` — operation 5
+
+## Section 56
+
+Description for section 56 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method56_0()` — operation 1
+- `method56_1()` — operation 2
+- `method56_2()` — operation 3
+- `method56_3()` — operation 4
+- `method56_4()` — operation 5
+
+## Section 57
+
+Description for section 57 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method57_0()` — operation 1
+- `method57_1()` — operation 2
+- `method57_2()` — operation 3
+- `method57_3()` — operation 4
+- `method57_4()` — operation 5
+
+## Section 58
+
+Description for section 58 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method58_0()` — operation 1
+- `method58_1()` — operation 2
+
+## Section 59
+
+Description for section 59 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method59_0()` — operation 1
+- `method59_1()` — operation 2
+- `method59_2()` — operation 3
+
+## Section 60
+
+Description for section 60 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method60_0()` — operation 1
+- `method60_1()` — operation 2
+- `method60_2()` — operation 3
+- `method60_3()` — operation 4
+- `method60_4()` — operation 5
+
+## Section 61
+
+Description for section 61 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method61_0()` — operation 1
+- `method61_1()` — operation 2
+- `method61_2()` — operation 3
+
+## Section 62
+
+Description for section 62 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method62_0()` — operation 1
+- `method62_1()` — operation 2
+- `method62_2()` — operation 3
+- `method62_3()` — operation 4
+- `method62_4()` — operation 5
+
+## Section 63
+
+Description for section 63 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method63_0()` — operation 1
+- `method63_1()` — operation 2
+
+## Section 64
+
+Description for section 64 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method64_0()` — operation 1
+- `method64_1()` — operation 2
+- `method64_2()` — operation 3
+- `method64_3()` — operation 4
+
+## Section 65
+
+Description for section 65 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method65_0()` — operation 1
+- `method65_1()` — operation 2
+- `method65_2()` — operation 3
+
+## Section 66
+
+Description for section 66 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method66_0()` — operation 1
+- `method66_1()` — operation 2
+- `method66_2()` — operation 3
+
+## Section 67
+
+Description for section 67 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method67_0()` — operation 1
+- `method67_1()` — operation 2
+- `method67_2()` — operation 3
+
+## Section 68
+
+Description for section 68 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method68_0()` — operation 1
+- `method68_1()` — operation 2
+- `method68_2()` — operation 3
+
+## Section 69
+
+Description for section 69 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method69_0()` — operation 1
+- `method69_1()` — operation 2
+- `method69_2()` — operation 3
+- `method69_3()` — operation 4
+- `method69_4()` — operation 5
+
+## Section 70
+
+Description for section 70 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method70_0()` — operation 1
+- `method70_1()` — operation 2
+- `method70_2()` — operation 3
+
+## Section 71
+
+Description for section 71 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method71_0()` — operation 1
+- `method71_1()` — operation 2
+- `method71_2()` — operation 3
+- `method71_3()` — operation 4
+
+## Section 72
+
+Description for section 72 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method72_0()` — operation 1
+- `method72_1()` — operation 2
+
+## Section 73
+
+Description for section 73 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method73_0()` — operation 1
+- `method73_1()` — operation 2
+- `method73_2()` — operation 3
+- `method73_3()` — operation 4
+- `method73_4()` — operation 5
+
+## Section 74
+
+Description for section 74 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method74_0()` — operation 1
+- `method74_1()` — operation 2
+- `method74_2()` — operation 3
+- `method74_3()` — operation 4
+- `method74_4()` — operation 5
+
+## Section 75
+
+Description for section 75 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method75_0()` — operation 1
+- `method75_1()` — operation 2
+- `method75_2()` — operation 3
+- `method75_3()` — operation 4
+
+## Section 76
+
+Description for section 76 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method76_0()` — operation 1
+- `method76_1()` — operation 2
+- `method76_2()` — operation 3
+
+## Section 77
+
+Description for section 77 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method77_0()` — operation 1
+- `method77_1()` — operation 2
+- `method77_2()` — operation 3
+- `method77_3()` — operation 4
+- `method77_4()` — operation 5
+
+## Section 78
+
+Description for section 78 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method78_0()` — operation 1
+- `method78_1()` — operation 2
+- `method78_2()` — operation 3
+
+## Section 79
+
+Description for section 79 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method79_0()` — operation 1
+- `method79_1()` — operation 2
+
+## Section 80
+
+Description for section 80 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method80_0()` — operation 1
+- `method80_1()` — operation 2
+
+## Section 81
+
+Description for section 81 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method81_0()` — operation 1
+- `method81_1()` — operation 2
+- `method81_2()` — operation 3
+- `method81_3()` — operation 4
+- `method81_4()` — operation 5
+
+## Section 82
+
+Description for section 82 of store (v2).
+
+```typescript
+import { Store } from './store';
+```
+
+### API
+
+- `method82_0()` — operation 1
+- `method82_1()` — operation 2
+- `method82_2()` — operation 3
