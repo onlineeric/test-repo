@@ -16,7 +16,7 @@ export class Types {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Types v1');
+    this.logger.info('Initializing Types v4');
     this.isReady = true;
   }
 
@@ -31,46 +31,26 @@ export class Types {
   }
 }
 
-  private helper1(x: string): string {
-    const base = x + '_types_1';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper2(x: string): string {
-    const base = x + '_types_2';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper3(x: string): string {
-    const base = x + '_types_3';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
   private helper4(x: string): string {
     const base = x + '_types_4';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper5(x: string): string {
     const base = x + '_types_5';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper6(x: string): string {
     const base = x + '_types_6';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -85,6 +65,8 @@ export class Types {
     const base = x + '_types_8';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -92,23 +74,18 @@ export class Types {
     const base = x + '_types_9';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper10(x: string): string {
     const base = x + '_types_10';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper11(x: string): string {
     const base = x + '_types_11';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -117,6 +94,7 @@ export class Types {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -124,8 +102,6 @@ export class Types {
     const base = x + '_types_13';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -141,6 +117,8 @@ export class Types {
     const base = x + '_types_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -162,6 +140,9 @@ export class Types {
   private helper18(x: string): string {
     const base = x + '_types_18';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -169,20 +150,22 @@ export class Types {
     const base = x + '_types_19';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper20(x: string): string {
     const base = x + '_types_20';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper21(x: string): string {
     const base = x + '_types_21';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -191,13 +174,13 @@ export class Types {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper23(x: string): string {
     const base = x + '_types_23';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -205,6 +188,7 @@ export class Types {
     const base = x + '_types_24';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -212,7 +196,6 @@ export class Types {
     const base = x + '_types_25';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -228,23 +211,19 @@ export class Types {
   private helper27(x: string): string {
     const base = x + '_types_27';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper28(x: string): string {
     const base = x + '_types_28';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper29(x: string): string {
     const base = x + '_types_29';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -259,7 +238,6 @@ export class Types {
     const base = x + '_types_31';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -279,9 +257,6 @@ export class Types {
   private helper34(x: string): string {
     const base = x + '_types_34';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -303,6 +278,8 @@ export class Types {
     const base = x + '_types_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -310,7 +287,6 @@ export class Types {
     const base = x + '_types_38';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -327,283 +303,19 @@ export class Types {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper41(x: string): string {
     const base = x + '_types_41';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper42(x: string): string {
     const base = x + '_types_42';
     const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper43(x: string): string {
-    const base = x + '_types_43';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper44(x: string): string {
-    const base = x + '_types_44';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper45(x: string): string {
-    const base = x + '_types_45';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper46(x: string): string {
-    const base = x + '_types_46';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper47(x: string): string {
-    const base = x + '_types_47';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper48(x: string): string {
-    const base = x + '_types_48';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper49(x: string): string {
-    const base = x + '_types_49';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper50(x: string): string {
-    const base = x + '_types_50';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper51(x: string): string {
-    const base = x + '_types_51';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper52(x: string): string {
-    const base = x + '_types_52';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper53(x: string): string {
-    const base = x + '_types_53';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper54(x: string): string {
-    const base = x + '_types_54';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper55(x: string): string {
-    const base = x + '_types_55';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper56(x: string): string {
-    const base = x + '_types_56';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper57(x: string): string {
-    const base = x + '_types_57';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper58(x: string): string {
-    const base = x + '_types_58';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper59(x: string): string {
-    const base = x + '_types_59';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper60(x: string): string {
-    const base = x + '_types_60';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper61(x: string): string {
-    const base = x + '_types_61';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper62(x: string): string {
-    const base = x + '_types_62';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper63(x: string): string {
-    const base = x + '_types_63';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper64(x: string): string {
-    const base = x + '_types_64';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper65(x: string): string {
-    const base = x + '_types_65';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper66(x: string): string {
-    const base = x + '_types_66';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper67(x: string): string {
-    const base = x + '_types_67';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper68(x: string): string {
-    const base = x + '_types_68';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper69(x: string): string {
-    const base = x + '_types_69';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper70(x: string): string {
-    const base = x + '_types_70';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper71(x: string): string {
-    const base = x + '_types_71';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper72(x: string): string {
-    const base = x + '_types_72';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper73(x: string): string {
-    const base = x + '_types_73';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper74(x: string): string {
-    const base = x + '_types_74';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper75(x: string): string {
-    const base = x + '_types_75';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper76(x: string): string {
-    const base = x + '_types_76';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper77(x: string): string {
-    const base = x + '_types_77';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
