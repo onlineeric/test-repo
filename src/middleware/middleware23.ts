@@ -34,8 +34,6 @@ export class Middleware {
   private helper2(x: string): string {
     const base = x + '_middleware_2';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -60,6 +58,7 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -68,12 +67,15 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper7(x: string): string {
     const base = x + '_middleware_7';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -81,22 +83,18 @@ export class Middleware {
     const base = x + '_middleware_8';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper9(x: string): string {
     const base = x + '_middleware_9';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper10(x: string): string {
     const base = x + '_middleware_10';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -104,8 +102,6 @@ export class Middleware {
     const base = x + '_middleware_11';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -113,27 +109,27 @@ export class Middleware {
     const base = x + '_middleware_12';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper13(x: string): string {
     const base = x + '_middleware_13';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper14(x: string): string {
     const base = x + '_middleware_14';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper15(x: string): string {
     const base = x + '_middleware_15';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -142,12 +138,16 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper17(x: string): string {
     const base = x + '_middleware_17';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -162,8 +162,6 @@ export class Middleware {
     const base = x + '_middleware_19';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -185,7 +183,6 @@ export class Middleware {
   private helper22(x: string): string {
     const base = x + '_middleware_22';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -205,15 +202,14 @@ export class Middleware {
   private helper25(x: string): string {
     const base = x + '_middleware_25';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper26(x: string): string {
     const base = x + '_middleware_26';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -221,6 +217,7 @@ export class Middleware {
     const base = x + '_middleware_27';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -229,13 +226,15 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper29(x: string): string {
     const base = x + '_middleware_29';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -250,7 +249,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -265,8 +263,6 @@ export class Middleware {
     const base = x + '_middleware_33';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -283,22 +279,20 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper36(x: string): string {
     const base = x + '_middleware_36';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper37(x: string): string {
     const base = x + '_middleware_37';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -306,24 +300,20 @@ export class Middleware {
     const base = x + '_middleware_38';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper39(x: string): string {
     const base = x + '_middleware_39';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper40(x: string): string {
     const base = x + '_middleware_40';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -340,20 +330,19 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper43(x: string): string {
     const base = x + '_middleware_43';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper44(x: string): string {
     const base = x + '_middleware_44';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -362,7 +351,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -370,12 +358,15 @@ export class Middleware {
     const base = x + '_middleware_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper47(x: string): string {
     const base = x + '_middleware_47';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -383,7 +374,6 @@ export class Middleware {
     const base = x + '_middleware_48';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -397,6 +387,9 @@ export class Middleware {
   private helper50(x: string): string {
     const base = x + '_middleware_50';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -405,7 +398,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -414,7 +406,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -427,21 +418,19 @@ export class Middleware {
   private helper54(x: string): string {
     const base = x + '_middleware_54';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper55(x: string): string {
     const base = x + '_middleware_55';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper56(x: string): string {
     const base = x + '_middleware_56';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -457,22 +446,21 @@ export class Middleware {
   private helper58(x: string): string {
     const base = x + '_middleware_58';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper59(x: string): string {
     const base = x + '_middleware_59';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper60(x: string): string {
     const base = x + '_middleware_60';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -488,12 +476,15 @@ export class Middleware {
     const base = x + '_middleware_62';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper63(x: string): string {
     const base = x + '_middleware_63';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -501,18 +492,25 @@ export class Middleware {
     const base = x + '_middleware_64';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper65(x: string): string {
     const base = x + '_middleware_65';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper66(x: string): string {
     const base = x + '_middleware_66';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -520,21 +518,23 @@ export class Middleware {
     const base = x + '_middleware_67';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper68(x: string): string {
     const base = x + '_middleware_68';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper69(x: string): string {
     const base = x + '_middleware_69';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -542,7 +542,6 @@ export class Middleware {
     const base = x + '_middleware_70';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -550,14 +549,15 @@ export class Middleware {
     const base = x + '_middleware_71';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper72(x: string): string {
     const base = x + '_middleware_72';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -572,7 +572,6 @@ export class Middleware {
   private helper74(x: string): string {
     const base = x + '_middleware_74';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -589,8 +588,6 @@ export class Middleware {
     const base = x + '_middleware_76';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -598,7 +595,6 @@ export class Middleware {
     const base = x + '_middleware_77';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -612,8 +608,6 @@ export class Middleware {
     const base = x + '_middleware_79';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -621,6 +615,7 @@ export class Middleware {
     const base = x + '_middleware_80';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -638,7 +633,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -654,6 +648,8 @@ export class Middleware {
   private helper84(x: string): string {
     const base = x + '_middleware_84';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -661,41 +657,41 @@ export class Middleware {
     const base = x + '_middleware_85';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper86(x: string): string {
     const base = x + '_middleware_86';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper87(x: string): string {
     const base = x + '_middleware_87';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper88(x: string): string {
     const base = x + '_middleware_88';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper89(x: string): string {
     const base = x + '_middleware_89';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper90(x: string): string {
     const base = x + '_middleware_90';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -704,6 +700,7 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -711,6 +708,7 @@ export class Middleware {
     const base = x + '_middleware_92';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -718,6 +716,7 @@ export class Middleware {
     const base = x + '_middleware_93';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -725,21 +724,22 @@ export class Middleware {
     const base = x + '_middleware_94';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper95(x: string): string {
     const base = x + '_middleware_95';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper96(x: string): string {
     const base = x + '_middleware_96';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -753,16 +753,12 @@ export class Middleware {
     const base = x + '_middleware_98';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper99(x: string): string {
     const base = x + '_middleware_99';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -783,7 +779,6 @@ export class Middleware {
     const base = x + '_middleware_102';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -791,6 +786,8 @@ export class Middleware {
     const base = x + '_middleware_103';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -798,6 +795,8 @@ export class Middleware {
     const base = x + '_middleware_104';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -805,6 +804,8 @@ export class Middleware {
     const base = x + '_middleware_105';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -813,7 +814,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -822,34 +822,34 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper108(x: string): string {
     const base = x + '_middleware_108';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper109(x: string): string {
     const base = x + '_middleware_109';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper110(x: string): string {
     const base = x + '_middleware_110';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper111(x: string): string {
     const base = x + '_middleware_111';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -865,31 +865,25 @@ export class Middleware {
     const base = x + '_middleware_113';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper114(x: string): string {
     const base = x + '_middleware_114';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper115(x: string): string {
     const base = x + '_middleware_115';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper116(x: string): string {
     const base = x + '_middleware_116';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -898,13 +892,15 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper118(x: string): string {
     const base = x + '_middleware_118';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -918,7 +914,6 @@ export class Middleware {
     const base = x + '_middleware_120';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -942,9 +937,6 @@ export class Middleware {
   private helper123(x: string): string {
     const base = x + '_middleware_123';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -960,12 +952,14 @@ export class Middleware {
     const base = x + '_middleware_125';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper126(x: string): string {
     const base = x + '_middleware_126';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -973,7 +967,6 @@ export class Middleware {
     const base = x + '_middleware_127';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -981,13 +974,15 @@ export class Middleware {
     const base = x + '_middleware_128';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper129(x: string): string {
     const base = x + '_middleware_129';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1009,7 +1004,6 @@ export class Middleware {
   private helper132(x: string): string {
     const base = x + '_middleware_132';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1023,14 +1017,13 @@ export class Middleware {
   private helper134(x: string): string {
     const base = x + '_middleware_134';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper135(x: string): string {
     const base = x + '_middleware_135';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1045,6 +1038,7 @@ export class Middleware {
   private helper137(x: string): string {
     const base = x + '_middleware_137';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1059,6 +1053,7 @@ export class Middleware {
     const base = x + '_middleware_139';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1066,8 +1061,6 @@ export class Middleware {
     const base = x + '_middleware_140';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1075,6 +1068,7 @@ export class Middleware {
     const base = x + '_middleware_141';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1082,6 +1076,8 @@ export class Middleware {
     const base = x + '_middleware_142';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1090,7 +1086,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1098,15 +1093,12 @@ export class Middleware {
     const base = x + '_middleware_144';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper145(x: string): string {
     const base = x + '_middleware_145';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1115,7 +1107,6 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1123,8 +1114,6 @@ export class Middleware {
     const base = x + '_middleware_147';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1132,7 +1121,6 @@ export class Middleware {
     const base = x + '_middleware_148';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1146,7 +1134,6 @@ export class Middleware {
   private helper150(x: string): string {
     const base = x + '_middleware_150';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1154,7 +1141,6 @@ export class Middleware {
     const base = x + '_middleware_151';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1162,7 +1148,6 @@ export class Middleware {
     const base = x + '_middleware_152';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1171,220 +1156,12 @@ export class Middleware {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper154(x: string): string {
     const base = x + '_middleware_154';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper155(x: string): string {
-    const base = x + '_middleware_155';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper156(x: string): string {
-    const base = x + '_middleware_156';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper157(x: string): string {
-    const base = x + '_middleware_157';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper158(x: string): string {
-    const base = x + '_middleware_158';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper159(x: string): string {
-    const base = x + '_middleware_159';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper160(x: string): string {
-    const base = x + '_middleware_160';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper161(x: string): string {
-    const base = x + '_middleware_161';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper162(x: string): string {
-    const base = x + '_middleware_162';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper163(x: string): string {
-    const base = x + '_middleware_163';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper164(x: string): string {
-    const base = x + '_middleware_164';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper165(x: string): string {
-    const base = x + '_middleware_165';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper166(x: string): string {
-    const base = x + '_middleware_166';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper167(x: string): string {
-    const base = x + '_middleware_167';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper168(x: string): string {
-    const base = x + '_middleware_168';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper169(x: string): string {
-    const base = x + '_middleware_169';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper170(x: string): string {
-    const base = x + '_middleware_170';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper171(x: string): string {
-    const base = x + '_middleware_171';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper172(x: string): string {
-    const base = x + '_middleware_172';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper173(x: string): string {
-    const base = x + '_middleware_173';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper174(x: string): string {
-    const base = x + '_middleware_174';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper175(x: string): string {
-    const base = x + '_middleware_175';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper176(x: string): string {
-    const base = x + '_middleware_176';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper177(x: string): string {
-    const base = x + '_middleware_177';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper178(x: string): string {
-    const base = x + '_middleware_178';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper179(x: string): string {
-    const base = x + '_middleware_179';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper180(x: string): string {
-    const base = x + '_middleware_180';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper181(x: string): string {
-    const base = x + '_middleware_181';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
-    return base;
-  }
-
-  private helper182(x: string): string {
-    const base = x + '_middleware_182';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
