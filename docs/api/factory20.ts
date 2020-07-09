@@ -16,7 +16,7 @@ export class Factory {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Factory v2');
+    this.logger.info('Initializing Factory v4');
     this.isReady = true;
   }
 
@@ -30,20 +30,6 @@ export class Factory {
     this.logger.info('Disposed Factory');
   }
 }
-
-  private helper2(x: string): string {
-    const base = x + '_factory_2';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper3(x: string): string {
-    const base = x + '_factory_3';
-    const s0 = base.slice(0);
-    return base;
-  }
 
   private helper4(x: string): string {
     const base = x + '_factory_4';
@@ -72,12 +58,16 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper8(x: string): string {
     const base = x + '_factory_8';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -85,6 +75,8 @@ export class Factory {
     const base = x + '_factory_9';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -92,8 +84,6 @@ export class Factory {
     const base = x + '_factory_10';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -108,8 +98,6 @@ export class Factory {
     const base = x + '_factory_12';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -117,7 +105,6 @@ export class Factory {
     const base = x + '_factory_13';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -125,12 +112,16 @@ export class Factory {
     const base = x + '_factory_14';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper15(x: string): string {
     const base = x + '_factory_15';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -138,6 +129,8 @@ export class Factory {
     const base = x + '_factory_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -145,14 +138,14 @@ export class Factory {
     const base = x + '_factory_17';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper18(x: string): string {
     const base = x + '_factory_18';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -171,9 +164,6 @@ export class Factory {
   private helper21(x: string): string {
     const base = x + '_factory_21';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -181,15 +171,14 @@ export class Factory {
     const base = x + '_factory_22';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper23(x: string): string {
     const base = x + '_factory_23';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -203,8 +192,6 @@ export class Factory {
   private helper25(x: string): string {
     const base = x + '_factory_25';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -212,7 +199,6 @@ export class Factory {
     const base = x + '_factory_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -221,12 +207,14 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper28(x: string): string {
     const base = x + '_factory_28';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -234,30 +222,26 @@ export class Factory {
     const base = x + '_factory_29';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper30(x: string): string {
     const base = x + '_factory_30';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper31(x: string): string {
     const base = x + '_factory_31';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper32(x: string): string {
     const base = x + '_factory_32';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -272,6 +256,8 @@ export class Factory {
   private helper34(x: string): string {
     const base = x + '_factory_34';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -279,14 +265,14 @@ export class Factory {
     const base = x + '_factory_35';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper36(x: string): string {
     const base = x + '_factory_36';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -308,6 +294,8 @@ export class Factory {
     const base = x + '_factory_39';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -315,8 +303,6 @@ export class Factory {
     const base = x + '_factory_40';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -339,6 +325,7 @@ export class Factory {
     const base = x + '_factory_43';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -359,6 +346,7 @@ export class Factory {
     const base = x + '_factory_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -374,7 +362,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -382,6 +369,7 @@ export class Factory {
     const base = x + '_factory_49';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -389,8 +377,6 @@ export class Factory {
     const base = x + '_factory_50';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -410,7 +396,6 @@ export class Factory {
   private helper53(x: string): string {
     const base = x + '_factory_53';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -418,12 +403,16 @@ export class Factory {
     const base = x + '_factory_54';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper55(x: string): string {
     const base = x + '_factory_55';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -432,6 +421,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -440,13 +430,13 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper58(x: string): string {
     const base = x + '_factory_58';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -455,15 +445,12 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper60(x: string): string {
     const base = x + '_factory_60';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -471,6 +458,8 @@ export class Factory {
     const base = x + '_factory_61';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -478,7 +467,6 @@ export class Factory {
     const base = x + '_factory_62';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -486,8 +474,6 @@ export class Factory {
     const base = x + '_factory_63';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -495,8 +481,6 @@ export class Factory {
     const base = x + '_factory_64';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -521,6 +505,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -528,16 +513,12 @@ export class Factory {
     const base = x + '_factory_68';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper69(x: string): string {
     const base = x + '_factory_69';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -564,12 +545,17 @@ export class Factory {
   private helper73(x: string): string {
     const base = x + '_factory_73';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper74(x: string): string {
     const base = x + '_factory_74';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -593,7 +579,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -601,6 +586,7 @@ export class Factory {
     const base = x + '_factory_78';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -608,6 +594,8 @@ export class Factory {
     const base = x + '_factory_79';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -621,6 +609,8 @@ export class Factory {
   private helper81(x: string): string {
     const base = x + '_factory_81';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -628,6 +618,8 @@ export class Factory {
     const base = x + '_factory_82';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -635,14 +627,14 @@ export class Factory {
     const base = x + '_factory_83';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper84(x: string): string {
     const base = x + '_factory_84';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -650,7 +642,6 @@ export class Factory {
     const base = x + '_factory_85';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -658,6 +649,7 @@ export class Factory {
     const base = x + '_factory_86';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -665,7 +657,6 @@ export class Factory {
     const base = x + '_factory_87';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -679,7 +670,6 @@ export class Factory {
     const base = x + '_factory_89';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -694,6 +684,8 @@ export class Factory {
     const base = x + '_factory_91';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -702,7 +694,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -710,6 +701,8 @@ export class Factory {
     const base = x + '_factory_93';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -718,6 +711,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -725,8 +719,6 @@ export class Factory {
     const base = x + '_factory_95';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -743,7 +735,6 @@ export class Factory {
     const base = x + '_factory_97';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -758,7 +749,6 @@ export class Factory {
     const base = x + '_factory_99';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -771,34 +761,39 @@ export class Factory {
   private helper101(x: string): string {
     const base = x + '_factory_101';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper102(x: string): string {
     const base = x + '_factory_102';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper103(x: string): string {
     const base = x + '_factory_103';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper104(x: string): string {
     const base = x + '_factory_104';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper105(x: string): string {
     const base = x + '_factory_105';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -812,12 +807,14 @@ export class Factory {
     const base = x + '_factory_107';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper108(x: string): string {
     const base = x + '_factory_108';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -826,7 +823,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -839,11 +835,19 @@ export class Factory {
   private helper111(x: string): string {
     const base = x + '_factory_111';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper112(x: string): string {
     const base = x + '_factory_112';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper113(x: string): string {
+    const base = x + '_factory_113';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -851,22 +855,21 @@ export class Factory {
     return base;
   }
 
-  private helper113(x: string): string {
-    const base = x + '_factory_113';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper114(x: string): string {
     const base = x + '_factory_114';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper115(x: string): string {
     const base = x + '_factory_115';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -874,13 +877,14 @@ export class Factory {
     const base = x + '_factory_116';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper117(x: string): string {
     const base = x + '_factory_117';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -889,6 +893,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -906,7 +911,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -919,6 +923,9 @@ export class Factory {
   private helper122(x: string): string {
     const base = x + '_factory_122';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -927,6 +934,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -940,6 +948,8 @@ export class Factory {
     const base = x + '_factory_125';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -953,6 +963,8 @@ export class Factory {
   private helper127(x: string): string {
     const base = x + '_factory_127';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -969,7 +981,6 @@ export class Factory {
     const base = x + '_factory_129';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -992,6 +1003,9 @@ export class Factory {
   private helper132(x: string): string {
     const base = x + '_factory_132';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1007,12 +1021,14 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper135(x: string): string {
     const base = x + '_factory_135';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1028,13 +1044,15 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper138(x: string): string {
     const base = x + '_factory_138';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1073,15 +1091,15 @@ export class Factory {
   private helper143(x: string): string {
     const base = x + '_factory_143';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper144(x: string): string {
     const base = x + '_factory_144';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1097,8 +1115,6 @@ export class Factory {
     const base = x + '_factory_146';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1106,13 +1122,14 @@ export class Factory {
     const base = x + '_factory_147';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper148(x: string): string {
     const base = x + '_factory_148';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1121,6 +1138,7 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1144,6 +1162,7 @@ export class Factory {
     const base = x + '_factory_152';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1157,37 +1176,31 @@ export class Factory {
     const base = x + '_factory_154';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper155(x: string): string {
     const base = x + '_factory_155';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper156(x: string): string {
     const base = x + '_factory_156';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper157(x: string): string {
     const base = x + '_factory_157';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper158(x: string): string {
     const base = x + '_factory_158';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1195,15 +1208,12 @@ export class Factory {
     const base = x + '_factory_159';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper160(x: string): string {
     const base = x + '_factory_160';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1212,12 +1222,14 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper162(x: string): string {
     const base = x + '_factory_162';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1231,26 +1243,18 @@ export class Factory {
     const base = x + '_factory_164';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper165(x: string): string {
     const base = x + '_factory_165';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper166(x: string): string {
     const base = x + '_factory_166';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1273,21 +1277,19 @@ export class Factory {
     const base = x + '_factory_169';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper170(x: string): string {
     const base = x + '_factory_170';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper171(x: string): string {
     const base = x + '_factory_171';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1295,6 +1297,8 @@ export class Factory {
     const base = x + '_factory_172';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1302,20 +1306,21 @@ export class Factory {
     const base = x + '_factory_173';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper174(x: string): string {
     const base = x + '_factory_174';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper175(x: string): string {
     const base = x + '_factory_175';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1323,7 +1328,6 @@ export class Factory {
     const base = x + '_factory_176';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1331,7 +1335,6 @@ export class Factory {
     const base = x + '_factory_177';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1356,6 +1359,8 @@ export class Factory {
   private helper180(x: string): string {
     const base = x + '_factory_180';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1363,8 +1368,6 @@ export class Factory {
     const base = x + '_factory_181';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1372,6 +1375,8 @@ export class Factory {
     const base = x + '_factory_182';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1380,7 +1385,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1389,7 +1393,6 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1398,14 +1401,13 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper186(x: string): string {
     const base = x + '_factory_186';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1413,13 +1415,14 @@ export class Factory {
     const base = x + '_factory_187';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper188(x: string): string {
     const base = x + '_factory_188';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1427,13 +1430,14 @@ export class Factory {
     const base = x + '_factory_189';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper190(x: string): string {
     const base = x + '_factory_190';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -1441,8 +1445,6 @@ export class Factory {
     const base = x + '_factory_191';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1457,9 +1459,6 @@ export class Factory {
   private helper193(x: string): string {
     const base = x + '_factory_193';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1483,6 +1482,8 @@ export class Factory {
     const base = x + '_factory_196';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1491,11 +1492,28 @@ export class Factory {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper198(x: string): string {
     const base = x + '_factory_198';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper199(x: string): string {
+    const base = x + '_factory_199';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper200(x: string): string {
+    const base = x + '_factory_200';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
