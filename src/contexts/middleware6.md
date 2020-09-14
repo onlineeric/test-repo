@@ -1,6 +1,6 @@
 # Middleware
 
-> Version 6
+> Version 7
 
 ## Overview
 
@@ -8,7 +8,7 @@ The `middleware` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of middleware (v6).
+Description for section 1 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -22,7 +22,7 @@ import { Middleware } from './middleware';
 
 ## Section 2
 
-Description for section 2 of middleware (v6).
+Description for section 2 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -36,7 +36,7 @@ import { Middleware } from './middleware';
 
 ## Section 3
 
-Description for section 3 of middleware (v6).
+Description for section 3 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -50,7 +50,7 @@ import { Middleware } from './middleware';
 
 ## Section 4
 
-Description for section 4 of middleware (v6).
+Description for section 4 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -60,10 +60,11 @@ import { Middleware } from './middleware';
 
 - `method4_0()` — operation 1
 - `method4_1()` — operation 2
+- `method4_2()` — operation 3
 
 ## Section 5
 
-Description for section 5 of middleware (v6).
+Description for section 5 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -73,12 +74,10 @@ import { Middleware } from './middleware';
 
 - `method5_0()` — operation 1
 - `method5_1()` — operation 2
-- `method5_2()` — operation 3
-- `method5_3()` — operation 4
 
 ## Section 6
 
-Description for section 6 of middleware (v6).
+Description for section 6 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -88,10 +87,13 @@ import { Middleware } from './middleware';
 
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
+- `method6_2()` — operation 3
+- `method6_3()` — operation 4
+- `method6_4()` — operation 5
 
 ## Section 7
 
-Description for section 7 of middleware (v6).
+Description for section 7 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -103,10 +105,11 @@ import { Middleware } from './middleware';
 - `method7_1()` — operation 2
 - `method7_2()` — operation 3
 - `method7_3()` — operation 4
+- `method7_4()` — operation 5
 
 ## Section 8
 
-Description for section 8 of middleware (v6).
+Description for section 8 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -116,12 +119,10 @@ import { Middleware } from './middleware';
 
 - `method8_0()` — operation 1
 - `method8_1()` — operation 2
-- `method8_2()` — operation 3
-- `method8_3()` — operation 4
 
 ## Section 9
 
-Description for section 9 of middleware (v6).
+Description for section 9 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -135,7 +136,7 @@ import { Middleware } from './middleware';
 
 ## Section 10
 
-Description for section 10 of middleware (v6).
+Description for section 10 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -146,10 +147,11 @@ import { Middleware } from './middleware';
 - `method10_0()` — operation 1
 - `method10_1()` — operation 2
 - `method10_2()` — operation 3
+- `method10_3()` — operation 4
 
 ## Section 11
 
-Description for section 11 of middleware (v6).
+Description for section 11 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -159,10 +161,13 @@ import { Middleware } from './middleware';
 
 - `method11_0()` — operation 1
 - `method11_1()` — operation 2
+- `method11_2()` — operation 3
+- `method11_3()` — operation 4
+- `method11_4()` — operation 5
 
 ## Section 12
 
-Description for section 12 of middleware (v6).
+Description for section 12 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -173,12 +178,10 @@ import { Middleware } from './middleware';
 - `method12_0()` — operation 1
 - `method12_1()` — operation 2
 - `method12_2()` — operation 3
-- `method12_3()` — operation 4
-- `method12_4()` — operation 5
 
 ## Section 13
 
-Description for section 13 of middleware (v6).
+Description for section 13 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -188,10 +191,12 @@ import { Middleware } from './middleware';
 
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
+- `method13_2()` — operation 3
+- `method13_3()` — operation 4
 
 ## Section 14
 
-Description for section 14 of middleware (v6).
+Description for section 14 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -202,11 +207,10 @@ import { Middleware } from './middleware';
 - `method14_0()` — operation 1
 - `method14_1()` — operation 2
 - `method14_2()` — operation 3
-- `method14_3()` — operation 4
 
 ## Section 15
 
-Description for section 15 of middleware (v6).
+Description for section 15 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -217,12 +221,10 @@ import { Middleware } from './middleware';
 - `method15_0()` — operation 1
 - `method15_1()` — operation 2
 - `method15_2()` — operation 3
-- `method15_3()` — operation 4
-- `method15_4()` — operation 5
 
 ## Section 16
 
-Description for section 16 of middleware (v6).
+Description for section 16 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -237,7 +239,7 @@ import { Middleware } from './middleware';
 
 ## Section 17
 
-Description for section 17 of middleware (v6).
+Description for section 17 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -252,7 +254,7 @@ import { Middleware } from './middleware';
 
 ## Section 18
 
-Description for section 18 of middleware (v6).
+Description for section 18 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -264,11 +266,10 @@ import { Middleware } from './middleware';
 - `method18_1()` — operation 2
 - `method18_2()` — operation 3
 - `method18_3()` — operation 4
-- `method18_4()` — operation 5
 
 ## Section 19
 
-Description for section 19 of middleware (v6).
+Description for section 19 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -280,10 +281,11 @@ import { Middleware } from './middleware';
 - `method19_1()` — operation 2
 - `method19_2()` — operation 3
 - `method19_3()` — operation 4
+- `method19_4()` — operation 5
 
 ## Section 20
 
-Description for section 20 of middleware (v6).
+Description for section 20 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -295,10 +297,11 @@ import { Middleware } from './middleware';
 - `method20_1()` — operation 2
 - `method20_2()` — operation 3
 - `method20_3()` — operation 4
+- `method20_4()` — operation 5
 
 ## Section 21
 
-Description for section 21 of middleware (v6).
+Description for section 21 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -308,11 +311,10 @@ import { Middleware } from './middleware';
 
 - `method21_0()` — operation 1
 - `method21_1()` — operation 2
-- `method21_2()` — operation 3
 
 ## Section 22
 
-Description for section 22 of middleware (v6).
+Description for section 22 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -326,7 +328,7 @@ import { Middleware } from './middleware';
 
 ## Section 23
 
-Description for section 23 of middleware (v6).
+Description for section 23 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -337,10 +339,12 @@ import { Middleware } from './middleware';
 - `method23_0()` — operation 1
 - `method23_1()` — operation 2
 - `method23_2()` — operation 3
+- `method23_3()` — operation 4
+- `method23_4()` — operation 5
 
 ## Section 24
 
-Description for section 24 of middleware (v6).
+Description for section 24 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -351,10 +355,12 @@ import { Middleware } from './middleware';
 - `method24_0()` — operation 1
 - `method24_1()` — operation 2
 - `method24_2()` — operation 3
+- `method24_3()` — operation 4
+- `method24_4()` — operation 5
 
 ## Section 25
 
-Description for section 25 of middleware (v6).
+Description for section 25 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -364,12 +370,10 @@ import { Middleware } from './middleware';
 
 - `method25_0()` — operation 1
 - `method25_1()` — operation 2
-- `method25_2()` — operation 3
-- `method25_3()` — operation 4
 
 ## Section 26
 
-Description for section 26 of middleware (v6).
+Description for section 26 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -380,11 +384,10 @@ import { Middleware } from './middleware';
 - `method26_0()` — operation 1
 - `method26_1()` — operation 2
 - `method26_2()` — operation 3
-- `method26_3()` — operation 4
 
 ## Section 27
 
-Description for section 27 of middleware (v6).
+Description for section 27 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -395,12 +398,10 @@ import { Middleware } from './middleware';
 - `method27_0()` — operation 1
 - `method27_1()` — operation 2
 - `method27_2()` — operation 3
-- `method27_3()` — operation 4
-- `method27_4()` — operation 5
 
 ## Section 28
 
-Description for section 28 of middleware (v6).
+Description for section 28 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -413,7 +414,7 @@ import { Middleware } from './middleware';
 
 ## Section 29
 
-Description for section 29 of middleware (v6).
+Description for section 29 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -425,11 +426,10 @@ import { Middleware } from './middleware';
 - `method29_1()` — operation 2
 - `method29_2()` — operation 3
 - `method29_3()` — operation 4
-- `method29_4()` — operation 5
 
 ## Section 30
 
-Description for section 30 of middleware (v6).
+Description for section 30 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -441,11 +441,10 @@ import { Middleware } from './middleware';
 - `method30_1()` — operation 2
 - `method30_2()` — operation 3
 - `method30_3()` — operation 4
-- `method30_4()` — operation 5
 
 ## Section 31
 
-Description for section 31 of middleware (v6).
+Description for section 31 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -459,7 +458,7 @@ import { Middleware } from './middleware';
 
 ## Section 32
 
-Description for section 32 of middleware (v6).
+Description for section 32 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -474,7 +473,7 @@ import { Middleware } from './middleware';
 
 ## Section 33
 
-Description for section 33 of middleware (v6).
+Description for section 33 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -485,12 +484,10 @@ import { Middleware } from './middleware';
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
 - `method33_2()` — operation 3
-- `method33_3()` — operation 4
-- `method33_4()` — operation 5
 
 ## Section 34
 
-Description for section 34 of middleware (v6).
+Description for section 34 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -500,10 +497,12 @@ import { Middleware } from './middleware';
 
 - `method34_0()` — operation 1
 - `method34_1()` — operation 2
+- `method34_2()` — operation 3
+- `method34_3()` — operation 4
 
 ## Section 35
 
-Description for section 35 of middleware (v6).
+Description for section 35 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -515,10 +514,11 @@ import { Middleware } from './middleware';
 - `method35_1()` — operation 2
 - `method35_2()` — operation 3
 - `method35_3()` — operation 4
+- `method35_4()` — operation 5
 
 ## Section 36
 
-Description for section 36 of middleware (v6).
+Description for section 36 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -528,12 +528,10 @@ import { Middleware } from './middleware';
 
 - `method36_0()` — operation 1
 - `method36_1()` — operation 2
-- `method36_2()` — operation 3
-- `method36_3()` — operation 4
 
 ## Section 37
 
-Description for section 37 of middleware (v6).
+Description for section 37 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -544,12 +542,10 @@ import { Middleware } from './middleware';
 - `method37_0()` — operation 1
 - `method37_1()` — operation 2
 - `method37_2()` — operation 3
-- `method37_3()` — operation 4
-- `method37_4()` — operation 5
 
 ## Section 38
 
-Description for section 38 of middleware (v6).
+Description for section 38 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -565,7 +561,7 @@ import { Middleware } from './middleware';
 
 ## Section 39
 
-Description for section 39 of middleware (v6).
+Description for section 39 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -580,7 +576,7 @@ import { Middleware } from './middleware';
 
 ## Section 40
 
-Description for section 40 of middleware (v6).
+Description for section 40 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -596,7 +592,7 @@ import { Middleware } from './middleware';
 
 ## Section 41
 
-Description for section 41 of middleware (v6).
+Description for section 41 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -607,10 +603,12 @@ import { Middleware } from './middleware';
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
 - `method41_2()` — operation 3
+- `method41_3()` — operation 4
+- `method41_4()` — operation 5
 
 ## Section 42
 
-Description for section 42 of middleware (v6).
+Description for section 42 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -620,10 +618,11 @@ import { Middleware } from './middleware';
 
 - `method42_0()` — operation 1
 - `method42_1()` — operation 2
+- `method42_2()` — operation 3
 
 ## Section 43
 
-Description for section 43 of middleware (v6).
+Description for section 43 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -634,12 +633,10 @@ import { Middleware } from './middleware';
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
 - `method43_2()` — operation 3
-- `method43_3()` — operation 4
-- `method43_4()` — operation 5
 
 ## Section 44
 
-Description for section 44 of middleware (v6).
+Description for section 44 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -649,10 +646,13 @@ import { Middleware } from './middleware';
 
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
+- `method44_2()` — operation 3
+- `method44_3()` — operation 4
+- `method44_4()` — operation 5
 
 ## Section 45
 
-Description for section 45 of middleware (v6).
+Description for section 45 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -662,10 +662,12 @@ import { Middleware } from './middleware';
 
 - `method45_0()` — operation 1
 - `method45_1()` — operation 2
+- `method45_2()` — operation 3
+- `method45_3()` — operation 4
 
 ## Section 46
 
-Description for section 46 of middleware (v6).
+Description for section 46 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -678,7 +680,7 @@ import { Middleware } from './middleware';
 
 ## Section 47
 
-Description for section 47 of middleware (v6).
+Description for section 47 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -693,7 +695,7 @@ import { Middleware } from './middleware';
 
 ## Section 48
 
-Description for section 48 of middleware (v6).
+Description for section 48 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -703,10 +705,13 @@ import { Middleware } from './middleware';
 
 - `method48_0()` — operation 1
 - `method48_1()` — operation 2
+- `method48_2()` — operation 3
+- `method48_3()` — operation 4
+- `method48_4()` — operation 5
 
 ## Section 49
 
-Description for section 49 of middleware (v6).
+Description for section 49 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -719,7 +724,7 @@ import { Middleware } from './middleware';
 
 ## Section 50
 
-Description for section 50 of middleware (v6).
+Description for section 50 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -732,7 +737,7 @@ import { Middleware } from './middleware';
 
 ## Section 51
 
-Description for section 51 of middleware (v6).
+Description for section 51 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -743,10 +748,11 @@ import { Middleware } from './middleware';
 - `method51_0()` — operation 1
 - `method51_1()` — operation 2
 - `method51_2()` — operation 3
+- `method51_3()` — operation 4
 
 ## Section 52
 
-Description for section 52 of middleware (v6).
+Description for section 52 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -762,7 +768,7 @@ import { Middleware } from './middleware';
 
 ## Section 53
 
-Description for section 53 of middleware (v6).
+Description for section 53 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -777,7 +783,7 @@ import { Middleware } from './middleware';
 
 ## Section 54
 
-Description for section 54 of middleware (v6).
+Description for section 54 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -789,11 +795,10 @@ import { Middleware } from './middleware';
 - `method54_1()` — operation 2
 - `method54_2()` — operation 3
 - `method54_3()` — operation 4
-- `method54_4()` — operation 5
 
 ## Section 55
 
-Description for section 55 of middleware (v6).
+Description for section 55 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -803,10 +808,11 @@ import { Middleware } from './middleware';
 
 - `method55_0()` — operation 1
 - `method55_1()` — operation 2
+- `method55_2()` — operation 3
 
 ## Section 56
 
-Description for section 56 of middleware (v6).
+Description for section 56 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -820,7 +826,7 @@ import { Middleware } from './middleware';
 
 ## Section 57
 
-Description for section 57 of middleware (v6).
+Description for section 57 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -830,11 +836,10 @@ import { Middleware } from './middleware';
 
 - `method57_0()` — operation 1
 - `method57_1()` — operation 2
-- `method57_2()` — operation 3
 
 ## Section 58
 
-Description for section 58 of middleware (v6).
+Description for section 58 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -845,12 +850,10 @@ import { Middleware } from './middleware';
 - `method58_0()` — operation 1
 - `method58_1()` — operation 2
 - `method58_2()` — operation 3
-- `method58_3()` — operation 4
-- `method58_4()` — operation 5
 
 ## Section 59
 
-Description for section 59 of middleware (v6).
+Description for section 59 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -860,10 +863,13 @@ import { Middleware } from './middleware';
 
 - `method59_0()` — operation 1
 - `method59_1()` — operation 2
+- `method59_2()` — operation 3
+- `method59_3()` — operation 4
+- `method59_4()` — operation 5
 
 ## Section 60
 
-Description for section 60 of middleware (v6).
+Description for section 60 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -874,10 +880,11 @@ import { Middleware } from './middleware';
 - `method60_0()` — operation 1
 - `method60_1()` — operation 2
 - `method60_2()` — operation 3
+- `method60_3()` — operation 4
 
 ## Section 61
 
-Description for section 61 of middleware (v6).
+Description for section 61 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -892,7 +899,7 @@ import { Middleware } from './middleware';
 
 ## Section 62
 
-Description for section 62 of middleware (v6).
+Description for section 62 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -902,10 +909,11 @@ import { Middleware } from './middleware';
 
 - `method62_0()` — operation 1
 - `method62_1()` — operation 2
+- `method62_2()` — operation 3
 
 ## Section 63
 
-Description for section 63 of middleware (v6).
+Description for section 63 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -915,11 +923,10 @@ import { Middleware } from './middleware';
 
 - `method63_0()` — operation 1
 - `method63_1()` — operation 2
-- `method63_2()` — operation 3
 
 ## Section 64
 
-Description for section 64 of middleware (v6).
+Description for section 64 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -929,10 +936,12 @@ import { Middleware } from './middleware';
 
 - `method64_0()` — operation 1
 - `method64_1()` — operation 2
+- `method64_2()` — operation 3
+- `method64_3()` — operation 4
 
 ## Section 65
 
-Description for section 65 of middleware (v6).
+Description for section 65 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -942,10 +951,12 @@ import { Middleware } from './middleware';
 
 - `method65_0()` — operation 1
 - `method65_1()` — operation 2
+- `method65_2()` — operation 3
+- `method65_3()` — operation 4
 
 ## Section 66
 
-Description for section 66 of middleware (v6).
+Description for section 66 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -956,11 +967,10 @@ import { Middleware } from './middleware';
 - `method66_0()` — operation 1
 - `method66_1()` — operation 2
 - `method66_2()` — operation 3
-- `method66_3()` — operation 4
 
 ## Section 67
 
-Description for section 67 of middleware (v6).
+Description for section 67 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -975,7 +985,7 @@ import { Middleware } from './middleware';
 
 ## Section 68
 
-Description for section 68 of middleware (v6).
+Description for section 68 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -985,10 +995,12 @@ import { Middleware } from './middleware';
 
 - `method68_0()` — operation 1
 - `method68_1()` — operation 2
+- `method68_2()` — operation 3
+- `method68_3()` — operation 4
 
 ## Section 69
 
-Description for section 69 of middleware (v6).
+Description for section 69 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -998,10 +1010,13 @@ import { Middleware } from './middleware';
 
 - `method69_0()` — operation 1
 - `method69_1()` — operation 2
+- `method69_2()` — operation 3
+- `method69_3()` — operation 4
+- `method69_4()` — operation 5
 
 ## Section 70
 
-Description for section 70 of middleware (v6).
+Description for section 70 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1013,10 +1028,11 @@ import { Middleware } from './middleware';
 - `method70_1()` — operation 2
 - `method70_2()` — operation 3
 - `method70_3()` — operation 4
+- `method70_4()` — operation 5
 
 ## Section 71
 
-Description for section 71 of middleware (v6).
+Description for section 71 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1026,12 +1042,10 @@ import { Middleware } from './middleware';
 
 - `method71_0()` — operation 1
 - `method71_1()` — operation 2
-- `method71_2()` — operation 3
-- `method71_3()` — operation 4
 
 ## Section 72
 
-Description for section 72 of middleware (v6).
+Description for section 72 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1042,10 +1056,11 @@ import { Middleware } from './middleware';
 - `method72_0()` — operation 1
 - `method72_1()` — operation 2
 - `method72_2()` — operation 3
+- `method72_3()` — operation 4
 
 ## Section 73
 
-Description for section 73 of middleware (v6).
+Description for section 73 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1056,11 +1071,10 @@ import { Middleware } from './middleware';
 - `method73_0()` — operation 1
 - `method73_1()` — operation 2
 - `method73_2()` — operation 3
-- `method73_3()` — operation 4
 
 ## Section 74
 
-Description for section 74 of middleware (v6).
+Description for section 74 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1070,10 +1084,12 @@ import { Middleware } from './middleware';
 
 - `method74_0()` — operation 1
 - `method74_1()` — operation 2
+- `method74_2()` — operation 3
+- `method74_3()` — operation 4
 
 ## Section 75
 
-Description for section 75 of middleware (v6).
+Description for section 75 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1087,7 +1103,7 @@ import { Middleware } from './middleware';
 
 ## Section 76
 
-Description for section 76 of middleware (v6).
+Description for section 76 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1103,7 +1119,7 @@ import { Middleware } from './middleware';
 
 ## Section 77
 
-Description for section 77 of middleware (v6).
+Description for section 77 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1113,12 +1129,10 @@ import { Middleware } from './middleware';
 
 - `method77_0()` — operation 1
 - `method77_1()` — operation 2
-- `method77_2()` — operation 3
-- `method77_3()` — operation 4
 
 ## Section 78
 
-Description for section 78 of middleware (v6).
+Description for section 78 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1128,10 +1142,12 @@ import { Middleware } from './middleware';
 
 - `method78_0()` — operation 1
 - `method78_1()` — operation 2
+- `method78_2()` — operation 3
+- `method78_3()` — operation 4
 
 ## Section 79
 
-Description for section 79 of middleware (v6).
+Description for section 79 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1147,7 +1163,7 @@ import { Middleware } from './middleware';
 
 ## Section 80
 
-Description for section 80 of middleware (v6).
+Description for section 80 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1158,11 +1174,10 @@ import { Middleware } from './middleware';
 - `method80_0()` — operation 1
 - `method80_1()` — operation 2
 - `method80_2()` — operation 3
-- `method80_3()` — operation 4
 
 ## Section 81
 
-Description for section 81 of middleware (v6).
+Description for section 81 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1173,10 +1188,12 @@ import { Middleware } from './middleware';
 - `method81_0()` — operation 1
 - `method81_1()` — operation 2
 - `method81_2()` — operation 3
+- `method81_3()` — operation 4
+- `method81_4()` — operation 5
 
 ## Section 82
 
-Description for section 82 of middleware (v6).
+Description for section 82 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1186,11 +1203,10 @@ import { Middleware } from './middleware';
 
 - `method82_0()` — operation 1
 - `method82_1()` — operation 2
-- `method82_2()` — operation 3
 
 ## Section 83
 
-Description for section 83 of middleware (v6).
+Description for section 83 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1205,7 +1221,7 @@ import { Middleware } from './middleware';
 
 ## Section 84
 
-Description for section 84 of middleware (v6).
+Description for section 84 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1215,10 +1231,12 @@ import { Middleware } from './middleware';
 
 - `method84_0()` — operation 1
 - `method84_1()` — operation 2
+- `method84_2()` — operation 3
+- `method84_3()` — operation 4
 
 ## Section 85
 
-Description for section 85 of middleware (v6).
+Description for section 85 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1233,7 +1251,7 @@ import { Middleware } from './middleware';
 
 ## Section 86
 
-Description for section 86 of middleware (v6).
+Description for section 86 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1248,7 +1266,7 @@ import { Middleware } from './middleware';
 
 ## Section 87
 
-Description for section 87 of middleware (v6).
+Description for section 87 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1262,7 +1280,7 @@ import { Middleware } from './middleware';
 
 ## Section 88
 
-Description for section 88 of middleware (v6).
+Description for section 88 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1272,13 +1290,10 @@ import { Middleware } from './middleware';
 
 - `method88_0()` — operation 1
 - `method88_1()` — operation 2
-- `method88_2()` — operation 3
-- `method88_3()` — operation 4
-- `method88_4()` — operation 5
 
 ## Section 89
 
-Description for section 89 of middleware (v6).
+Description for section 89 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1288,10 +1303,11 @@ import { Middleware } from './middleware';
 
 - `method89_0()` — operation 1
 - `method89_1()` — operation 2
+- `method89_2()` — operation 3
 
 ## Section 90
 
-Description for section 90 of middleware (v6).
+Description for section 90 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1301,12 +1317,10 @@ import { Middleware } from './middleware';
 
 - `method90_0()` — operation 1
 - `method90_1()` — operation 2
-- `method90_2()` — operation 3
-- `method90_3()` — operation 4
 
 ## Section 91
 
-Description for section 91 of middleware (v6).
+Description for section 91 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1316,10 +1330,12 @@ import { Middleware } from './middleware';
 
 - `method91_0()` — operation 1
 - `method91_1()` — operation 2
+- `method91_2()` — operation 3
+- `method91_3()` — operation 4
 
 ## Section 92
 
-Description for section 92 of middleware (v6).
+Description for section 92 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1329,10 +1345,12 @@ import { Middleware } from './middleware';
 
 - `method92_0()` — operation 1
 - `method92_1()` — operation 2
+- `method92_2()` — operation 3
+- `method92_3()` — operation 4
 
 ## Section 93
 
-Description for section 93 of middleware (v6).
+Description for section 93 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1342,10 +1360,12 @@ import { Middleware } from './middleware';
 
 - `method93_0()` — operation 1
 - `method93_1()` — operation 2
+- `method93_2()` — operation 3
+- `method93_3()` — operation 4
 
 ## Section 94
 
-Description for section 94 of middleware (v6).
+Description for section 94 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1355,11 +1375,10 @@ import { Middleware } from './middleware';
 
 - `method94_0()` — operation 1
 - `method94_1()` — operation 2
-- `method94_2()` — operation 3
 
 ## Section 95
 
-Description for section 95 of middleware (v6).
+Description for section 95 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1369,10 +1388,12 @@ import { Middleware } from './middleware';
 
 - `method95_0()` — operation 1
 - `method95_1()` — operation 2
+- `method95_2()` — operation 3
+- `method95_3()` — operation 4
 
 ## Section 96
 
-Description for section 96 of middleware (v6).
+Description for section 96 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1382,10 +1403,13 @@ import { Middleware } from './middleware';
 
 - `method96_0()` — operation 1
 - `method96_1()` — operation 2
+- `method96_2()` — operation 3
+- `method96_3()` — operation 4
+- `method96_4()` — operation 5
 
 ## Section 97
 
-Description for section 97 of middleware (v6).
+Description for section 97 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1398,7 +1422,7 @@ import { Middleware } from './middleware';
 
 ## Section 98
 
-Description for section 98 of middleware (v6).
+Description for section 98 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1410,10 +1434,11 @@ import { Middleware } from './middleware';
 - `method98_1()` — operation 2
 - `method98_2()` — operation 3
 - `method98_3()` — operation 4
+- `method98_4()` — operation 5
 
 ## Section 99
 
-Description for section 99 of middleware (v6).
+Description for section 99 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1423,10 +1448,12 @@ import { Middleware } from './middleware';
 
 - `method99_0()` — operation 1
 - `method99_1()` — operation 2
+- `method99_2()` — operation 3
+- `method99_3()` — operation 4
 
 ## Section 100
 
-Description for section 100 of middleware (v6).
+Description for section 100 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1437,12 +1464,10 @@ import { Middleware } from './middleware';
 - `method100_0()` — operation 1
 - `method100_1()` — operation 2
 - `method100_2()` — operation 3
-- `method100_3()` — operation 4
-- `method100_4()` — operation 5
 
 ## Section 101
 
-Description for section 101 of middleware (v6).
+Description for section 101 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1452,11 +1477,10 @@ import { Middleware } from './middleware';
 
 - `method101_0()` — operation 1
 - `method101_1()` — operation 2
-- `method101_2()` — operation 3
 
 ## Section 102
 
-Description for section 102 of middleware (v6).
+Description for section 102 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1466,10 +1490,13 @@ import { Middleware } from './middleware';
 
 - `method102_0()` — operation 1
 - `method102_1()` — operation 2
+- `method102_2()` — operation 3
+- `method102_3()` — operation 4
+- `method102_4()` — operation 5
 
 ## Section 103
 
-Description for section 103 of middleware (v6).
+Description for section 103 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1479,10 +1506,12 @@ import { Middleware } from './middleware';
 
 - `method103_0()` — operation 1
 - `method103_1()` — operation 2
+- `method103_2()` — operation 3
+- `method103_3()` — operation 4
 
 ## Section 104
 
-Description for section 104 of middleware (v6).
+Description for section 104 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1493,11 +1522,10 @@ import { Middleware } from './middleware';
 - `method104_0()` — operation 1
 - `method104_1()` — operation 2
 - `method104_2()` — operation 3
-- `method104_3()` — operation 4
 
 ## Section 105
 
-Description for section 105 of middleware (v6).
+Description for section 105 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1511,7 +1539,7 @@ import { Middleware } from './middleware';
 
 ## Section 106
 
-Description for section 106 of middleware (v6).
+Description for section 106 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1524,7 +1552,7 @@ import { Middleware } from './middleware';
 
 ## Section 107
 
-Description for section 107 of middleware (v6).
+Description for section 107 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1536,10 +1564,11 @@ import { Middleware } from './middleware';
 - `method107_1()` — operation 2
 - `method107_2()` — operation 3
 - `method107_3()` — operation 4
+- `method107_4()` — operation 5
 
 ## Section 108
 
-Description for section 108 of middleware (v6).
+Description for section 108 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1551,11 +1580,10 @@ import { Middleware } from './middleware';
 - `method108_1()` — operation 2
 - `method108_2()` — operation 3
 - `method108_3()` — operation 4
-- `method108_4()` — operation 5
 
 ## Section 109
 
-Description for section 109 of middleware (v6).
+Description for section 109 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1566,11 +1594,10 @@ import { Middleware } from './middleware';
 - `method109_0()` — operation 1
 - `method109_1()` — operation 2
 - `method109_2()` — operation 3
-- `method109_3()` — operation 4
 
 ## Section 110
 
-Description for section 110 of middleware (v6).
+Description for section 110 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1580,11 +1607,10 @@ import { Middleware } from './middleware';
 
 - `method110_0()` — operation 1
 - `method110_1()` — operation 2
-- `method110_2()` — operation 3
 
 ## Section 111
 
-Description for section 111 of middleware (v6).
+Description for section 111 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1595,12 +1621,10 @@ import { Middleware } from './middleware';
 - `method111_0()` — operation 1
 - `method111_1()` — operation 2
 - `method111_2()` — operation 3
-- `method111_3()` — operation 4
-- `method111_4()` — operation 5
 
 ## Section 112
 
-Description for section 112 of middleware (v6).
+Description for section 112 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1610,12 +1634,10 @@ import { Middleware } from './middleware';
 
 - `method112_0()` — operation 1
 - `method112_1()` — operation 2
-- `method112_2()` — operation 3
-- `method112_3()` — operation 4
 
 ## Section 113
 
-Description for section 113 of middleware (v6).
+Description for section 113 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1625,10 +1647,11 @@ import { Middleware } from './middleware';
 
 - `method113_0()` — operation 1
 - `method113_1()` — operation 2
+- `method113_2()` — operation 3
 
 ## Section 114
 
-Description for section 114 of middleware (v6).
+Description for section 114 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1638,12 +1661,10 @@ import { Middleware } from './middleware';
 
 - `method114_0()` — operation 1
 - `method114_1()` — operation 2
-- `method114_2()` — operation 3
-- `method114_3()` — operation 4
 
 ## Section 115
 
-Description for section 115 of middleware (v6).
+Description for section 115 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1653,10 +1674,13 @@ import { Middleware } from './middleware';
 
 - `method115_0()` — operation 1
 - `method115_1()` — operation 2
+- `method115_2()` — operation 3
+- `method115_3()` — operation 4
+- `method115_4()` — operation 5
 
 ## Section 116
 
-Description for section 116 of middleware (v6).
+Description for section 116 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1667,10 +1691,11 @@ import { Middleware } from './middleware';
 - `method116_0()` — operation 1
 - `method116_1()` — operation 2
 - `method116_2()` — operation 3
+- `method116_3()` — operation 4
 
 ## Section 117
 
-Description for section 117 of middleware (v6).
+Description for section 117 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1686,7 +1711,7 @@ import { Middleware } from './middleware';
 
 ## Section 118
 
-Description for section 118 of middleware (v6).
+Description for section 118 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1699,7 +1724,7 @@ import { Middleware } from './middleware';
 
 ## Section 119
 
-Description for section 119 of middleware (v6).
+Description for section 119 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1710,12 +1735,10 @@ import { Middleware } from './middleware';
 - `method119_0()` — operation 1
 - `method119_1()` — operation 2
 - `method119_2()` — operation 3
-- `method119_3()` — operation 4
-- `method119_4()` — operation 5
 
 ## Section 120
 
-Description for section 120 of middleware (v6).
+Description for section 120 of middleware (v7).
 
 ```typescript
 import { Middleware } from './middleware';
@@ -1725,187 +1748,3 @@ import { Middleware } from './middleware';
 
 - `method120_0()` — operation 1
 - `method120_1()` — operation 2
-- `method120_2()` — operation 3
-
-## Section 121
-
-Description for section 121 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method121_0()` — operation 1
-- `method121_1()` — operation 2
-
-## Section 122
-
-Description for section 122 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method122_0()` — operation 1
-- `method122_1()` — operation 2
-- `method122_2()` — operation 3
-
-## Section 123
-
-Description for section 123 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method123_0()` — operation 1
-- `method123_1()` — operation 2
-
-## Section 124
-
-Description for section 124 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method124_0()` — operation 1
-- `method124_1()` — operation 2
-- `method124_2()` — operation 3
-
-## Section 125
-
-Description for section 125 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method125_0()` — operation 1
-- `method125_1()` — operation 2
-
-## Section 126
-
-Description for section 126 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method126_0()` — operation 1
-- `method126_1()` — operation 2
-- `method126_2()` — operation 3
-- `method126_3()` — operation 4
-- `method126_4()` — operation 5
-
-## Section 127
-
-Description for section 127 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method127_0()` — operation 1
-- `method127_1()` — operation 2
-
-## Section 128
-
-Description for section 128 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method128_0()` — operation 1
-- `method128_1()` — operation 2
-
-## Section 129
-
-Description for section 129 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method129_0()` — operation 1
-- `method129_1()` — operation 2
-- `method129_2()` — operation 3
-- `method129_3()` — operation 4
-
-## Section 130
-
-Description for section 130 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method130_0()` — operation 1
-- `method130_1()` — operation 2
-- `method130_2()` — operation 3
-- `method130_3()` — operation 4
-
-## Section 131
-
-Description for section 131 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method131_0()` — operation 1
-- `method131_1()` — operation 2
-- `method131_2()` — operation 3
-- `method131_3()` — operation 4
-
-## Section 132
-
-Description for section 132 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method132_0()` — operation 1
-- `method132_1()` — operation 2
-- `method132_2()` — operation 3
-- `method132_3()` — operation 4
-
-## Section 133
-
-Description for section 133 of middleware (v6).
-
-```typescript
-import { Middleware } from './middleware';
-```
-
-### API
-
-- `method133_0()` — operation 1
-- `method133_1()` — operation 2
-- `method133_2()` — operation 3
