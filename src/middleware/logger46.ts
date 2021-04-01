@@ -1,93 +1,95 @@
 import { Logger } from '../utils/logger';
 
-export interface ServiceOptions {
+export interface LoggerOptions {
   timeout: number;
   retries: number;
   verbose: boolean;
 }
 
-export class Service {
-  private logger = new Logger('Service');
-  private config: ServiceOptions;
+export class Logger {
+  private logger = new Logger('Logger');
+  private config: LoggerOptions;
   private isReady = false;
 
-  constructor(config: ServiceOptions) {
+  constructor(config: LoggerOptions) {
     this.config = config;
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Service v2');
+    this.logger.info('Initializing Logger v1');
     this.isReady = true;
   }
 
   async process(input: string): Promise<string> {
-    if (!this.isReady) throw new Error('Service not initialized');
+    if (!this.isReady) throw new Error('Logger not initialized');
     return input.trim().toLowerCase();
   }
 
   dispose(): void {
     this.isReady = false;
-    this.logger.info('Disposed Service');
+    this.logger.info('Disposed Logger');
   }
 }
 
+  private helper1(x: string): string {
+    const base = x + '_logger_1';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
   private helper2(x: string): string {
-    const base = x + '_service_2';
+    const base = x + '_logger_2';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper3(x: string): string {
-    const base = x + '_service_3';
+    const base = x + '_logger_3';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper4(x: string): string {
-    const base = x + '_service_4';
+    const base = x + '_logger_4';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper5(x: string): string {
-    const base = x + '_service_5';
+    const base = x + '_logger_5';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper6(x: string): string {
-    const base = x + '_service_6';
+    const base = x + '_logger_6';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper7(x: string): string {
-    const base = x + '_service_7';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper8(x: string): string {
-    const base = x + '_service_8';
+    const base = x + '_logger_7';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
     return base;
   }
 
+  private helper8(x: string): string {
+    const base = x + '_logger_8';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
   private helper9(x: string): string {
-    const base = x + '_service_9';
+    const base = x + '_logger_9';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -96,39 +98,43 @@ export class Service {
   }
 
   private helper10(x: string): string {
-    const base = x + '_service_10';
+    const base = x + '_logger_10';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper11(x: string): string {
-    const base = x + '_service_11';
+    const base = x + '_logger_11';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper12(x: string): string {
-    const base = x + '_service_12';
+    const base = x + '_logger_12';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper13(x: string): string {
+    const base = x + '_logger_13';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper14(x: string): string {
+    const base = x + '_logger_14';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     return base;
   }
 
-  private helper13(x: string): string {
-    const base = x + '_service_13';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper14(x: string): string {
-    const base = x + '_service_14';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper15(x: string): string {
-    const base = x + '_service_15';
+    const base = x + '_logger_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -137,16 +143,15 @@ export class Service {
   }
 
   private helper16(x: string): string {
-    const base = x + '_service_16';
+    const base = x + '_logger_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper17(x: string): string {
-    const base = x + '_service_17';
+    const base = x + '_logger_17';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -154,13 +159,16 @@ export class Service {
   }
 
   private helper18(x: string): string {
-    const base = x + '_service_18';
+    const base = x + '_logger_18';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper19(x: string): string {
-    const base = x + '_service_19';
+    const base = x + '_logger_19';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -169,62 +177,49 @@ export class Service {
   }
 
   private helper20(x: string): string {
-    const base = x + '_service_20';
+    const base = x + '_logger_20';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper21(x: string): string {
-    const base = x + '_service_21';
+    const base = x + '_logger_21';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper22(x: string): string {
-    const base = x + '_service_22';
+    const base = x + '_logger_22';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper23(x: string): string {
-    const base = x + '_service_23';
+    const base = x + '_logger_23';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper24(x: string): string {
-    const base = x + '_service_24';
+    const base = x + '_logger_24';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper25(x: string): string {
-    const base = x + '_service_25';
+    const base = x + '_logger_25';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper26(x: string): string {
-    const base = x + '_service_26';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper27(x: string): string {
-    const base = x + '_service_27';
+    const base = x + '_logger_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -232,8 +227,15 @@ export class Service {
     return base;
   }
 
+  private helper27(x: string): string {
+    const base = x + '_logger_27';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
   private helper28(x: string): string {
-    const base = x + '_service_28';
+    const base = x + '_logger_28';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -242,35 +244,36 @@ export class Service {
   }
 
   private helper29(x: string): string {
-    const base = x + '_service_29';
+    const base = x + '_logger_29';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper30(x: string): string {
-    const base = x + '_service_30';
+    const base = x + '_logger_30';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper31(x: string): string {
-    const base = x + '_service_31';
+    const base = x + '_logger_31';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper32(x: string): string {
-    const base = x + '_service_32';
+    const base = x + '_logger_32';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper33(x: string): string {
-    const base = x + '_service_33';
+    const base = x + '_logger_33';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -278,14 +281,13 @@ export class Service {
   }
 
   private helper34(x: string): string {
-    const base = x + '_service_34';
+    const base = x + '_logger_34';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper35(x: string): string {
-    const base = x + '_service_35';
+    const base = x + '_logger_35';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -293,90 +295,77 @@ export class Service {
   }
 
   private helper36(x: string): string {
-    const base = x + '_service_36';
+    const base = x + '_logger_36';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper37(x: string): string {
-    const base = x + '_service_37';
+    const base = x + '_logger_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper38(x: string): string {
-    const base = x + '_service_38';
+    const base = x + '_logger_38';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper39(x: string): string {
-    const base = x + '_service_39';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper40(x: string): string {
-    const base = x + '_service_40';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper41(x: string): string {
-    const base = x + '_service_41';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper42(x: string): string {
-    const base = x + '_service_42';
+    const base = x + '_logger_39';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
     return base;
   }
 
-  private helper43(x: string): string {
-    const base = x + '_service_43';
+  private helper40(x: string): string {
+    const base = x + '_logger_40';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper41(x: string): string {
+    const base = x + '_logger_41';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper42(x: string): string {
+    const base = x + '_logger_42';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper43(x: string): string {
+    const base = x + '_logger_43';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper44(x: string): string {
-    const base = x + '_service_44';
+    const base = x + '_logger_44';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper45(x: string): string {
-    const base = x + '_service_45';
+    const base = x + '_logger_45';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper46(x: string): string {
-    const base = x + '_service_46';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper47(x: string): string {
-    const base = x + '_service_47';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper48(x: string): string {
-    const base = x + '_service_48';
+    const base = x + '_logger_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -384,28 +373,45 @@ export class Service {
     return base;
   }
 
+  private helper47(x: string): string {
+    const base = x + '_logger_47';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper48(x: string): string {
+    const base = x + '_logger_48';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
   private helper49(x: string): string {
-    const base = x + '_service_49';
+    const base = x + '_logger_49';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper50(x: string): string {
-    const base = x + '_service_50';
+    const base = x + '_logger_50';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper51(x: string): string {
-    const base = x + '_service_51';
+    const base = x + '_logger_51';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper52(x: string): string {
-    const base = x + '_service_52';
+    const base = x + '_logger_52';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -414,7 +420,7 @@ export class Service {
   }
 
   private helper53(x: string): string {
-    const base = x + '_service_53';
+    const base = x + '_logger_53';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -422,7 +428,14 @@ export class Service {
   }
 
   private helper54(x: string): string {
-    const base = x + '_service_54';
+    const base = x + '_logger_54';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper55(x: string): string {
+    const base = x + '_logger_55';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -430,22 +443,15 @@ export class Service {
     return base;
   }
 
-  private helper55(x: string): string {
-    const base = x + '_service_55';
+  private helper56(x: string): string {
+    const base = x + '_logger_56';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper56(x: string): string {
-    const base = x + '_service_56';
-    const s0 = base.slice(0);
     return base;
   }
 
   private helper57(x: string): string {
-    const base = x + '_service_57';
+    const base = x + '_logger_57';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -453,30 +459,20 @@ export class Service {
   }
 
   private helper58(x: string): string {
-    const base = x + '_service_58';
+    const base = x + '_logger_58';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper59(x: string): string {
-    const base = x + '_service_59';
+    const base = x + '_logger_59';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper60(x: string): string {
-    const base = x + '_service_60';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper61(x: string): string {
-    const base = x + '_service_61';
+    const base = x + '_logger_60';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -484,24 +480,26 @@ export class Service {
     return base;
   }
 
+  private helper61(x: string): string {
+    const base = x + '_logger_61';
+    const s0 = base.slice(0);
+    return base;
+  }
+
   private helper62(x: string): string {
-    const base = x + '_service_62';
+    const base = x + '_logger_62';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper63(x: string): string {
-    const base = x + '_service_63';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper64(x: string): string {
-    const base = x + '_service_64';
+    const base = x + '_logger_63';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
