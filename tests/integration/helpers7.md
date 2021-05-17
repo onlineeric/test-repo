@@ -1,6 +1,6 @@
 # Helpers
 
-> Version 1
+> Version 2
 
 ## Overview
 
@@ -8,7 +8,7 @@ The `helpers` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of helpers (v1).
+Description for section 1 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -18,10 +18,12 @@ import { Helpers } from './helpers';
 
 - `method1_0()` — operation 1
 - `method1_1()` — operation 2
+- `method1_2()` — operation 3
+- `method1_3()` — operation 4
 
 ## Section 2
 
-Description for section 2 of helpers (v1).
+Description for section 2 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -34,7 +36,7 @@ import { Helpers } from './helpers';
 
 ## Section 3
 
-Description for section 3 of helpers (v1).
+Description for section 3 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -49,7 +51,7 @@ import { Helpers } from './helpers';
 
 ## Section 4
 
-Description for section 4 of helpers (v1).
+Description for section 4 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -59,10 +61,13 @@ import { Helpers } from './helpers';
 
 - `method4_0()` — operation 1
 - `method4_1()` — operation 2
+- `method4_2()` — operation 3
+- `method4_3()` — operation 4
+- `method4_4()` — operation 5
 
 ## Section 5
 
-Description for section 5 of helpers (v1).
+Description for section 5 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -78,7 +83,7 @@ import { Helpers } from './helpers';
 
 ## Section 6
 
-Description for section 6 of helpers (v1).
+Description for section 6 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -88,12 +93,10 @@ import { Helpers } from './helpers';
 
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
-- `method6_2()` — operation 3
-- `method6_3()` — operation 4
 
 ## Section 7
 
-Description for section 7 of helpers (v1).
+Description for section 7 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -105,11 +108,10 @@ import { Helpers } from './helpers';
 - `method7_1()` — operation 2
 - `method7_2()` — operation 3
 - `method7_3()` — operation 4
-- `method7_4()` — operation 5
 
 ## Section 8
 
-Description for section 8 of helpers (v1).
+Description for section 8 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -121,11 +123,10 @@ import { Helpers } from './helpers';
 - `method8_1()` — operation 2
 - `method8_2()` — operation 3
 - `method8_3()` — operation 4
-- `method8_4()` — operation 5
 
 ## Section 9
 
-Description for section 9 of helpers (v1).
+Description for section 9 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -135,10 +136,11 @@ import { Helpers } from './helpers';
 
 - `method9_0()` — operation 1
 - `method9_1()` — operation 2
+- `method9_2()` — operation 3
 
 ## Section 10
 
-Description for section 10 of helpers (v1).
+Description for section 10 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -150,11 +152,10 @@ import { Helpers } from './helpers';
 - `method10_1()` — operation 2
 - `method10_2()` — operation 3
 - `method10_3()` — operation 4
-- `method10_4()` — operation 5
 
 ## Section 11
 
-Description for section 11 of helpers (v1).
+Description for section 11 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -164,12 +165,10 @@ import { Helpers } from './helpers';
 
 - `method11_0()` — operation 1
 - `method11_1()` — operation 2
-- `method11_2()` — operation 3
-- `method11_3()` — operation 4
 
 ## Section 12
 
-Description for section 12 of helpers (v1).
+Description for section 12 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -179,12 +178,10 @@ import { Helpers } from './helpers';
 
 - `method12_0()` — operation 1
 - `method12_1()` — operation 2
-- `method12_2()` — operation 3
-- `method12_3()` — operation 4
 
 ## Section 13
 
-Description for section 13 of helpers (v1).
+Description for section 13 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -195,10 +192,12 @@ import { Helpers } from './helpers';
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
 - `method13_2()` — operation 3
+- `method13_3()` — operation 4
+- `method13_4()` — operation 5
 
 ## Section 14
 
-Description for section 14 of helpers (v1).
+Description for section 14 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -214,7 +213,7 @@ import { Helpers } from './helpers';
 
 ## Section 15
 
-Description for section 15 of helpers (v1).
+Description for section 15 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -227,7 +226,7 @@ import { Helpers } from './helpers';
 
 ## Section 16
 
-Description for section 16 of helpers (v1).
+Description for section 16 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -239,10 +238,11 @@ import { Helpers } from './helpers';
 - `method16_1()` — operation 2
 - `method16_2()` — operation 3
 - `method16_3()` — operation 4
+- `method16_4()` — operation 5
 
 ## Section 17
 
-Description for section 17 of helpers (v1).
+Description for section 17 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -253,10 +253,12 @@ import { Helpers } from './helpers';
 - `method17_0()` — operation 1
 - `method17_1()` — operation 2
 - `method17_2()` — operation 3
+- `method17_3()` — operation 4
+- `method17_4()` — operation 5
 
 ## Section 18
 
-Description for section 18 of helpers (v1).
+Description for section 18 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -267,11 +269,10 @@ import { Helpers } from './helpers';
 - `method18_0()` — operation 1
 - `method18_1()` — operation 2
 - `method18_2()` — operation 3
-- `method18_3()` — operation 4
 
 ## Section 19
 
-Description for section 19 of helpers (v1).
+Description for section 19 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -281,10 +282,13 @@ import { Helpers } from './helpers';
 
 - `method19_0()` — operation 1
 - `method19_1()` — operation 2
+- `method19_2()` — operation 3
+- `method19_3()` — operation 4
+- `method19_4()` — operation 5
 
 ## Section 20
 
-Description for section 20 of helpers (v1).
+Description for section 20 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -294,12 +298,10 @@ import { Helpers } from './helpers';
 
 - `method20_0()` — operation 1
 - `method20_1()` — operation 2
-- `method20_2()` — operation 3
-- `method20_3()` — operation 4
 
 ## Section 21
 
-Description for section 21 of helpers (v1).
+Description for section 21 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -309,11 +311,10 @@ import { Helpers } from './helpers';
 
 - `method21_0()` — operation 1
 - `method21_1()` — operation 2
-- `method21_2()` — operation 3
 
 ## Section 22
 
-Description for section 22 of helpers (v1).
+Description for section 22 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -323,11 +324,10 @@ import { Helpers } from './helpers';
 
 - `method22_0()` — operation 1
 - `method22_1()` — operation 2
-- `method22_2()` — operation 3
 
 ## Section 23
 
-Description for section 23 of helpers (v1).
+Description for section 23 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -337,10 +337,13 @@ import { Helpers } from './helpers';
 
 - `method23_0()` — operation 1
 - `method23_1()` — operation 2
+- `method23_2()` — operation 3
+- `method23_3()` — operation 4
+- `method23_4()` — operation 5
 
 ## Section 24
 
-Description for section 24 of helpers (v1).
+Description for section 24 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -351,12 +354,10 @@ import { Helpers } from './helpers';
 - `method24_0()` — operation 1
 - `method24_1()` — operation 2
 - `method24_2()` — operation 3
-- `method24_3()` — operation 4
-- `method24_4()` — operation 5
 
 ## Section 25
 
-Description for section 25 of helpers (v1).
+Description for section 25 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -367,10 +368,11 @@ import { Helpers } from './helpers';
 - `method25_0()` — operation 1
 - `method25_1()` — operation 2
 - `method25_2()` — operation 3
+- `method25_3()` — operation 4
 
 ## Section 26
 
-Description for section 26 of helpers (v1).
+Description for section 26 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -381,10 +383,11 @@ import { Helpers } from './helpers';
 - `method26_0()` — operation 1
 - `method26_1()` — operation 2
 - `method26_2()` — operation 3
+- `method26_3()` — operation 4
 
 ## Section 27
 
-Description for section 27 of helpers (v1).
+Description for section 27 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -400,7 +403,7 @@ import { Helpers } from './helpers';
 
 ## Section 28
 
-Description for section 28 of helpers (v1).
+Description for section 28 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -410,10 +413,11 @@ import { Helpers } from './helpers';
 
 - `method28_0()` — operation 1
 - `method28_1()` — operation 2
+- `method28_2()` — operation 3
 
 ## Section 29
 
-Description for section 29 of helpers (v1).
+Description for section 29 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -429,7 +433,7 @@ import { Helpers } from './helpers';
 
 ## Section 30
 
-Description for section 30 of helpers (v1).
+Description for section 30 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -442,7 +446,7 @@ import { Helpers } from './helpers';
 
 ## Section 31
 
-Description for section 31 of helpers (v1).
+Description for section 31 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -452,11 +456,10 @@ import { Helpers } from './helpers';
 
 - `method31_0()` — operation 1
 - `method31_1()` — operation 2
-- `method31_2()` — operation 3
 
 ## Section 32
 
-Description for section 32 of helpers (v1).
+Description for section 32 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -467,10 +470,12 @@ import { Helpers } from './helpers';
 - `method32_0()` — operation 1
 - `method32_1()` — operation 2
 - `method32_2()` — operation 3
+- `method32_3()` — operation 4
+- `method32_4()` — operation 5
 
 ## Section 33
 
-Description for section 33 of helpers (v1).
+Description for section 33 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -482,10 +487,11 @@ import { Helpers } from './helpers';
 - `method33_1()` — operation 2
 - `method33_2()` — operation 3
 - `method33_3()` — operation 4
+- `method33_4()` — operation 5
 
 ## Section 34
 
-Description for section 34 of helpers (v1).
+Description for section 34 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -495,10 +501,13 @@ import { Helpers } from './helpers';
 
 - `method34_0()` — operation 1
 - `method34_1()` — operation 2
+- `method34_2()` — operation 3
+- `method34_3()` — operation 4
+- `method34_4()` — operation 5
 
 ## Section 35
 
-Description for section 35 of helpers (v1).
+Description for section 35 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -509,10 +518,11 @@ import { Helpers } from './helpers';
 - `method35_0()` — operation 1
 - `method35_1()` — operation 2
 - `method35_2()` — operation 3
+- `method35_3()` — operation 4
 
 ## Section 36
 
-Description for section 36 of helpers (v1).
+Description for section 36 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -522,13 +532,10 @@ import { Helpers } from './helpers';
 
 - `method36_0()` — operation 1
 - `method36_1()` — operation 2
-- `method36_2()` — operation 3
-- `method36_3()` — operation 4
-- `method36_4()` — operation 5
 
 ## Section 37
 
-Description for section 37 of helpers (v1).
+Description for section 37 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -538,11 +545,10 @@ import { Helpers } from './helpers';
 
 - `method37_0()` — operation 1
 - `method37_1()` — operation 2
-- `method37_2()` — operation 3
 
 ## Section 38
 
-Description for section 38 of helpers (v1).
+Description for section 38 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -553,11 +559,10 @@ import { Helpers } from './helpers';
 - `method38_0()` — operation 1
 - `method38_1()` — operation 2
 - `method38_2()` — operation 3
-- `method38_3()` — operation 4
 
 ## Section 39
 
-Description for section 39 of helpers (v1).
+Description for section 39 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -568,12 +573,10 @@ import { Helpers } from './helpers';
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
 - `method39_2()` — operation 3
-- `method39_3()` — operation 4
-- `method39_4()` — operation 5
 
 ## Section 40
 
-Description for section 40 of helpers (v1).
+Description for section 40 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -583,10 +586,13 @@ import { Helpers } from './helpers';
 
 - `method40_0()` — operation 1
 - `method40_1()` — operation 2
+- `method40_2()` — operation 3
+- `method40_3()` — operation 4
+- `method40_4()` — operation 5
 
 ## Section 41
 
-Description for section 41 of helpers (v1).
+Description for section 41 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -596,10 +602,13 @@ import { Helpers } from './helpers';
 
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
+- `method41_2()` — operation 3
+- `method41_3()` — operation 4
+- `method41_4()` — operation 5
 
 ## Section 42
 
-Description for section 42 of helpers (v1).
+Description for section 42 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -612,7 +621,7 @@ import { Helpers } from './helpers';
 
 ## Section 43
 
-Description for section 43 of helpers (v1).
+Description for section 43 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -622,11 +631,10 @@ import { Helpers } from './helpers';
 
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
-- `method43_2()` — operation 3
 
 ## Section 44
 
-Description for section 44 of helpers (v1).
+Description for section 44 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -636,11 +644,10 @@ import { Helpers } from './helpers';
 
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
-- `method44_2()` — operation 3
 
 ## Section 45
 
-Description for section 45 of helpers (v1).
+Description for section 45 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -653,7 +660,7 @@ import { Helpers } from './helpers';
 
 ## Section 46
 
-Description for section 46 of helpers (v1).
+Description for section 46 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -664,10 +671,11 @@ import { Helpers } from './helpers';
 - `method46_0()` — operation 1
 - `method46_1()` — operation 2
 - `method46_2()` — operation 3
+- `method46_3()` — operation 4
 
 ## Section 47
 
-Description for section 47 of helpers (v1).
+Description for section 47 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -677,13 +685,10 @@ import { Helpers } from './helpers';
 
 - `method47_0()` — operation 1
 - `method47_1()` — operation 2
-- `method47_2()` — operation 3
-- `method47_3()` — operation 4
-- `method47_4()` — operation 5
 
 ## Section 48
 
-Description for section 48 of helpers (v1).
+Description for section 48 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -693,10 +698,11 @@ import { Helpers } from './helpers';
 
 - `method48_0()` — operation 1
 - `method48_1()` — operation 2
+- `method48_2()` — operation 3
 
 ## Section 49
 
-Description for section 49 of helpers (v1).
+Description for section 49 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -707,10 +713,11 @@ import { Helpers } from './helpers';
 - `method49_0()` — operation 1
 - `method49_1()` — operation 2
 - `method49_2()` — operation 3
+- `method49_3()` — operation 4
 
 ## Section 50
 
-Description for section 50 of helpers (v1).
+Description for section 50 of helpers (v2).
 
 ```typescript
 import { Helpers } from './helpers';
@@ -720,3 +727,75 @@ import { Helpers } from './helpers';
 
 - `method50_0()` — operation 1
 - `method50_1()` — operation 2
+- `method50_2()` — operation 3
+
+## Section 51
+
+Description for section 51 of helpers (v2).
+
+```typescript
+import { Helpers } from './helpers';
+```
+
+### API
+
+- `method51_0()` — operation 1
+- `method51_1()` — operation 2
+
+## Section 52
+
+Description for section 52 of helpers (v2).
+
+```typescript
+import { Helpers } from './helpers';
+```
+
+### API
+
+- `method52_0()` — operation 1
+- `method52_1()` — operation 2
+
+## Section 53
+
+Description for section 53 of helpers (v2).
+
+```typescript
+import { Helpers } from './helpers';
+```
+
+### API
+
+- `method53_0()` — operation 1
+- `method53_1()` — operation 2
+- `method53_2()` — operation 3
+
+## Section 54
+
+Description for section 54 of helpers (v2).
+
+```typescript
+import { Helpers } from './helpers';
+```
+
+### API
+
+- `method54_0()` — operation 1
+- `method54_1()` — operation 2
+- `method54_2()` — operation 3
+- `method54_3()` — operation 4
+
+## Section 55
+
+Description for section 55 of helpers (v2).
+
+```typescript
+import { Helpers } from './helpers';
+```
+
+### API
+
+- `method55_0()` — operation 1
+- `method55_1()` — operation 2
+- `method55_2()` — operation 3
+- `method55_3()` — operation 4
+- `method55_4()` — operation 5
