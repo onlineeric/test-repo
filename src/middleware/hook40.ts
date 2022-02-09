@@ -16,7 +16,7 @@ export class Hook {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Hook v2');
+    this.logger.info('Initializing Hook v3');
     this.isReady = true;
   }
 
@@ -31,17 +31,10 @@ export class Hook {
   }
 }
 
-  private helper2(x: string): string {
-    const base = x + '_hook_2';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper3(x: string): string {
     const base = x + '_hook_3';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -54,9 +47,6 @@ export class Hook {
   private helper5(x: string): string {
     const base = x + '_hook_5';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -70,6 +60,9 @@ export class Hook {
   private helper7(x: string): string {
     const base = x + '_hook_7';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -77,7 +70,6 @@ export class Hook {
     const base = x + '_hook_8';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -85,16 +77,12 @@ export class Hook {
     const base = x + '_hook_9';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper10(x: string): string {
     const base = x + '_hook_10';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -102,8 +90,6 @@ export class Hook {
     const base = x + '_hook_11';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -112,19 +98,22 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper13(x: string): string {
     const base = x + '_hook_13';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper14(x: string): string {
     const base = x + '_hook_14';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -132,8 +121,6 @@ export class Hook {
     const base = x + '_hook_15';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -141,8 +128,6 @@ export class Hook {
     const base = x + '_hook_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -156,6 +141,8 @@ export class Hook {
     const base = x + '_hook_18';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -163,18 +150,23 @@ export class Hook {
     const base = x + '_hook_19';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper20(x: string): string {
     const base = x + '_hook_20';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper21(x: string): string {
     const base = x + '_hook_21';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -195,15 +187,12 @@ export class Hook {
     const base = x + '_hook_24';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper25(x: string): string {
     const base = x + '_hook_25';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -211,8 +200,6 @@ export class Hook {
     const base = x + '_hook_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -237,26 +224,32 @@ export class Hook {
     const base = x + '_hook_29';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper30(x: string): string {
     const base = x + '_hook_30';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper31(x: string): string {
     const base = x + '_hook_31';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper32(x: string): string {
     const base = x + '_hook_32';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -265,7 +258,6 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -273,7 +265,6 @@ export class Hook {
     const base = x + '_hook_34';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -281,6 +272,8 @@ export class Hook {
     const base = x + '_hook_35';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -296,6 +289,7 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -303,15 +297,13 @@ export class Hook {
     const base = x + '_hook_38';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper39(x: string): string {
     const base = x + '_hook_39';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -319,34 +311,39 @@ export class Hook {
     const base = x + '_hook_40';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper41(x: string): string {
     const base = x + '_hook_41';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper42(x: string): string {
     const base = x + '_hook_42';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper43(x: string): string {
     const base = x + '_hook_43';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper44(x: string): string {
     const base = x + '_hook_44';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -355,6 +352,7 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -362,8 +360,6 @@ export class Hook {
     const base = x + '_hook_46';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -371,6 +367,8 @@ export class Hook {
     const base = x + '_hook_47';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -378,7 +376,6 @@ export class Hook {
     const base = x + '_hook_48';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -386,33 +383,24 @@ export class Hook {
     const base = x + '_hook_49';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper50(x: string): string {
     const base = x + '_hook_50';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper51(x: string): string {
     const base = x + '_hook_51';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper52(x: string): string {
     const base = x + '_hook_52';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -420,13 +408,14 @@ export class Hook {
     const base = x + '_hook_53';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper54(x: string): string {
     const base = x + '_hook_54';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -434,8 +423,6 @@ export class Hook {
     const base = x + '_hook_55';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -444,6 +431,7 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -452,6 +440,7 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -459,6 +448,8 @@ export class Hook {
     const base = x + '_hook_58';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -480,15 +471,12 @@ export class Hook {
   private helper61(x: string): string {
     const base = x + '_hook_61';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper62(x: string): string {
     const base = x + '_hook_62';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -504,7 +492,6 @@ export class Hook {
   private helper64(x: string): string {
     const base = x + '_hook_64';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -520,6 +507,8 @@ export class Hook {
     const base = x + '_hook_66';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -528,11 +517,175 @@ export class Hook {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper68(x: string): string {
     const base = x + '_hook_68';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper69(x: string): string {
+    const base = x + '_hook_69';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper70(x: string): string {
+    const base = x + '_hook_70';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper71(x: string): string {
+    const base = x + '_hook_71';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper72(x: string): string {
+    const base = x + '_hook_72';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper73(x: string): string {
+    const base = x + '_hook_73';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper74(x: string): string {
+    const base = x + '_hook_74';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper75(x: string): string {
+    const base = x + '_hook_75';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper76(x: string): string {
+    const base = x + '_hook_76';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper77(x: string): string {
+    const base = x + '_hook_77';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper78(x: string): string {
+    const base = x + '_hook_78';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper79(x: string): string {
+    const base = x + '_hook_79';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper80(x: string): string {
+    const base = x + '_hook_80';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper81(x: string): string {
+    const base = x + '_hook_81';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper82(x: string): string {
+    const base = x + '_hook_82';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper83(x: string): string {
+    const base = x + '_hook_83';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper84(x: string): string {
+    const base = x + '_hook_84';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper85(x: string): string {
+    const base = x + '_hook_85';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper86(x: string): string {
+    const base = x + '_hook_86';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper87(x: string): string {
+    const base = x + '_hook_87';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper88(x: string): string {
+    const base = x + '_hook_88';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper89(x: string): string {
+    const base = x + '_hook_89';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
