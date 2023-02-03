@@ -1,17 +1,17 @@
-# Provider
+# Middleware
 
-> Version 4
+> Version 3
 
 ## Overview
 
-The `provider` module provides core functionality.
+The `middleware` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of provider (v4).
+Description for section 1 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -19,41 +19,44 @@ import { Provider } from './provider';
 - `method1_0()` — operation 1
 - `method1_1()` — operation 2
 - `method1_2()` — operation 3
+- `method1_3()` — operation 4
+- `method1_4()` — operation 5
 
 ## Section 2
 
-Description for section 2 of provider (v4).
+Description for section 2 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method2_0()` — operation 1
 - `method2_1()` — operation 2
-- `method2_2()` — operation 3
-- `method2_3()` — operation 4
 
 ## Section 3
 
-Description for section 3 of provider (v4).
+Description for section 3 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method3_0()` — operation 1
 - `method3_1()` — operation 2
+- `method3_2()` — operation 3
+- `method3_3()` — operation 4
+- `method3_4()` — operation 5
 
 ## Section 4
 
-Description for section 4 of provider (v4).
+Description for section 4 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -62,42 +65,40 @@ import { Provider } from './provider';
 - `method4_1()` — operation 2
 - `method4_2()` — operation 3
 - `method4_3()` — operation 4
+- `method4_4()` — operation 5
 
 ## Section 5
 
-Description for section 5 of provider (v4).
+Description for section 5 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method5_0()` — operation 1
 - `method5_1()` — operation 2
-- `method5_2()` — operation 3
-- `method5_3()` — operation 4
 
 ## Section 6
 
-Description for section 6 of provider (v4).
+Description for section 6 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
-- `method6_2()` — operation 3
 
 ## Section 7
 
-Description for section 7 of provider (v4).
+Description for section 7 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -110,10 +111,10 @@ import { Provider } from './provider';
 
 ## Section 8
 
-Description for section 8 of provider (v4).
+Description for section 8 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -124,10 +125,10 @@ import { Provider } from './provider';
 
 ## Section 9
 
-Description for section 9 of provider (v4).
+Description for section 9 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -138,10 +139,10 @@ import { Provider } from './provider';
 
 ## Section 10
 
-Description for section 10 of provider (v4).
+Description for section 10 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -150,29 +151,26 @@ import { Provider } from './provider';
 - `method10_1()` — operation 2
 - `method10_2()` — operation 3
 - `method10_3()` — operation 4
-- `method10_4()` — operation 5
 
 ## Section 11
 
-Description for section 11 of provider (v4).
+Description for section 11 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method11_0()` — operation 1
 - `method11_1()` — operation 2
-- `method11_2()` — operation 3
-- `method11_3()` — operation 4
 
 ## Section 12
 
-Description for section 12 of provider (v4).
+Description for section 12 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -184,37 +182,38 @@ import { Provider } from './provider';
 
 ## Section 13
 
-Description for section 13 of provider (v4).
+Description for section 13 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method13_0()` — operation 1
 - `method13_1()` — operation 2
-- `method13_2()` — operation 3
 
 ## Section 14
 
-Description for section 14 of provider (v4).
+Description for section 14 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method14_0()` — operation 1
 - `method14_1()` — operation 2
+- `method14_2()` — operation 3
+- `method14_3()` — operation 4
 
 ## Section 15
 
-Description for section 15 of provider (v4).
+Description for section 15 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -223,27 +222,27 @@ import { Provider } from './provider';
 - `method15_1()` — operation 2
 - `method15_2()` — operation 3
 - `method15_3()` — operation 4
+- `method15_4()` — operation 5
 
 ## Section 16
 
-Description for section 16 of provider (v4).
+Description for section 16 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method16_0()` — operation 1
 - `method16_1()` — operation 2
-- `method16_2()` — operation 3
 
 ## Section 17
 
-Description for section 17 of provider (v4).
+Description for section 17 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -254,10 +253,10 @@ import { Provider } from './provider';
 
 ## Section 18
 
-Description for section 18 of provider (v4).
+Description for section 18 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -270,10 +269,10 @@ import { Provider } from './provider';
 
 ## Section 19
 
-Description for section 19 of provider (v4).
+Description for section 19 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -282,26 +281,28 @@ import { Provider } from './provider';
 - `method19_1()` — operation 2
 - `method19_2()` — operation 3
 - `method19_3()` — operation 4
+- `method19_4()` — operation 5
 
 ## Section 20
 
-Description for section 20 of provider (v4).
+Description for section 20 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method20_0()` — operation 1
 - `method20_1()` — operation 2
+- `method20_2()` — operation 3
 
 ## Section 21
 
-Description for section 21 of provider (v4).
+Description for section 21 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -309,14 +310,13 @@ import { Provider } from './provider';
 - `method21_0()` — operation 1
 - `method21_1()` — operation 2
 - `method21_2()` — operation 3
-- `method21_3()` — operation 4
 
 ## Section 22
 
-Description for section 22 of provider (v4).
+Description for section 22 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -325,14 +325,13 @@ import { Provider } from './provider';
 - `method22_1()` — operation 2
 - `method22_2()` — operation 3
 - `method22_3()` — operation 4
-- `method22_4()` — operation 5
 
 ## Section 23
 
-Description for section 23 of provider (v4).
+Description for section 23 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -340,15 +339,13 @@ import { Provider } from './provider';
 - `method23_0()` — operation 1
 - `method23_1()` — operation 2
 - `method23_2()` — operation 3
-- `method23_3()` — operation 4
-- `method23_4()` — operation 5
 
 ## Section 24
 
-Description for section 24 of provider (v4).
+Description for section 24 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -361,10 +358,10 @@ import { Provider } from './provider';
 
 ## Section 25
 
-Description for section 25 of provider (v4).
+Description for section 25 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -374,10 +371,10 @@ import { Provider } from './provider';
 
 ## Section 26
 
-Description for section 26 of provider (v4).
+Description for section 26 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -386,26 +383,30 @@ import { Provider } from './provider';
 - `method26_1()` — operation 2
 - `method26_2()` — operation 3
 - `method26_3()` — operation 4
+- `method26_4()` — operation 5
 
 ## Section 27
 
-Description for section 27 of provider (v4).
+Description for section 27 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method27_0()` — operation 1
 - `method27_1()` — operation 2
+- `method27_2()` — operation 3
+- `method27_3()` — operation 4
+- `method27_4()` — operation 5
 
 ## Section 28
 
-Description for section 28 of provider (v4).
+Description for section 28 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -418,10 +419,10 @@ import { Provider } from './provider';
 
 ## Section 29
 
-Description for section 29 of provider (v4).
+Description for section 29 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -432,10 +433,10 @@ import { Provider } from './provider';
 
 ## Section 30
 
-Description for section 30 of provider (v4).
+Description for section 30 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -448,10 +449,10 @@ import { Provider } from './provider';
 
 ## Section 31
 
-Description for section 31 of provider (v4).
+Description for section 31 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -460,14 +461,13 @@ import { Provider } from './provider';
 - `method31_1()` — operation 2
 - `method31_2()` — operation 3
 - `method31_3()` — operation 4
-- `method31_4()` — operation 5
 
 ## Section 32
 
-Description for section 32 of provider (v4).
+Description for section 32 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -475,15 +475,13 @@ import { Provider } from './provider';
 - `method32_0()` — operation 1
 - `method32_1()` — operation 2
 - `method32_2()` — operation 3
-- `method32_3()` — operation 4
-- `method32_4()` — operation 5
 
 ## Section 33
 
-Description for section 33 of provider (v4).
+Description for section 33 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -491,13 +489,15 @@ import { Provider } from './provider';
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
 - `method33_2()` — operation 3
+- `method33_3()` — operation 4
+- `method33_4()` — operation 5
 
 ## Section 34
 
-Description for section 34 of provider (v4).
+Description for section 34 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -508,23 +508,25 @@ import { Provider } from './provider';
 
 ## Section 35
 
-Description for section 35 of provider (v4).
+Description for section 35 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method35_0()` — operation 1
 - `method35_1()` — operation 2
+- `method35_2()` — operation 3
+- `method35_3()` — operation 4
 
 ## Section 36
 
-Description for section 36 of provider (v4).
+Description for section 36 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -533,14 +535,13 @@ import { Provider } from './provider';
 - `method36_1()` — operation 2
 - `method36_2()` — operation 3
 - `method36_3()` — operation 4
-- `method36_4()` — operation 5
 
 ## Section 37
 
-Description for section 37 of provider (v4).
+Description for section 37 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -549,13 +550,14 @@ import { Provider } from './provider';
 - `method37_1()` — operation 2
 - `method37_2()` — operation 3
 - `method37_3()` — operation 4
+- `method37_4()` — operation 5
 
 ## Section 38
 
-Description for section 38 of provider (v4).
+Description for section 38 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -566,26 +568,23 @@ import { Provider } from './provider';
 
 ## Section 39
 
-Description for section 39 of provider (v4).
+Description for section 39 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
 
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
-- `method39_2()` — operation 3
-- `method39_3()` — operation 4
-- `method39_4()` — operation 5
 
 ## Section 40
 
-Description for section 40 of provider (v4).
+Description for section 40 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -593,15 +592,13 @@ import { Provider } from './provider';
 - `method40_0()` — operation 1
 - `method40_1()` — operation 2
 - `method40_2()` — operation 3
-- `method40_3()` — operation 4
-- `method40_4()` — operation 5
 
 ## Section 41
 
-Description for section 41 of provider (v4).
+Description for section 41 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -611,10 +608,10 @@ import { Provider } from './provider';
 
 ## Section 42
 
-Description for section 42 of provider (v4).
+Description for section 42 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -625,10 +622,10 @@ import { Provider } from './provider';
 
 ## Section 43
 
-Description for section 43 of provider (v4).
+Description for section 43 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -636,15 +633,13 @@ import { Provider } from './provider';
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
 - `method43_2()` — operation 3
-- `method43_3()` — operation 4
-- `method43_4()` — operation 5
 
 ## Section 44
 
-Description for section 44 of provider (v4).
+Description for section 44 of middleware (v3).
 
 ```typescript
-import { Provider } from './provider';
+import { Middleware } from './middleware';
 ```
 
 ### API
@@ -652,4 +647,95 @@ import { Provider } from './provider';
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
 - `method44_2()` — operation 3
-- `method44_3()` — operation 4
+
+## Section 45
+
+Description for section 45 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method45_0()` — operation 1
+- `method45_1()` — operation 2
+- `method45_2()` — operation 3
+- `method45_3()` — operation 4
+- `method45_4()` — operation 5
+
+## Section 46
+
+Description for section 46 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method46_0()` — operation 1
+- `method46_1()` — operation 2
+- `method46_2()` — operation 3
+- `method46_3()` — operation 4
+
+## Section 47
+
+Description for section 47 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method47_0()` — operation 1
+- `method47_1()` — operation 2
+- `method47_2()` — operation 3
+- `method47_3()` — operation 4
+
+## Section 48
+
+Description for section 48 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method48_0()` — operation 1
+- `method48_1()` — operation 2
+- `method48_2()` — operation 3
+- `method48_3()` — operation 4
+
+## Section 49
+
+Description for section 49 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method49_0()` — operation 1
+- `method49_1()` — operation 2
+- `method49_2()` — operation 3
+- `method49_3()` — operation 4
+
+## Section 50
+
+Description for section 50 of middleware (v3).
+
+```typescript
+import { Middleware } from './middleware';
+```
+
+### API
+
+- `method50_0()` — operation 1
+- `method50_1()` — operation 2
+- `method50_2()` — operation 3
+- `method50_3()` — operation 4
+- `method50_4()` — operation 5
