@@ -1,0 +1,838 @@
+/* validator styles v1 */
+
+.validator-block-1 {
+  display: flex;
+  padding: 15px;
+  margin: 7px;
+  color: #765810;
+  background: #591752;
+  border-radius: 6px;
+}
+
+.validator-block-2 {
+  display: flex;
+  padding: 15px;
+  margin: 14px;
+  color: #146947;
+  background: #843738;
+  border-radius: 4px;
+}
+
+.validator-block-3 {
+  display: flex;
+  padding: 22px;
+  margin: 3px;
+  color: #336580;
+  background: #998929;
+  border-radius: 2px;
+}
+
+.validator-block-4 {
+  display: flex;
+  padding: 17px;
+  margin: 4px;
+  color: #233524;
+  background: #472722;
+  border-radius: 0px;
+}
+
+.validator-block-5 {
+  display: flex;
+  padding: 19px;
+  margin: 3px;
+  color: #325857;
+  background: #924086;
+  border-radius: 5px;
+}
+
+.validator-block-6 {
+  display: flex;
+  padding: 17px;
+  margin: 14px;
+  color: #341800;
+  background: #912132;
+  border-radius: 5px;
+}
+
+.validator-block-7 {
+  display: flex;
+  padding: 15px;
+  margin: 13px;
+  color: #844575;
+  background: #938575;
+  border-radius: 7px;
+}
+
+.validator-block-8 {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  color: #936385;
+  background: #990317;
+  border-radius: 2px;
+}
+
+.validator-block-9 {
+  display: flex;
+  padding: 12px;
+  margin: 9px;
+  color: #603545;
+  background: #388125;
+  border-radius: 8px;
+}
+
+.validator-block-10 {
+  display: flex;
+  padding: 4px;
+  margin: 16px;
+  color: #912947;
+  background: #679024;
+  border-radius: 1px;
+}
+
+.validator-block-11 {
+  display: flex;
+  padding: 22px;
+  margin: 1px;
+  color: #947811;
+  background: #929174;
+  border-radius: 8px;
+}
+
+.validator-block-12 {
+  display: flex;
+  padding: 15px;
+  margin: 11px;
+  color: #941869;
+  background: #407403;
+  border-radius: 4px;
+}
+
+.validator-block-13 {
+  display: flex;
+  padding: 18px;
+  margin: 7px;
+  color: #358340;
+  background: #264865;
+  border-radius: 4px;
+}
+
+.validator-block-14 {
+  display: flex;
+  padding: 22px;
+  margin: 14px;
+  color: #840314;
+  background: #897498;
+  border-radius: 6px;
+}
+
+.validator-block-15 {
+  display: flex;
+  padding: 14px;
+  margin: 14px;
+  color: #397587;
+  background: #319290;
+  border-radius: 4px;
+}
+
+.validator-block-16 {
+  display: flex;
+  padding: 5px;
+  margin: 1px;
+  color: #714577;
+  background: #734752;
+  border-radius: 3px;
+}
+
+.validator-block-17 {
+  display: flex;
+  padding: 19px;
+  margin: 6px;
+  color: #521253;
+  background: #433971;
+  border-radius: 1px;
+}
+
+.validator-block-18 {
+  display: flex;
+  padding: 24px;
+  margin: 7px;
+  color: #674133;
+  background: #310212;
+  border-radius: 8px;
+}
+
+.validator-block-19 {
+  display: flex;
+  padding: 22px;
+  margin: 12px;
+  color: #709514;
+  background: #523029;
+  border-radius: 6px;
+}
+
+.validator-block-20 {
+  display: flex;
+  padding: 10px;
+  margin: 16px;
+  color: #697741;
+  background: #448166;
+  border-radius: 3px;
+}
+
+.validator-block-21 {
+  display: flex;
+  padding: 17px;
+  margin: 16px;
+  color: #718386;
+  background: #389189;
+  border-radius: 3px;
+}
+
+.validator-block-22 {
+  display: flex;
+  padding: 14px;
+  margin: 1px;
+  color: #636781;
+  background: #645155;
+  border-radius: 3px;
+}
+
+.validator-block-23 {
+  display: flex;
+  padding: 4px;
+  margin: 10px;
+  color: #196870;
+  background: #838040;
+  border-radius: 2px;
+}
+
+.validator-block-24 {
+  display: flex;
+  padding: 6px;
+  margin: 4px;
+  color: #327813;
+  background: #324907;
+  border-radius: 6px;
+}
+
+.validator-block-25 {
+  display: flex;
+  padding: 11px;
+  margin: 7px;
+  color: #889489;
+  background: #339010;
+  border-radius: 8px;
+}
+
+.validator-block-26 {
+  display: flex;
+  padding: 24px;
+  margin: 0px;
+  color: #961431;
+  background: #640022;
+  border-radius: 0px;
+}
+
+.validator-block-27 {
+  display: flex;
+  padding: 16px;
+  margin: 9px;
+  color: #827880;
+  background: #824549;
+  border-radius: 7px;
+}
+
+.validator-block-28 {
+  display: flex;
+  padding: 19px;
+  margin: 7px;
+  color: #474138;
+  background: #256400;
+  border-radius: 6px;
+}
+
+.validator-block-29 {
+  display: flex;
+  padding: 4px;
+  margin: 14px;
+  color: #140606;
+  background: #100406;
+  border-radius: 8px;
+}
+
+.validator-block-30 {
+  display: flex;
+  padding: 19px;
+  margin: 3px;
+  color: #600338;
+  background: #821755;
+  border-radius: 2px;
+}
+
+.validator-block-31 {
+  display: flex;
+  padding: 23px;
+  margin: 13px;
+  color: #258492;
+  background: #315738;
+  border-radius: 7px;
+}
+
+.validator-block-32 {
+  display: flex;
+  padding: 23px;
+  margin: 13px;
+  color: #599046;
+  background: #776265;
+  border-radius: 6px;
+}
+
+.validator-block-33 {
+  display: flex;
+  padding: 24px;
+  margin: 7px;
+  color: #494857;
+  background: #918437;
+  border-radius: 1px;
+}
+
+.validator-block-34 {
+  display: flex;
+  padding: 20px;
+  margin: 4px;
+  color: #560559;
+  background: #492836;
+  border-radius: 0px;
+}
+
+.validator-block-35 {
+  display: flex;
+  padding: 17px;
+  margin: 0px;
+  color: #217188;
+  background: #954794;
+  border-radius: 2px;
+}
+
+.validator-block-36 {
+  display: flex;
+  padding: 22px;
+  margin: 1px;
+  color: #158664;
+  background: #767744;
+  border-radius: 1px;
+}
+
+.validator-block-37 {
+  display: flex;
+  padding: 7px;
+  margin: 5px;
+  color: #930441;
+  background: #269551;
+  border-radius: 8px;
+}
+
+.validator-block-38 {
+  display: flex;
+  padding: 6px;
+  margin: 11px;
+  color: #349933;
+  background: #100866;
+  border-radius: 0px;
+}
+
+.validator-block-39 {
+  display: flex;
+  padding: 21px;
+  margin: 0px;
+  color: #543426;
+  background: #778916;
+  border-radius: 5px;
+}
+
+.validator-block-40 {
+  display: flex;
+  padding: 8px;
+  margin: 2px;
+  color: #489761;
+  background: #139590;
+  border-radius: 3px;
+}
+
+.validator-block-41 {
+  display: flex;
+  padding: 11px;
+  margin: 6px;
+  color: #619890;
+  background: #531396;
+  border-radius: 8px;
+}
+
+.validator-block-42 {
+  display: flex;
+  padding: 24px;
+  margin: 11px;
+  color: #541126;
+  background: #793018;
+  border-radius: 1px;
+}
+
+.validator-block-43 {
+  display: flex;
+  padding: 6px;
+  margin: 9px;
+  color: #606247;
+  background: #595622;
+  border-radius: 5px;
+}
+
+.validator-block-44 {
+  display: flex;
+  padding: 17px;
+  margin: 14px;
+  color: #952945;
+  background: #284468;
+  border-radius: 4px;
+}
+
+.validator-block-45 {
+  display: flex;
+  padding: 14px;
+  margin: 7px;
+  color: #809672;
+  background: #426937;
+  border-radius: 8px;
+}
+
+.validator-block-46 {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  color: #386552;
+  background: #381914;
+  border-radius: 8px;
+}
+
+.validator-block-47 {
+  display: flex;
+  padding: 11px;
+  margin: 11px;
+  color: #354620;
+  background: #621642;
+  border-radius: 3px;
+}
+
+.validator-block-48 {
+  display: flex;
+  padding: 22px;
+  margin: 0px;
+  color: #427514;
+  background: #758943;
+  border-radius: 7px;
+}
+
+.validator-block-49 {
+  display: flex;
+  padding: 24px;
+  margin: 15px;
+  color: #404179;
+  background: #475711;
+  border-radius: 1px;
+}
+
+.validator-block-50 {
+  display: flex;
+  padding: 20px;
+  margin: 6px;
+  color: #341987;
+  background: #474485;
+  border-radius: 4px;
+}
+
+.validator-block-51 {
+  display: flex;
+  padding: 18px;
+  margin: 7px;
+  color: #676095;
+  background: #279729;
+  border-radius: 4px;
+}
+
+.validator-block-52 {
+  display: flex;
+  padding: 4px;
+  margin: 14px;
+  color: #178289;
+  background: #749109;
+  border-radius: 2px;
+}
+
+.validator-block-53 {
+  display: flex;
+  padding: 21px;
+  margin: 5px;
+  color: #343176;
+  background: #810017;
+  border-radius: 3px;
+}
+
+.validator-block-54 {
+  display: flex;
+  padding: 19px;
+  margin: 8px;
+  color: #681692;
+  background: #140385;
+  border-radius: 7px;
+}
+
+.validator-block-55 {
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+  color: #265313;
+  background: #773685;
+  border-radius: 8px;
+}
+
+.validator-block-56 {
+  display: flex;
+  padding: 16px;
+  margin: 12px;
+  color: #739719;
+  background: #610931;
+  border-radius: 5px;
+}
+
+.validator-block-57 {
+  display: flex;
+  padding: 4px;
+  margin: 13px;
+  color: #586765;
+  background: #538861;
+  border-radius: 0px;
+}
+
+.validator-block-58 {
+  display: flex;
+  padding: 23px;
+  margin: 5px;
+  color: #212842;
+  background: #321524;
+  border-radius: 4px;
+}
+
+.validator-block-59 {
+  display: flex;
+  padding: 15px;
+  margin: 7px;
+  color: #828944;
+  background: #386933;
+  border-radius: 7px;
+}
+
+.validator-block-60 {
+  display: flex;
+  padding: 20px;
+  margin: 16px;
+  color: #987601;
+  background: #799349;
+  border-radius: 6px;
+}
+
+.validator-block-61 {
+  display: flex;
+  padding: 5px;
+  margin: 9px;
+  color: #746936;
+  background: #867476;
+  border-radius: 4px;
+}
+
+.validator-block-62 {
+  display: flex;
+  padding: 17px;
+  margin: 7px;
+  color: #222094;
+  background: #209264;
+  border-radius: 5px;
+}
+
+.validator-block-63 {
+  display: flex;
+  padding: 12px;
+  margin: 9px;
+  color: #278612;
+  background: #574925;
+  border-radius: 2px;
+}
+
+.validator-block-64 {
+  display: flex;
+  padding: 20px;
+  margin: 15px;
+  color: #593691;
+  background: #225220;
+  border-radius: 7px;
+}
+
+.validator-block-65 {
+  display: flex;
+  padding: 18px;
+  margin: 7px;
+  color: #329762;
+  background: #905205;
+  border-radius: 0px;
+}
+
+.validator-block-66 {
+  display: flex;
+  padding: 13px;
+  margin: 1px;
+  color: #112089;
+  background: #340866;
+  border-radius: 3px;
+}
+
+.validator-block-67 {
+  display: flex;
+  padding: 5px;
+  margin: 16px;
+  color: #588374;
+  background: #646719;
+  border-radius: 7px;
+}
+
+.validator-block-68 {
+  display: flex;
+  padding: 5px;
+  margin: 8px;
+  color: #983551;
+  background: #804152;
+  border-radius: 1px;
+}
+
+.validator-block-69 {
+  display: flex;
+  padding: 21px;
+  margin: 13px;
+  color: #177297;
+  background: #519590;
+  border-radius: 5px;
+}
+
+.validator-block-70 {
+  display: flex;
+  padding: 18px;
+  margin: 13px;
+  color: #210714;
+  background: #391731;
+  border-radius: 1px;
+}
+
+.validator-block-71 {
+  display: flex;
+  padding: 7px;
+  margin: 16px;
+  color: #518306;
+  background: #456022;
+  border-radius: 8px;
+}
+
+.validator-block-72 {
+  display: flex;
+  padding: 8px;
+  margin: 7px;
+  color: #142929;
+  background: #886294;
+  border-radius: 1px;
+}
+
+.validator-block-73 {
+  display: flex;
+  padding: 19px;
+  margin: 4px;
+  color: #623247;
+  background: #519459;
+  border-radius: 1px;
+}
+
+.validator-block-74 {
+  display: flex;
+  padding: 17px;
+  margin: 13px;
+  color: #460925;
+  background: #565005;
+  border-radius: 7px;
+}
+
+.validator-block-75 {
+  display: flex;
+  padding: 19px;
+  margin: 15px;
+  color: #330777;
+  background: #147024;
+  border-radius: 7px;
+}
+
+.validator-block-76 {
+  display: flex;
+  padding: 24px;
+  margin: 14px;
+  color: #242982;
+  background: #981146;
+  border-radius: 7px;
+}
+
+.validator-block-77 {
+  display: flex;
+  padding: 5px;
+  margin: 4px;
+  color: #201473;
+  background: #574825;
+  border-radius: 2px;
+}
+
+.validator-block-78 {
+  display: flex;
+  padding: 11px;
+  margin: 10px;
+  color: #123952;
+  background: #405111;
+  border-radius: 1px;
+}
+
+.validator-block-79 {
+  display: flex;
+  padding: 7px;
+  margin: 8px;
+  color: #850941;
+  background: #625326;
+  border-radius: 5px;
+}
+
+.validator-block-80 {
+  display: flex;
+  padding: 10px;
+  margin: 1px;
+  color: #479662;
+  background: #416456;
+  border-radius: 3px;
+}
+
+.validator-block-81 {
+  display: flex;
+  padding: 10px;
+  margin: 8px;
+  color: #771388;
+  background: #906424;
+  border-radius: 5px;
+}
+
+.validator-block-82 {
+  display: flex;
+  padding: 6px;
+  margin: 12px;
+  color: #253697;
+  background: #786769;
+  border-radius: 7px;
+}
+
+.validator-block-83 {
+  display: flex;
+  padding: 5px;
+  margin: 15px;
+  color: #148056;
+  background: #549278;
+  border-radius: 1px;
+}
+
+.validator-block-84 {
+  display: flex;
+  padding: 7px;
+  margin: 8px;
+  color: #847578;
+  background: #695253;
+  border-radius: 0px;
+}
+
+.validator-block-85 {
+  display: flex;
+  padding: 8px;
+  margin: 8px;
+  color: #849308;
+  background: #502686;
+  border-radius: 1px;
+}
+
+.validator-block-86 {
+  display: flex;
+  padding: 17px;
+  margin: 12px;
+  color: #125130;
+  background: #656065;
+  border-radius: 0px;
+}
+
+.validator-block-87 {
+  display: flex;
+  padding: 18px;
+  margin: 5px;
+  color: #339138;
+  background: #262043;
+  border-radius: 0px;
+}
+
+.validator-block-88 {
+  display: flex;
+  padding: 17px;
+  margin: 15px;
+  color: #493635;
+  background: #940094;
+  border-radius: 4px;
+}
+
+.validator-block-89 {
+  display: flex;
+  padding: 7px;
+  margin: 13px;
+  color: #559830;
+  background: #146962;
+  border-radius: 5px;
+}
+
+.validator-block-90 {
+  display: flex;
+  padding: 21px;
+  margin: 0px;
+  color: #624506;
+  background: #125137;
+  border-radius: 7px;
+}
+
+.validator-block-91 {
+  display: flex;
+  padding: 13px;
+  margin: 2px;
+  color: #341567;
+  background: #809692;
+  border-radius: 5px;
+}
+
+.validator-block-92 {
+  display: flex;
+  padding: 23px;
+  margin: 4px;
+  color: #620779;
+  background: #738576;
+  border-radius: 8px;
+}
+
+.validator-block-93 {
+  display: flex;
+  padding: 14px;
+  margin: 14px;
+  color: #446281;
+  background: #762822;
+  border-radius: 3px;
+}
