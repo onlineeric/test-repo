@@ -1,17 +1,17 @@
-# Service
+# Handler
 
-> Version 3
+> Version 1
 
 ## Overview
 
-The `service` module provides core functionality.
+The `handler` module provides core functionality.
 
 ## Section 1
 
-Description for section 1 of service (v3).
+Description for section 1 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -24,10 +24,10 @@ import { Service } from './service';
 
 ## Section 2
 
-Description for section 2 of service (v3).
+Description for section 2 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -35,99 +35,97 @@ import { Service } from './service';
 - `method2_0()` — operation 1
 - `method2_1()` — operation 2
 - `method2_2()` — operation 3
-- `method2_3()` — operation 4
 
 ## Section 3
 
-Description for section 3 of service (v3).
+Description for section 3 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method3_0()` — operation 1
 - `method3_1()` — operation 2
+- `method3_2()` — operation 3
+- `method3_3()` — operation 4
 
 ## Section 4
 
-Description for section 4 of service (v3).
+Description for section 4 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method4_0()` — operation 1
 - `method4_1()` — operation 2
-- `method4_2()` — operation 3
 
 ## Section 5
 
-Description for section 5 of service (v3).
+Description for section 5 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method5_0()` — operation 1
 - `method5_1()` — operation 2
+- `method5_2()` — operation 3
+- `method5_3()` — operation 4
+- `method5_4()` — operation 5
 
 ## Section 6
 
-Description for section 6 of service (v3).
+Description for section 6 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method6_0()` — operation 1
 - `method6_1()` — operation 2
-- `method6_2()` — operation 3
-- `method6_3()` — operation 4
-- `method6_4()` — operation 5
 
 ## Section 7
 
-Description for section 7 of service (v3).
+Description for section 7 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method7_0()` — operation 1
 - `method7_1()` — operation 2
-- `method7_2()` — operation 3
-- `method7_3()` — operation 4
-- `method7_4()` — operation 5
 
 ## Section 8
 
-Description for section 8 of service (v3).
+Description for section 8 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method8_0()` — operation 1
 - `method8_1()` — operation 2
+- `method8_2()` — operation 3
 
 ## Section 9
 
-Description for section 9 of service (v3).
+Description for section 9 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -136,14 +134,13 @@ import { Service } from './service';
 - `method9_1()` — operation 2
 - `method9_2()` — operation 3
 - `method9_3()` — operation 4
-- `method9_4()` — operation 5
 
 ## Section 10
 
-Description for section 10 of service (v3).
+Description for section 10 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -153,24 +150,23 @@ import { Service } from './service';
 
 ## Section 11
 
-Description for section 11 of service (v3).
+Description for section 11 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method11_0()` — operation 1
 - `method11_1()` — operation 2
-- `method11_2()` — operation 3
 
 ## Section 12
 
-Description for section 12 of service (v3).
+Description for section 12 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -182,10 +178,10 @@ import { Service } from './service';
 
 ## Section 13
 
-Description for section 13 of service (v3).
+Description for section 13 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -194,14 +190,13 @@ import { Service } from './service';
 - `method13_1()` — operation 2
 - `method13_2()` — operation 3
 - `method13_3()` — operation 4
-- `method13_4()` — operation 5
 
 ## Section 14
 
-Description for section 14 of service (v3).
+Description for section 14 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -209,15 +204,13 @@ import { Service } from './service';
 - `method14_0()` — operation 1
 - `method14_1()` — operation 2
 - `method14_2()` — operation 3
-- `method14_3()` — operation 4
-- `method14_4()` — operation 5
 
 ## Section 15
 
-Description for section 15 of service (v3).
+Description for section 15 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -226,13 +219,14 @@ import { Service } from './service';
 - `method15_1()` — operation 2
 - `method15_2()` — operation 3
 - `method15_3()` — operation 4
+- `method15_4()` — operation 5
 
 ## Section 16
 
-Description for section 16 of service (v3).
+Description for section 16 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -242,10 +236,10 @@ import { Service } from './service';
 
 ## Section 17
 
-Description for section 17 of service (v3).
+Description for section 17 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -253,13 +247,14 @@ import { Service } from './service';
 - `method17_0()` — operation 1
 - `method17_1()` — operation 2
 - `method17_2()` — operation 3
+- `method17_3()` — operation 4
 
 ## Section 18
 
-Description for section 18 of service (v3).
+Description for section 18 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -271,10 +266,10 @@ import { Service } from './service';
 
 ## Section 19
 
-Description for section 19 of service (v3).
+Description for section 19 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -285,10 +280,10 @@ import { Service } from './service';
 
 ## Section 20
 
-Description for section 20 of service (v3).
+Description for section 20 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -298,23 +293,26 @@ import { Service } from './service';
 
 ## Section 21
 
-Description for section 21 of service (v3).
+Description for section 21 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method21_0()` — operation 1
 - `method21_1()` — operation 2
+- `method21_2()` — operation 3
+- `method21_3()` — operation 4
+- `method21_4()` — operation 5
 
 ## Section 22
 
-Description for section 22 of service (v3).
+Description for section 22 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -322,13 +320,14 @@ import { Service } from './service';
 - `method22_0()` — operation 1
 - `method22_1()` — operation 2
 - `method22_2()` — operation 3
+- `method22_3()` — operation 4
 
 ## Section 23
 
-Description for section 23 of service (v3).
+Description for section 23 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -337,13 +336,14 @@ import { Service } from './service';
 - `method23_1()` — operation 2
 - `method23_2()` — operation 3
 - `method23_3()` — operation 4
+- `method23_4()` — operation 5
 
 ## Section 24
 
-Description for section 24 of service (v3).
+Description for section 24 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -354,123 +354,120 @@ import { Service } from './service';
 
 ## Section 25
 
-Description for section 25 of service (v3).
+Description for section 25 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method25_0()` — operation 1
 - `method25_1()` — operation 2
+- `method25_2()` — operation 3
+- `method25_3()` — operation 4
+- `method25_4()` — operation 5
 
 ## Section 26
 
-Description for section 26 of service (v3).
+Description for section 26 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method26_0()` — operation 1
 - `method26_1()` — operation 2
-- `method26_2()` — operation 3
 
 ## Section 27
 
-Description for section 27 of service (v3).
+Description for section 27 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method27_0()` — operation 1
 - `method27_1()` — operation 2
-- `method27_2()` — operation 3
-- `method27_3()` — operation 4
 
 ## Section 28
 
-Description for section 28 of service (v3).
+Description for section 28 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method28_0()` — operation 1
 - `method28_1()` — operation 2
-- `method28_2()` — operation 3
-- `method28_3()` — operation 4
-- `method28_4()` — operation 5
 
 ## Section 29
 
-Description for section 29 of service (v3).
+Description for section 29 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method29_0()` — operation 1
 - `method29_1()` — operation 2
+- `method29_2()` — operation 3
 
 ## Section 30
 
-Description for section 30 of service (v3).
+Description for section 30 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method30_0()` — operation 1
 - `method30_1()` — operation 2
-- `method30_2()` — operation 3
 
 ## Section 31
 
-Description for section 31 of service (v3).
+Description for section 31 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method31_0()` — operation 1
 - `method31_1()` — operation 2
+- `method31_2()` — operation 3
+- `method31_3()` — operation 4
 
 ## Section 32
 
-Description for section 32 of service (v3).
+Description for section 32 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method32_0()` — operation 1
 - `method32_1()` — operation 2
-- `method32_2()` — operation 3
-- `method32_3()` — operation 4
 
 ## Section 33
 
-Description for section 33 of service (v3).
+Description for section 33 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -478,14 +475,13 @@ import { Service } from './service';
 - `method33_0()` — operation 1
 - `method33_1()` — operation 2
 - `method33_2()` — operation 3
-- `method33_3()` — operation 4
 
 ## Section 34
 
-Description for section 34 of service (v3).
+Description for section 34 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -498,10 +494,10 @@ import { Service } from './service';
 
 ## Section 35
 
-Description for section 35 of service (v3).
+Description for section 35 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -514,23 +510,26 @@ import { Service } from './service';
 
 ## Section 36
 
-Description for section 36 of service (v3).
+Description for section 36 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method36_0()` — operation 1
 - `method36_1()` — operation 2
+- `method36_2()` — operation 3
+- `method36_3()` — operation 4
+- `method36_4()` — operation 5
 
 ## Section 37
 
-Description for section 37 of service (v3).
+Description for section 37 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -542,10 +541,10 @@ import { Service } from './service';
 
 ## Section 38
 
-Description for section 38 of service (v3).
+Description for section 38 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -557,67 +556,63 @@ import { Service } from './service';
 
 ## Section 39
 
-Description for section 39 of service (v3).
+Description for section 39 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method39_0()` — operation 1
 - `method39_1()` — operation 2
-- `method39_2()` — operation 3
 
 ## Section 40
 
-Description for section 40 of service (v3).
+Description for section 40 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method40_0()` — operation 1
 - `method40_1()` — operation 2
+- `method40_2()` — operation 3
 
 ## Section 41
 
-Description for section 41 of service (v3).
+Description for section 41 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method41_0()` — operation 1
 - `method41_1()` — operation 2
-- `method41_2()` — operation 3
-- `method41_3()` — operation 4
-- `method41_4()` — operation 5
 
 ## Section 42
 
-Description for section 42 of service (v3).
+Description for section 42 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method42_0()` — operation 1
 - `method42_1()` — operation 2
-- `method42_2()` — operation 3
 
 ## Section 43
 
-Description for section 43 of service (v3).
+Description for section 43 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -625,56 +620,54 @@ import { Service } from './service';
 - `method43_0()` — operation 1
 - `method43_1()` — operation 2
 - `method43_2()` — operation 3
-- `method43_3()` — operation 4
-- `method43_4()` — operation 5
 
 ## Section 44
 
-Description for section 44 of service (v3).
+Description for section 44 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method44_0()` — operation 1
 - `method44_1()` — operation 2
-- `method44_2()` — operation 3
-- `method44_3()` — operation 4
 
 ## Section 45
 
-Description for section 45 of service (v3).
+Description for section 45 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method45_0()` — operation 1
 - `method45_1()` — operation 2
+- `method45_2()` — operation 3
 
 ## Section 46
 
-Description for section 46 of service (v3).
+Description for section 46 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method46_0()` — operation 1
 - `method46_1()` — operation 2
+- `method46_2()` — operation 3
 
 ## Section 47
 
-Description for section 47 of service (v3).
+Description for section 47 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -682,13 +675,15 @@ import { Service } from './service';
 - `method47_0()` — operation 1
 - `method47_1()` — operation 2
 - `method47_2()` — operation 3
+- `method47_3()` — operation 4
+- `method47_4()` — operation 5
 
 ## Section 48
 
-Description for section 48 of service (v3).
+Description for section 48 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -697,14 +692,13 @@ import { Service } from './service';
 - `method48_1()` — operation 2
 - `method48_2()` — operation 3
 - `method48_3()` — operation 4
-- `method48_4()` — operation 5
 
 ## Section 49
 
-Description for section 49 of service (v3).
+Description for section 49 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -716,36 +710,42 @@ import { Service } from './service';
 
 ## Section 50
 
-Description for section 50 of service (v3).
+Description for section 50 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method50_0()` — operation 1
 - `method50_1()` — operation 2
+- `method50_2()` — operation 3
+- `method50_3()` — operation 4
+- `method50_4()` — operation 5
 
 ## Section 51
 
-Description for section 51 of service (v3).
+Description for section 51 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method51_0()` — operation 1
 - `method51_1()` — operation 2
+- `method51_2()` — operation 3
+- `method51_3()` — operation 4
+- `method51_4()` — operation 5
 
 ## Section 52
 
-Description for section 52 of service (v3).
+Description for section 52 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -755,10 +755,10 @@ import { Service } from './service';
 
 ## Section 53
 
-Description for section 53 of service (v3).
+Description for section 53 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -766,44 +766,42 @@ import { Service } from './service';
 - `method53_0()` — operation 1
 - `method53_1()` — operation 2
 - `method53_2()` — operation 3
-- `method53_3()` — operation 4
-- `method53_4()` — operation 5
 
 ## Section 54
 
-Description for section 54 of service (v3).
+Description for section 54 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method54_0()` — operation 1
 - `method54_1()` — operation 2
-- `method54_2()` — operation 3
-- `method54_3()` — operation 4
-- `method54_4()` — operation 5
 
 ## Section 55
 
-Description for section 55 of service (v3).
+Description for section 55 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method55_0()` — operation 1
 - `method55_1()` — operation 2
+- `method55_2()` — operation 3
+- `method55_3()` — operation 4
+- `method55_4()` — operation 5
 
 ## Section 56
 
-Description for section 56 of service (v3).
+Description for section 56 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -811,15 +809,13 @@ import { Service } from './service';
 - `method56_0()` — operation 1
 - `method56_1()` — operation 2
 - `method56_2()` — operation 3
-- `method56_3()` — operation 4
-- `method56_4()` — operation 5
 
 ## Section 57
 
-Description for section 57 of service (v3).
+Description for section 57 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -827,13 +823,14 @@ import { Service } from './service';
 - `method57_0()` — operation 1
 - `method57_1()` — operation 2
 - `method57_2()` — operation 3
+- `method57_3()` — operation 4
 
 ## Section 58
 
-Description for section 58 of service (v3).
+Description for section 58 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -841,15 +838,13 @@ import { Service } from './service';
 - `method58_0()` — operation 1
 - `method58_1()` — operation 2
 - `method58_2()` — operation 3
-- `method58_3()` — operation 4
-- `method58_4()` — operation 5
 
 ## Section 59
 
-Description for section 59 of service (v3).
+Description for section 59 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -860,65 +855,67 @@ import { Service } from './service';
 
 ## Section 60
 
-Description for section 60 of service (v3).
+Description for section 60 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method60_0()` — operation 1
 - `method60_1()` — operation 2
+- `method60_2()` — operation 3
+- `method60_3()` — operation 4
+- `method60_4()` — operation 5
 
 ## Section 61
 
-Description for section 61 of service (v3).
+Description for section 61 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method61_0()` — operation 1
 - `method61_1()` — operation 2
+- `method61_2()` — operation 3
+- `method61_3()` — operation 4
 
 ## Section 62
 
-Description for section 62 of service (v3).
+Description for section 62 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method62_0()` — operation 1
 - `method62_1()` — operation 2
-- `method62_2()` — operation 3
 
 ## Section 63
 
-Description for section 63 of service (v3).
+Description for section 63 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method63_0()` — operation 1
 - `method63_1()` — operation 2
-- `method63_2()` — operation 3
-- `method63_3()` — operation 4
 
 ## Section 64
 
-Description for section 64 of service (v3).
+Description for section 64 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -926,13 +923,14 @@ import { Service } from './service';
 - `method64_0()` — operation 1
 - `method64_1()` — operation 2
 - `method64_2()` — operation 3
+- `method64_3()` — operation 4
 
 ## Section 65
 
-Description for section 65 of service (v3).
+Description for section 65 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -943,10 +941,10 @@ import { Service } from './service';
 
 ## Section 66
 
-Description for section 66 of service (v3).
+Description for section 66 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -955,14 +953,13 @@ import { Service } from './service';
 - `method66_1()` — operation 2
 - `method66_2()` — operation 3
 - `method66_3()` — operation 4
-- `method66_4()` — operation 5
 
 ## Section 67
 
-Description for section 67 of service (v3).
+Description for section 67 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -971,14 +968,13 @@ import { Service } from './service';
 - `method67_1()` — operation 2
 - `method67_2()` — operation 3
 - `method67_3()` — operation 4
-- `method67_4()` — operation 5
 
 ## Section 68
 
-Description for section 68 of service (v3).
+Description for section 68 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -986,26 +982,28 @@ import { Service } from './service';
 - `method68_0()` — operation 1
 - `method68_1()` — operation 2
 - `method68_2()` — operation 3
+- `method68_3()` — operation 4
 
 ## Section 69
 
-Description for section 69 of service (v3).
+Description for section 69 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method69_0()` — operation 1
 - `method69_1()` — operation 2
+- `method69_2()` — operation 3
 
 ## Section 70
 
-Description for section 70 of service (v3).
+Description for section 70 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1016,10 +1014,10 @@ import { Service } from './service';
 
 ## Section 71
 
-Description for section 71 of service (v3).
+Description for section 71 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1029,10 +1027,10 @@ import { Service } from './service';
 
 ## Section 72
 
-Description for section 72 of service (v3).
+Description for section 72 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1044,23 +1042,26 @@ import { Service } from './service';
 
 ## Section 73
 
-Description for section 73 of service (v3).
+Description for section 73 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method73_0()` — operation 1
 - `method73_1()` — operation 2
+- `method73_2()` — operation 3
+- `method73_3()` — operation 4
+- `method73_4()` — operation 5
 
 ## Section 74
 
-Description for section 74 of service (v3).
+Description for section 74 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1069,13 +1070,14 @@ import { Service } from './service';
 - `method74_1()` — operation 2
 - `method74_2()` — operation 3
 - `method74_3()` — operation 4
+- `method74_4()` — operation 5
 
 ## Section 75
 
-Description for section 75 of service (v3).
+Description for section 75 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1084,29 +1086,27 @@ import { Service } from './service';
 - `method75_1()` — operation 2
 - `method75_2()` — operation 3
 - `method75_3()` — operation 4
+- `method75_4()` — operation 5
 
 ## Section 76
 
-Description for section 76 of service (v3).
+Description for section 76 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method76_0()` — operation 1
 - `method76_1()` — operation 2
-- `method76_2()` — operation 3
-- `method76_3()` — operation 4
-- `method76_4()` — operation 5
 
 ## Section 77
 
-Description for section 77 of service (v3).
+Description for section 77 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1114,14 +1114,13 @@ import { Service } from './service';
 - `method77_0()` — operation 1
 - `method77_1()` — operation 2
 - `method77_2()` — operation 3
-- `method77_3()` — operation 4
 
 ## Section 78
 
-Description for section 78 of service (v3).
+Description for section 78 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1129,15 +1128,13 @@ import { Service } from './service';
 - `method78_0()` — operation 1
 - `method78_1()` — operation 2
 - `method78_2()` — operation 3
-- `method78_3()` — operation 4
-- `method78_4()` — operation 5
 
 ## Section 79
 
-Description for section 79 of service (v3).
+Description for section 79 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1145,13 +1142,14 @@ import { Service } from './service';
 - `method79_0()` — operation 1
 - `method79_1()` — operation 2
 - `method79_2()` — operation 3
+- `method79_3()` — operation 4
 
 ## Section 80
 
-Description for section 80 of service (v3).
+Description for section 80 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1164,10 +1162,10 @@ import { Service } from './service';
 
 ## Section 81
 
-Description for section 81 of service (v3).
+Description for section 81 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1175,14 +1173,13 @@ import { Service } from './service';
 - `method81_0()` — operation 1
 - `method81_1()` — operation 2
 - `method81_2()` — operation 3
-- `method81_3()` — operation 4
 
 ## Section 82
 
-Description for section 82 of service (v3).
+Description for section 82 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1194,10 +1191,10 @@ import { Service } from './service';
 
 ## Section 83
 
-Description for section 83 of service (v3).
+Description for section 83 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1208,10 +1205,10 @@ import { Service } from './service';
 
 ## Section 84
 
-Description for section 84 of service (v3).
+Description for section 84 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1220,58 +1217,55 @@ import { Service } from './service';
 - `method84_1()` — operation 2
 - `method84_2()` — operation 3
 - `method84_3()` — operation 4
-- `method84_4()` — operation 5
 
 ## Section 85
 
-Description for section 85 of service (v3).
+Description for section 85 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method85_0()` — operation 1
 - `method85_1()` — operation 2
-- `method85_2()` — operation 3
-- `method85_3()` — operation 4
-- `method85_4()` — operation 5
 
 ## Section 86
 
-Description for section 86 of service (v3).
+Description for section 86 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method86_0()` — operation 1
 - `method86_1()` — operation 2
+- `method86_2()` — operation 3
+- `method86_3()` — operation 4
+- `method86_4()` — operation 5
 
 ## Section 87
 
-Description for section 87 of service (v3).
+Description for section 87 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method87_0()` — operation 1
 - `method87_1()` — operation 2
-- `method87_2()` — operation 3
-- `method87_3()` — operation 4
 
 ## Section 88
 
-Description for section 88 of service (v3).
+Description for section 88 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1279,30 +1273,26 @@ import { Service } from './service';
 - `method88_0()` — operation 1
 - `method88_1()` — operation 2
 - `method88_2()` — operation 3
-- `method88_3()` — operation 4
-- `method88_4()` — operation 5
 
 ## Section 89
 
-Description for section 89 of service (v3).
+Description for section 89 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method89_0()` — operation 1
 - `method89_1()` — operation 2
-- `method89_2()` — operation 3
-- `method89_3()` — operation 4
 
 ## Section 90
 
-Description for section 90 of service (v3).
+Description for section 90 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1312,10 +1302,10 @@ import { Service } from './service';
 
 ## Section 91
 
-Description for section 91 of service (v3).
+Description for section 91 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1323,13 +1313,15 @@ import { Service } from './service';
 - `method91_0()` — operation 1
 - `method91_1()` — operation 2
 - `method91_2()` — operation 3
+- `method91_3()` — operation 4
+- `method91_4()` — operation 5
 
 ## Section 92
 
-Description for section 92 of service (v3).
+Description for section 92 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1337,42 +1329,41 @@ import { Service } from './service';
 - `method92_0()` — operation 1
 - `method92_1()` — operation 2
 - `method92_2()` — operation 3
+- `method92_3()` — operation 4
 
 ## Section 93
 
-Description for section 93 of service (v3).
+Description for section 93 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method93_0()` — operation 1
 - `method93_1()` — operation 2
+- `method93_2()` — operation 3
 
 ## Section 94
 
-Description for section 94 of service (v3).
+Description for section 94 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
 
 - `method94_0()` — operation 1
 - `method94_1()` — operation 2
-- `method94_2()` — operation 3
-- `method94_3()` — operation 4
-- `method94_4()` — operation 5
 
 ## Section 95
 
-Description for section 95 of service (v3).
+Description for section 95 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1381,14 +1372,13 @@ import { Service } from './service';
 - `method95_1()` — operation 2
 - `method95_2()` — operation 3
 - `method95_3()` — operation 4
-- `method95_4()` — operation 5
 
 ## Section 96
 
-Description for section 96 of service (v3).
+Description for section 96 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1397,13 +1387,14 @@ import { Service } from './service';
 - `method96_1()` — operation 2
 - `method96_2()` — operation 3
 - `method96_3()` — operation 4
+- `method96_4()` — operation 5
 
 ## Section 97
 
-Description for section 97 of service (v3).
+Description for section 97 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1415,10 +1406,10 @@ import { Service } from './service';
 
 ## Section 98
 
-Description for section 98 of service (v3).
+Description for section 98 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1426,14 +1417,13 @@ import { Service } from './service';
 - `method98_0()` — operation 1
 - `method98_1()` — operation 2
 - `method98_2()` — operation 3
-- `method98_3()` — operation 4
 
 ## Section 99
 
-Description for section 99 of service (v3).
+Description for section 99 of handler (v1).
 
 ```typescript
-import { Service } from './service';
+import { Handler } from './handler';
 ```
 
 ### API
@@ -1442,107 +1432,4 @@ import { Service } from './service';
 - `method99_1()` — operation 2
 - `method99_2()` — operation 3
 - `method99_3()` — operation 4
-
-## Section 100
-
-Description for section 100 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method100_0()` — operation 1
-- `method100_1()` — operation 2
-- `method100_2()` — operation 3
-- `method100_3()` — operation 4
-- `method100_4()` — operation 5
-
-## Section 101
-
-Description for section 101 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method101_0()` — operation 1
-- `method101_1()` — operation 2
-- `method101_2()` — operation 3
-- `method101_3()` — operation 4
-- `method101_4()` — operation 5
-
-## Section 102
-
-Description for section 102 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method102_0()` — operation 1
-- `method102_1()` — operation 2
-- `method102_2()` — operation 3
-
-## Section 103
-
-Description for section 103 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method103_0()` — operation 1
-- `method103_1()` — operation 2
-- `method103_2()` — operation 3
-- `method103_3()` — operation 4
-- `method103_4()` — operation 5
-
-## Section 104
-
-Description for section 104 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method104_0()` — operation 1
-- `method104_1()` — operation 2
-
-## Section 105
-
-Description for section 105 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method105_0()` — operation 1
-- `method105_1()` — operation 2
-
-## Section 106
-
-Description for section 106 of service (v3).
-
-```typescript
-import { Service } from './service';
-```
-
-### API
-
-- `method106_0()` — operation 1
-- `method106_1()` — operation 2
-- `method106_2()` — operation 3
-- `method106_3()` — operation 4
-- `method106_4()` — operation 5
+- `method99_4()` — operation 5
