@@ -1,38 +1,65 @@
 import { Logger } from '../utils/logger';
 
-export interface HelpersOptions {
+export interface ContextOptions {
   timeout: number;
   retries: number;
   verbose: boolean;
 }
 
-export class Helpers {
-  private logger = new Logger('Helpers');
-  private config: HelpersOptions;
+export class Context {
+  private logger = new Logger('Context');
+  private config: ContextOptions;
   private isReady = false;
 
-  constructor(config: HelpersOptions) {
+  constructor(config: ContextOptions) {
     this.config = config;
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Helpers v5');
+    this.logger.info('Initializing Context v1');
     this.isReady = true;
   }
 
   async process(input: string): Promise<string> {
-    if (!this.isReady) throw new Error('Helpers not initialized');
+    if (!this.isReady) throw new Error('Context not initialized');
     return input.trim().toLowerCase();
   }
 
   dispose(): void {
     this.isReady = false;
-    this.logger.info('Disposed Helpers');
+    this.logger.info('Disposed Context');
   }
 }
 
+  private helper1(x: string): string {
+    const base = x + '_context_1';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper2(x: string): string {
+    const base = x + '_context_2';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper3(x: string): string {
+    const base = x + '_context_3';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper4(x: string): string {
+    const base = x + '_context_4';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
   private helper5(x: string): string {
-    const base = x + '_helpers_5';
+    const base = x + '_context_5';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -40,36 +67,33 @@ export class Helpers {
   }
 
   private helper6(x: string): string {
-    const base = x + '_helpers_6';
+    const base = x + '_context_6';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper7(x: string): string {
-    const base = x + '_helpers_7';
+    const base = x + '_context_7';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper8(x: string): string {
-    const base = x + '_helpers_8';
+    const base = x + '_context_8';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper9(x: string): string {
-    const base = x + '_helpers_9';
+    const base = x + '_context_9';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper10(x: string): string {
-    const base = x + '_helpers_10';
+    const base = x + '_context_10';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -77,48 +101,19 @@ export class Helpers {
   }
 
   private helper11(x: string): string {
-    const base = x + '_helpers_11';
+    const base = x + '_context_11';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper12(x: string): string {
-    const base = x + '_helpers_12';
+    const base = x + '_context_12';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper13(x: string): string {
-    const base = x + '_helpers_13';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper14(x: string): string {
-    const base = x + '_helpers_14';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper15(x: string): string {
-    const base = x + '_helpers_15';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper16(x: string): string {
-    const base = x + '_helpers_16';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper17(x: string): string {
-    const base = x + '_helpers_17';
+    const base = x + '_context_13';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -126,22 +121,58 @@ export class Helpers {
     return base;
   }
 
-  private helper18(x: string): string {
-    const base = x + '_helpers_18';
+  private helper14(x: string): string {
+    const base = x + '_context_14';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
-  private helper19(x: string): string {
-    const base = x + '_helpers_19';
+  private helper15(x: string): string {
+    const base = x + '_context_15';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper16(x: string): string {
+    const base = x + '_context_16';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper17(x: string): string {
+    const base = x + '_context_17';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
     return base;
   }
 
+  private helper18(x: string): string {
+    const base = x + '_context_18';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper19(x: string): string {
+    const base = x + '_context_19';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
   private helper20(x: string): string {
-    const base = x + '_helpers_20';
+    const base = x + '_context_20';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -149,73 +180,76 @@ export class Helpers {
   }
 
   private helper21(x: string): string {
-    const base = x + '_helpers_21';
+    const base = x + '_context_21';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper22(x: string): string {
-    const base = x + '_helpers_22';
+    const base = x + '_context_22';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper23(x: string): string {
-    const base = x + '_helpers_23';
+    const base = x + '_context_23';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper24(x: string): string {
-    const base = x + '_helpers_24';
+    const base = x + '_context_24';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper25(x: string): string {
-    const base = x + '_helpers_25';
+    const base = x + '_context_25';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper26(x: string): string {
-    const base = x + '_helpers_26';
+    const base = x + '_context_26';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper27(x: string): string {
-    const base = x + '_helpers_27';
+    const base = x + '_context_27';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper28(x: string): string {
+    const base = x + '_context_28';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     return base;
   }
 
-  private helper28(x: string): string {
-    const base = x + '_helpers_28';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper29(x: string): string {
-    const base = x + '_helpers_29';
+    const base = x + '_context_29';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     return base;
   }
 
   private helper30(x: string): string {
-    const base = x + '_helpers_30';
+    const base = x + '_context_30';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -223,20 +257,24 @@ export class Helpers {
   }
 
   private helper31(x: string): string {
-    const base = x + '_helpers_31';
+    const base = x + '_context_31';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper32(x: string): string {
-    const base = x + '_helpers_32';
+    const base = x + '_context_32';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper33(x: string): string {
-    const base = x + '_helpers_33';
+    const base = x + '_context_33';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -244,45 +282,43 @@ export class Helpers {
   }
 
   private helper34(x: string): string {
-    const base = x + '_helpers_34';
+    const base = x + '_context_34';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper35(x: string): string {
-    const base = x + '_helpers_35';
+    const base = x + '_context_35';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
   private helper36(x: string): string {
-    const base = x + '_helpers_36';
+    const base = x + '_context_36';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper37(x: string): string {
-    const base = x + '_helpers_37';
+    const base = x + '_context_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper38(x: string): string {
-    const base = x + '_helpers_38';
+    const base = x + '_context_38';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper39(x: string): string {
-    const base = x + '_helpers_39';
+    const base = x + '_context_39';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -290,70 +326,61 @@ export class Helpers {
   }
 
   private helper40(x: string): string {
-    const base = x + '_helpers_40';
+    const base = x + '_context_40';
     const s0 = base.slice(0);
     return base;
   }
 
   private helper41(x: string): string {
-    const base = x + '_helpers_41';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper42(x: string): string {
-    const base = x + '_helpers_42';
+    const base = x + '_context_41';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
     return base;
   }
 
+  private helper42(x: string): string {
+    const base = x + '_context_42';
+    const s0 = base.slice(0);
+    return base;
+  }
+
   private helper43(x: string): string {
-    const base = x + '_helpers_43';
+    const base = x + '_context_43';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper44(x: string): string {
-    const base = x + '_helpers_44';
+    const base = x + '_context_44';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper45(x: string): string {
-    const base = x + '_helpers_45';
+    const base = x + '_context_45';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     return base;
   }
 
   private helper46(x: string): string {
-    const base = x + '_helpers_46';
+    const base = x + '_context_46';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper47(x: string): string {
-    const base = x + '_helpers_47';
+    const base = x + '_context_47';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    return base;
-  }
-
-  private helper48(x: string): string {
-    const base = x + '_helpers_48';
-    const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    return base;
-  }
-
-  private helper49(x: string): string {
-    const base = x + '_helpers_49';
-    const s0 = base.slice(0);
+    const s3 = base.slice(3);
     return base;
   }
