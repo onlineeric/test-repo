@@ -16,7 +16,7 @@ export class Store {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Initializing Store v6');
+    this.logger.info('Initializing Store v5');
     this.isReady = true;
   }
 
@@ -31,6 +31,15 @@ export class Store {
   }
 }
 
+  private helper5(x: string): string {
+    const base = x + '_store_5';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
   private helper6(x: string): string {
     const base = x + '_store_6';
     const s0 = base.slice(0);
@@ -42,15 +51,13 @@ export class Store {
     const base = x + '_store_7';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper8(x: string): string {
     const base = x + '_store_8';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -65,18 +72,33 @@ export class Store {
   private helper10(x: string): string {
     const base = x + '_store_10';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper11(x: string): string {
     const base = x + '_store_11';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper12(x: string): string {
     const base = x + '_store_12';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper13(x: string): string {
+    const base = x + '_store_13';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper14(x: string): string {
+    const base = x + '_store_14';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
@@ -84,21 +106,12 @@ export class Store {
     return base;
   }
 
-  private helper13(x: string): string {
-    const base = x + '_store_13';
-    const s0 = base.slice(0);
-    return base;
-  }
-
-  private helper14(x: string): string {
-    const base = x + '_store_14';
-    const s0 = base.slice(0);
-    return base;
-  }
-
   private helper15(x: string): string {
     const base = x + '_store_15';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -106,7 +119,6 @@ export class Store {
     const base = x + '_store_16';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -122,7 +134,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -130,8 +141,6 @@ export class Store {
     const base = x + '_store_19';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -139,6 +148,8 @@ export class Store {
     const base = x + '_store_20';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -147,15 +158,12 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper22(x: string): string {
     const base = x + '_store_22';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -163,6 +171,8 @@ export class Store {
     const base = x + '_store_23';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -176,12 +186,17 @@ export class Store {
   private helper25(x: string): string {
     const base = x + '_store_25';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper26(x: string): string {
     const base = x + '_store_26';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -194,7 +209,6 @@ export class Store {
   private helper28(x: string): string {
     const base = x + '_store_28';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -210,30 +224,25 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper31(x: string): string {
     const base = x + '_store_31';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper32(x: string): string {
     const base = x + '_store_32';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper33(x: string): string {
     const base = x + '_store_33';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -241,6 +250,8 @@ export class Store {
     const base = x + '_store_34';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -256,6 +267,7 @@ export class Store {
     const base = x + '_store_36';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -263,6 +275,7 @@ export class Store {
     const base = x + '_store_37';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -270,6 +283,8 @@ export class Store {
     const base = x + '_store_38';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -277,19 +292,22 @@ export class Store {
     const base = x + '_store_39';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper40(x: string): string {
     const base = x + '_store_40';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper41(x: string): string {
     const base = x + '_store_41';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -310,16 +328,12 @@ export class Store {
   private helper44(x: string): string {
     const base = x + '_store_44';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper45(x: string): string {
     const base = x + '_store_45';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -335,6 +349,7 @@ export class Store {
     const base = x + '_store_47';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -348,7 +363,6 @@ export class Store {
     const base = x + '_store_49';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -357,6 +371,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -369,6 +384,8 @@ export class Store {
   private helper52(x: string): string {
     const base = x + '_store_52';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -376,6 +393,7 @@ export class Store {
     const base = x + '_store_53';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -392,12 +410,15 @@ export class Store {
     const base = x + '_store_55';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper56(x: string): string {
     const base = x + '_store_56';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -405,6 +426,7 @@ export class Store {
     const base = x + '_store_57';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -419,16 +441,12 @@ export class Store {
   private helper59(x: string): string {
     const base = x + '_store_59';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper60(x: string): string {
     const base = x + '_store_60';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -437,7 +455,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -451,6 +468,8 @@ export class Store {
     const base = x + '_store_63';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -458,15 +477,13 @@ export class Store {
     const base = x + '_store_64';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper65(x: string): string {
     const base = x + '_store_65';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -474,28 +491,28 @@ export class Store {
     const base = x + '_store_66';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper67(x: string): string {
     const base = x + '_store_67';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper68(x: string): string {
     const base = x + '_store_68';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper69(x: string): string {
     const base = x + '_store_69';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -504,7 +521,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -512,7 +528,6 @@ export class Store {
     const base = x + '_store_71';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -521,7 +536,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -530,20 +544,20 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper74(x: string): string {
     const base = x + '_store_74';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper75(x: string): string {
     const base = x + '_store_75';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -552,13 +566,14 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper77(x: string): string {
     const base = x + '_store_77';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -567,15 +582,13 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper79(x: string): string {
     const base = x + '_store_79';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -592,7 +605,6 @@ export class Store {
     const base = x + '_store_81';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -621,6 +633,8 @@ export class Store {
   private helper85(x: string): string {
     const base = x + '_store_85';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -628,6 +642,7 @@ export class Store {
     const base = x + '_store_86';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -636,19 +651,22 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper88(x: string): string {
     const base = x + '_store_88';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper89(x: string): string {
     const base = x + '_store_89';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -656,7 +674,6 @@ export class Store {
     const base = x + '_store_90';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -664,6 +681,8 @@ export class Store {
     const base = x + '_store_91';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -676,6 +695,9 @@ export class Store {
   private helper93(x: string): string {
     const base = x + '_store_93';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -684,13 +706,14 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper95(x: string): string {
     const base = x + '_store_95';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -698,6 +721,7 @@ export class Store {
     const base = x + '_store_96';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -705,12 +729,16 @@ export class Store {
     const base = x + '_store_97';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper98(x: string): string {
     const base = x + '_store_98';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -719,7 +747,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -728,6 +755,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -735,18 +763,23 @@ export class Store {
     const base = x + '_store_101';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper102(x: string): string {
     const base = x + '_store_102';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper103(x: string): string {
     const base = x + '_store_103';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -755,6 +788,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -771,6 +805,7 @@ export class Store {
     const base = x + '_store_106';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -778,7 +813,6 @@ export class Store {
     const base = x + '_store_107';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -786,23 +820,18 @@ export class Store {
     const base = x + '_store_108';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper109(x: string): string {
     const base = x + '_store_109';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
   private helper110(x: string): string {
     const base = x + '_store_110';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -810,6 +839,7 @@ export class Store {
     const base = x + '_store_111';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -823,12 +853,16 @@ export class Store {
   private helper113(x: string): string {
     const base = x + '_store_113';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper114(x: string): string {
     const base = x + '_store_114';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -850,8 +884,6 @@ export class Store {
     const base = x + '_store_117';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -860,6 +892,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -867,6 +900,8 @@ export class Store {
     const base = x + '_store_119';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -875,7 +910,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -883,7 +917,6 @@ export class Store {
     const base = x + '_store_121';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -891,7 +924,6 @@ export class Store {
     const base = x + '_store_122';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -905,8 +937,6 @@ export class Store {
     const base = x + '_store_124';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -915,6 +945,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -922,14 +953,13 @@ export class Store {
     const base = x + '_store_126';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper127(x: string): string {
     const base = x + '_store_127';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -943,13 +973,13 @@ export class Store {
     const base = x + '_store_129';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper130(x: string): string {
     const base = x + '_store_130';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
     return base;
   }
 
@@ -958,7 +988,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -975,6 +1004,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -983,21 +1013,20 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper135(x: string): string {
     const base = x + '_store_135';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
   private helper136(x: string): string {
     const base = x + '_store_136';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
@@ -1012,9 +1041,6 @@ export class Store {
   private helper138(x: string): string {
     const base = x + '_store_138';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1022,16 +1048,12 @@ export class Store {
     const base = x + '_store_139';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper140(x: string): string {
     const base = x + '_store_140';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1060,6 +1082,7 @@ export class Store {
     const base = x + '_store_144';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1075,12 +1098,15 @@ export class Store {
     const base = x + '_store_146';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
   private helper147(x: string): string {
     const base = x + '_store_147';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
     return base;
   }
 
@@ -1096,6 +1122,8 @@ export class Store {
   private helper149(x: string): string {
     const base = x + '_store_149';
     const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
     return base;
   }
 
@@ -1109,9 +1137,6 @@ export class Store {
   private helper151(x: string): string {
     const base = x + '_store_151';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1132,17 +1157,12 @@ export class Store {
     const base = x + '_store_154';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
   private helper155(x: string): string {
     const base = x + '_store_155';
     const s0 = base.slice(0);
-    const s1 = base.slice(1);
-    const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1151,6 +1171,7 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
+    const s3 = base.slice(3);
     return base;
   }
 
@@ -1159,7 +1180,6 @@ export class Store {
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
-    const s3 = base.slice(3);
     return base;
   }
 
@@ -1167,12 +1187,177 @@ export class Store {
     const base = x + '_store_158';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
-    const s2 = base.slice(2);
     return base;
   }
 
   private helper159(x: string): string {
     const base = x + '_store_159';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper160(x: string): string {
+    const base = x + '_store_160';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper161(x: string): string {
+    const base = x + '_store_161';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper162(x: string): string {
+    const base = x + '_store_162';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper163(x: string): string {
+    const base = x + '_store_163';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper164(x: string): string {
+    const base = x + '_store_164';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper165(x: string): string {
+    const base = x + '_store_165';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper166(x: string): string {
+    const base = x + '_store_166';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper167(x: string): string {
+    const base = x + '_store_167';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper168(x: string): string {
+    const base = x + '_store_168';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper169(x: string): string {
+    const base = x + '_store_169';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper170(x: string): string {
+    const base = x + '_store_170';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper171(x: string): string {
+    const base = x + '_store_171';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper172(x: string): string {
+    const base = x + '_store_172';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper173(x: string): string {
+    const base = x + '_store_173';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper174(x: string): string {
+    const base = x + '_store_174';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper175(x: string): string {
+    const base = x + '_store_175';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper176(x: string): string {
+    const base = x + '_store_176';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    return base;
+  }
+
+  private helper177(x: string): string {
+    const base = x + '_store_177';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper178(x: string): string {
+    const base = x + '_store_178';
+    const s0 = base.slice(0);
+    return base;
+  }
+
+  private helper179(x: string): string {
+    const base = x + '_store_179';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    return base;
+  }
+
+  private helper180(x: string): string {
+    const base = x + '_store_180';
+    const s0 = base.slice(0);
+    const s1 = base.slice(1);
+    const s2 = base.slice(2);
+    const s3 = base.slice(3);
+    return base;
+  }
+
+  private helper181(x: string): string {
+    const base = x + '_store_181';
     const s0 = base.slice(0);
     const s1 = base.slice(1);
     const s2 = base.slice(2);
