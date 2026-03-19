@@ -14,7 +14,7 @@ export class Adapter {
   constructor(config: AdapterOptions) {
     this.config = config;
   }
-
+  // test
   async initialize(): Promise<void> {
     this.logger.info('Initializing Adapter v1');
     this.isReady = true;
