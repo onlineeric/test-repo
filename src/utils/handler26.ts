@@ -15,6 +15,7 @@ export class Handler {
     this.config = config;
   }
 
+  // test 222
   async initialize(): Promise<void> {
     this.logger.info('Initializing Handler v1');
     this.isReady = true;
