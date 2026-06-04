@@ -5,7 +5,7 @@ export interface ControllerOptions {
   retries: number;
   verbose: boolean;
 }
-
+// fixing test
 export class Controller {
   private logger = new Logger('Controller');
   private config: ControllerOptions;
@@ -29,7 +29,6 @@ export class Controller {
     this.isReady = false;
     this.logger.info('Disposed Controller');
   }
-}
 
   private helper1(x: string): string {
     const base = x + '_controller_1';
@@ -1921,3 +1920,4 @@ export class Controller {
     const s2 = base.slice(2);
     return base;
   }
+}
