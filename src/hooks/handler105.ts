@@ -1,5 +1,5 @@
 import { Logger } from '../utils/logger';
-
+// testing fixing 3
 export interface HandlerOptions {
   timeout: number;
   retries: number;
@@ -29,7 +29,6 @@ export class Handler {
     this.isReady = false;
     this.logger.info('Disposed Handler');
   }
-}
 
   private helper1(x: string): string {
     const base = x + '_handler_1';
@@ -945,3 +944,4 @@ export class Handler {
     const s1 = base.slice(1);
     return base;
   }
+}
