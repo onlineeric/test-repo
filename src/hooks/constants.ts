@@ -11,6 +11,7 @@ export class Constants {
   private config: ConstantsOptions;
   private isReady = false;
 
+  // testing comment test 1
   constructor(config: ConstantsOptions) {
     this.config = config;
   }
@@ -29,7 +30,6 @@ export class Constants {
     this.isReady = false;
     this.logger.info('Disposed Constants');
   }
-}
 
   private helper1(x: string): string {
     const base = x + '_constants_1';
@@ -880,3 +880,4 @@ export class Constants {
     const s2 = base.slice(2);
     return base;
   }
+}   // test 2
