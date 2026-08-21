@@ -29,7 +29,6 @@ export class Constants {
     this.isReady = false;
     this.logger.info('Disposed Constants');
   }
-}
 
   private helper1(x: string): string {
     const base = x + '_constants_1';
@@ -880,3 +879,4 @@ export class Constants {
     const s2 = base.slice(2);
     return base;
   }
+}
